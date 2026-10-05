@@ -1,0 +1,12 @@
+static residual per field: v 0.386, w 0.153, sigma 0.0308, X 0, E 0.395, mu 0.177
+start from the transfer data /tmp/claude-0/runs/tube/meshb02/transfer.npz at t = 166939 (h = +10.6420); NaN: 0, field max: v 0.381, w 0.00858, sigma 0.0898, X 100, E 14.8, mu 1.88
+  Newton iteration 0: r (abs) = 2.486e+00 (tol = 1.000e-09) r (rel) = 1.000e+00 (tol = 1.000e-09)
+  Newton iteration 1: r (abs) = 2.028e+01 (tol = 1.000e-09) r (rel) = 8.156e+00 (tol = 1.000e-09)
+  Newton iteration 2: r (abs) = 1.098e+01 (tol = 1.000e-09) r (rel) = 4.416e+00 (tol = 1.000e-09)
+  Newton iteration 3: r (abs) = 5.115e+00 (tol = 1.000e-09) r (rel) = 2.057e+00 (tol = 1.000e-09)
+  Newton iteration 4: r (abs) = 2.641e+00 (tol = 1.000e-09) r (rel) = 1.062e+00 (tol = 1.000e-09)
+  Newton iteration 5: r (abs) = 1.306e+03 (tol = 1.000e-09) r (rel) = 5.254e+02 (tol = 1.000e-09)
+  Newton iteration 6: r (abs) = 2.498e+06 (tol = 1.000e-09) r (rel) = 1.005e+06 (tol = 1.000e-09)
+  Newton iteration 7: r (abs) = 7.220e+16 (tol = 1.000e-09) r (rel) = 2.904e+16 (tol = 1.000e-09)
+  Newton iteration 8: r (abs) = 1.920e+26 (tol = 1.000e-09) r (rel) = 7.722e+25 (tol = 1.000e-09)
+  Newton iteration 9: r (abs) = 5.840e+31 (tol = 1.000e-09) r (rel) = 2.349e+31 (tol = 1.000e-09)

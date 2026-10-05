@@ -1,0 +1,14 @@
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/pe_M10_v0c/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+chi = 1.0: v0_c = 0.23164 (SL_c = 23.16); Im lambda = +0.00e+00  [847 s]
+chi = 0.25: v0_c = 0.18055 (SL_c = 18.05); Im lambda = +0.00e+00  [1381 s]
+chi = 0.0: v0_c = 0.14170 (SL_c = 14.17); Im lambda = +4.12e-05  [2093 s]

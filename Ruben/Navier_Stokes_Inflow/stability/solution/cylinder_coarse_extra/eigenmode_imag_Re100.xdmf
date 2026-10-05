@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Xdmf Version="3.0">
+  <Domain>
+    <Grid Name="mesh" GridType="Uniform">
+      <Topology NumberOfElements="7039" TopologyType="Triangle" NodesPerElement="3">
+        <DataItem Dimensions="7039 3" NumberType="UInt" Format="HDF">eigenmode_imag_Re100.h5:/Mesh/mesh/topology</DataItem>
+      </Topology>
+      <Geometry GeometryType="XY">
+        <DataItem Dimensions="3586 2" Format="HDF">eigenmode_imag_Re100.h5:/Mesh/mesh/geometry</DataItem>
+      </Geometry>
+      <Attribute Name="mode_imag" AttributeType="Vector" Center="Node">
+        <DataItem Dimensions="3586 3" Format="HDF">eigenmode_imag_Re100.h5:/VisualisationVector/0</DataItem>
+      </Attribute>
+    </Grid>
+  </Domain>
+</Xdmf>

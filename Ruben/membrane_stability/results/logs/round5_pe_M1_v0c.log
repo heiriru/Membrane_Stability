@@ -1,0 +1,16 @@
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/pe_M1_v0c/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+chi = 1.0: v0_c = 0.25393 (SL_c = 25.39); Im lambda = +0.00e+00  [928 s]
+chi = 0.25: v0_c = 0.25399 (SL_c = 25.40); Im lambda = +0.00e+00  [1104 s]
+chi = 0.0: v0_c = 0.25166 (SL_c = 25.17); Im lambda = +0.00e+00  [1728 s]
+chi = -0.03: v0_c = 0.25067 (SL_c = 25.07); Im lambda = +0.00e+00  [2225 s]
+PHI: {"C": 0.25, "C0": 0.5, "eps": 1.0, "M": 1.0, "sigma0": 0.0025, "chi_c0_infinite": -0.0475, "k_star": 0.15000000000000002, "wavelength": 41.8879020478639, "phi_inflow_dirichlet": 1, "pi_height": 2, "phi_outflow": "sponge", "phi_form": "linear", "chi_c": [], "v0_c": [{"chi": 1.0, "v0_c": 0.25393092073500156, "SL_c": 25.393092073500156, "lam_imag": 0.0}, {"chi": 0.25, "v0_c": 0.25398912839591503, "SL_c": 25.398912839591503, "lam_imag": 0.0}, {"chi": 0.0, "v0_c": 0.25166082195937634, "SL_c": 25.166082195937634, "lam_imag": 0.0}, {"chi": -0.03, "v0_c": 0.2506712917238474, "SL_c": 25.06712917238474, "lam_imag": 0.0}]}

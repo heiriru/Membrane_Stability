@@ -1,0 +1,79 @@
+[36mLoaded cylinder problem[0m
+2d mesh
+Cylinder mesh: box = [-20, 40] x [-20, 20], c_r = [-5.921e-16, 1.078e-15], r = 0.5, cells = 23750, h_min = 0.0237
+	length of boundary l = 40, should be 40, relative error = 0.00e+00
+	length of boundary r = 40, should be 40, relative error = 0.00e+00
+	length of boundary t = 60, should be 60, relative error = 0.00e+00
+	length of boundary b = 60, should be 60, relative error = 0.00e+00
+	length of boundary circle = 3.14112, should be 3.14159, relative error = 1.49e-04
+	area = 2399.22, should be 2399.21
+problem = cylinder, number of degrees of freedom = 107480
+Solving nonlinear variational problem.
+  Newton solver finished in 4 iterations and 4 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 4 iterations and 4 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Re =  40.0000: leading eigenvalue = -0.029490 +0.733790 i (residual 9.5e-15), C_D = 1.5432, L_r = 2.2645   [steady 75 s, eigenvalues 716 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Re =  44.0000: leading eigenvalue = -0.010245 +0.741955 i (residual 1.3e-14), C_D = 1.4855, L_r = 2.5299   [steady 36 s, eigenvalues 738 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Re =  48.0000: leading eigenvalue = +0.006986 +0.748138 i (residual 1.2e-14), C_D = 1.4354, L_r = 2.7945   [steady 37 s, eigenvalues 774 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Re =  52.0000: leading eigenvalue = +0.022453 +0.752691 i (residual 1.6e-14), C_D = 1.3912, L_r = 3.0579   [steady 37 s, eigenvalues 735 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Re =  60.0000: leading eigenvalue = +0.048951 +0.757901 i (residual 2.2e-14), C_D = 1.3166, L_r = 3.5814   [steady 36 s, eigenvalues 787 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Re =  46.3782: leading eigenvalue = +0.000226 +0.745845 i (residual 1.4e-14), C_D = 1.4549, L_r = 2.6875   [steady 36 s, eigenvalues 109 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Re =  46.3239: leading eigenvalue = -0.000005 +0.745763 i (residual 1.1e-14), C_D = 1.4556, L_r = 2.6839   [steady 26 s, eigenvalues 106 s]
+
+CRITICAL REYNOLDS NUMBER: Re_c = 46.3239, omega_c = 0.74576, St_c = omega_c / (2 pi) = 0.11869
+... done.
+SlepcInitialize() must be called before SlepcFinalize()

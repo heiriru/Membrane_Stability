@@ -1,0 +1,26 @@
+\subsection{Confirmation test: the successful cylinder implementation}
+\label{sec:cylinder-confirmation}
+The confirmation uses the working cylinder problem in \source{Ruben/Navier_Stokes_Inflow/stability/}: the stationary residual in \source{variational_problem_bc_cylinder_steady.py}, spectral continuation in \source{stability_analysis.py}, and the independent time integrator \source{solve_dynamics.py}. It tests whether the residual-based method predicts the observed fate of a perturbed stationary flow. The archived results below are from this implementation.
+
+Lengths are measured in cylinder diameters $D$, velocities in the upstream speed $U_\infty$, and time in $D/U_\infty$. The cylinder has nondimensional radius $1/2$ and is centred at the origin of $[-20,40]\times[-20,20]$. The equations are
+\begin{equation}
+\partial_t\bm u+(\bm u\cdot\nabla)\bm u=-\nabla p+\frac{1}{\mathrm{Re}}\Delta\bm u,
+\qquad \nabla\cdot\bm u=0,
+\qquad \mathrm{Re}=\frac{U_\infty D}{\nu}.
+\label{eq:cylinder-ns}
+\end{equation}
+The inflow prescribes $\bm u=(1,0)$ and the cylinder has no slip. The distant top and bottom impose free slip, $u_y=0$ with a natural condition on $u_x$. The outflow uses the natural condition $(1/\mathrm{Re})\partial_n\bm u-p\bm n=0$ corresponding to the implemented gradient-form viscous residual. The steady and time-dependent calculations use the same Taylor--Hood $P_2/P_1$ velocity--pressure spaces, mesh, and boundary conditions.
+
+Newton continuation provides the stationary symmetric base flow. The Reynolds-number coefficient is a mutable finite-element constant assigned at each continuation point. Automatic differentiation gives $\mathsf A=-D\mathcal R$, and the velocity-only mass matrix gives $\mathsf A x=\lambda\mathsf Bx$; zero pressure mass preserves incompressibility. A complex-shift scan selects the oscillatory wake pair, and secant refinement follows its real part to zero. This verdict requires a steady solve and an eigenvalue solve; the subsequent time simulation is an independent confirmation rather than part of the classification method.
+
+\begin{table}[htbp]\centering\small
+\begin{tabular}{lrrrrr}\toprule
+Mesh & Triangles & Mixed degrees of freedom & $\mathrm{Re}_c$ & $\omega_c$ & $\mathrm{St}_c$\\\midrule
+Coarse & 7039 & 32008 & 46.4596 & 0.74562 & 0.11867\\
+Medium & 13545 & 61405 & 46.3460 & 0.74585 & 0.11871\\
+Fine & 23750 & 107480 & 46.3239 & 0.74576 & 0.11869\\\bottomrule
+\end{tabular}
+\caption[Successful cylinder benchmark]{Successful cylinder benchmark from the three archived \source{critical_Re.json} files. Here $\mathrm{St}_c=\omega_c/(2\pi)$. The final recorded real parts are approximately $-5\times10^{-6}$, so these are refined numerical crossings rather than exact neutral eigenvalues.}
+\label{tab:cylinder-onset}
+\end{table}
+The critical drive approaches $\mathrm{Re}_c\simeq46.32$ on refinement, with only a $0.048\%$ change between medium and fine meshes. The frequency changes by about $0.011\%$. Agreement with the reference wake instability near $\mathrm{Re}=46.7$ and $\omega\simeq0.74$ \cite{wake} is supplemented by the dynamical comparison below. Mesh convergence, literature agreement, and time-domain confirmation test different aspects of the calculation.

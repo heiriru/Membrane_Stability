@@ -1,0 +1,20 @@
+{
+ "v0": 0.2772,
+ "eigenvalue": -3.8266878527533227e-08,
+ "dlam_dv0": 0.0003311983557309919,
+ "adjoint_eigenvalue": -3.826687853686257e-08,
+ "adjoint_residual": 4.962831017466172e-07,
+ "cos_direct_adjoint_z": 0.9999934664597423,
+ "pi_height": 1,
+ "omega_circle": 0.0,
+ "mesh": "/tmp/claude-0/meshes/pre_A",
+ "check_x0": [
+  45.0,
+  50.0
+ ],
+ "check_eps": 1e-05,
+ "check_predicted": -3.900942173246526e-10,
+ "check_measured": -3.900941389757718e-10,
+ "check_rel_error": 2.0084608552720613e-07,
+ "max_abs_dv0c_per_unit_point_force": 0.21252138056598954
+}

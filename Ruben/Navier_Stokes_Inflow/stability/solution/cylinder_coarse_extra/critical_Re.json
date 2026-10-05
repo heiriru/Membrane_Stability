@@ -1,0 +1,6 @@
+{
+  "problem": "cylinder",
+  "mesh": "/home/fenics/shared/generate_mesh/2d/cylinder/solution_unbounded_coarse",
+  "dofs": 32008,
+  "cells": 7039
+}

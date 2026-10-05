@@ -1,0 +1,6 @@
+start from the Monge state at t = 154952 (h = +4.6250), v0 = 0.97 v0_c
+initial solve done; vertical force at the Monge h: [0.0, 0.0, 0.0]  [1 s]
+resuming at t = 166939 (step 36), h = +10.6420
+  no convergence: dt -> 3
+  secant failed: step taken at the previous PI height
+step 37: t = 166942, dt = 3, h = +10.6420, z in [-23.651, +10.841], min n_z = -0.6823 (slope inf), drift 10.653, stretch [0.465, 39.45], F spread 1.94e-02  [1446 s]

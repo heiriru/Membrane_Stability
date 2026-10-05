@@ -1,0 +1,21 @@
+[36mLoaded square problem[0m
+2d mesh
+n_u = 818, n_p = 130, |G - D^T| = 0.0e+00
+discrete Leray projector: |P^2 - P| = 2.4e-15, |D P x| / |D x| = 7.6e-16
+old projector:            |P^2 - P| = 6.0e-04, |D P x| / |D x| = 1.0e+00
+number of finite eigenvalues: mixed = 688, P M^-1 L (non-zero) = 688, expected n_u - n_p = 688
+leading eigenvalues (Re = 50.0):
+   mixed   -3.98067  +0.00000i   P M^-1 L   -3.98067  +0.00000i   old P   -1.74391  +0.00000i
+   mixed   -4.79528  +3.34644i   P M^-1 L   -4.79528  +3.34644i   old P   -4.55037  +1.67053i
+   mixed   -4.79528  -3.34644i   P M^-1 L   -4.79528  -3.34644i   old P   -4.55037  -1.67053i
+   mixed   -7.38914  -0.74500i   P M^-1 L   -7.38914  +0.74500i   old P   -8.26856  +1.99734i
+   mixed   -7.38914  +0.74500i   P M^-1 L   -7.38914  -0.74500i   old P   -8.26856  -1.99734i
+   mixed  -11.21703  +0.00000i   P M^-1 L  -11.21703  +0.00000i   old P   -9.24684  +0.00000i
+   mixed  -12.00582  +0.00000i   P M^-1 L  -12.00582  +0.00000i   old P   -9.48448  +0.00000i
+   mixed  -13.97698  +0.92319i   P M^-1 L  -13.97698  -0.92319i   old P  -11.63371  +0.00000i
+   mixed  -13.97698  -0.92319i   P M^-1 L  -13.97698  +0.92319i   old P  -11.74398  -2.70891i
+   mixed  -17.13302 +10.97670i   P M^-1 L  -17.13302 -10.97670i   old P  -11.74398  +2.70891i
+   mixed  -17.13302 -10.97670i   P M^-1 L  -17.13302 +10.97670i   old P  -11.80521  +0.00000i
+   mixed  -18.77403 +19.82883i   P M^-1 L  -18.77403 +19.82883i   old P  -13.19719  +1.70448i
+max relative distance of the 12 leading mixed eigenvalues to the spectrum of P M^-1 L = 1.0e-13
+CHECK PROJECTOR EQUIVALENCE: PASSED

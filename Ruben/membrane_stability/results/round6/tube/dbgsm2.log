@@ -1,0 +1,9 @@
+static residual per field: v 1.81, w 3.52, sigma 0.0496, X 0, E 3.47, mu 2.13
+start from the transfer data /tmp/claude-0/runs/tube/meshsm2/transfer.npz at t = 166939 (h = +10.6420); NaN: 0, field max: v 0.382, w 0.00858, sigma 0.0898, X 100, E 8.62, mu 1.88
+  Newton iteration 0: r (abs) = 1.254e+01 (tol = 1.000e-09) r (rel) = 1.000e+00 (tol = 1.000e-09)
+  Newton iteration 1: r (abs) = 9.249e+05 (tol = 1.000e-09) r (rel) = 7.376e+04 (tol = 1.000e-09)
+  Newton iteration 2: r (abs) = 2.500e+08 (tol = 1.000e-09) r (rel) = 1.994e+07 (tol = 1.000e-09)
+  Newton iteration 3: r (abs) = 1.240e+12 (tol = 1.000e-09) r (rel) = 9.889e+10 (tol = 1.000e-09)
+  Newton iteration 4: r (abs) = 5.050e+13 (tol = 1.000e-09) r (rel) = 4.027e+12 (tol = 1.000e-09)
+  Newton iteration 5: r (abs) = 5.398e+19 (tol = 1.000e-09) r (rel) = 4.304e+18 (tol = 1.000e-09)
+  Newton iteration 6: r (abs) = 2.456e+24 (tol = 1.000e-09) r (rel) = 1.959e+23 (tol = 1.000e-09)

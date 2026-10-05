@@ -1,0 +1,31 @@
+Reading parameters from /tmp/claude-0/meshes/pre_A/mesh_metadata.csv...
+... close.
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Reading parameters from parameters_bc_square_b.csv...
+... close.
+Reading parameters from /tmp/claude-0/meshes/pre_A/mesh_metadata.csv...
+... close.
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/r6/c2_hopf_chi0/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+Check t <-> b symmetry: <y - center_y> = [34m-2.93e-02[39m
+c: chi = +0.00000, v0 = 0.178262: real -6.965e-06, complex 1.504e-09+5.410e-05j
+cp: chi = +0.00200, v0 = 0.178262: real -7.310e-06, complex 6.654e-07+5.210e-05j
+cm: chi = -0.00200, v0 = 0.178262: real -6.635e-06, complex -8.888e-07+5.623e-05j
+vp: chi = +0.00000, v0 = 0.178440: real -6.948e-06, complex 2.546e-08+5.420e-05j
+vm: chi = +0.00000, v0 = 0.178084: real -6.982e-06, complex -2.261e-08+5.400e-05j
+unfolding gradients: {'dmu1_dchi': -0.0001686944388144619, 'dmu1_dv0': 9.72429962326478e-05, 'dmu2_dchi': 0.0003885555781846283, 'dmu2_dv0': 0.0001348364377644968}
+direct residual |A q1 - lambda B q1| / |B q1| = 1.4e-13
+modes: real -6.965e-06+0.000e+00j (residual 1.1e-08), complex 1.504e-09+5.410e-05j (residual 6.2e-09); odd/even norms q0 1.72e+01/9.85e-16, q1 1.34e+01/8.22e-15
+adjoint eigenvalues -6.965e-06+0.000e+00j, 1.504e-09+5.410e-05j; y0^T B q1 = 4.5e-13, y1^T B q0 = 6.2e-12
+quadratic terms: largest odd fraction 8.4e-15 (0 by symmetry)  [1 s]
+beta = 0.0: a = -4.7945e-08+0.0000e+00j, b = 3.9024e-07+0.0000e+00j, c = 7.9018e-08+4.2159e-07j, d = 1.8045e-06+2.5742e-06j  [123 s]
+beta = 1.0: a = -6.6602e-08+0.0000e+00j, b = 3.0936e-07+0.0000e+00j, c = 1.2578e-07+2.2150e-07j, d = 1.4930e-06+7.8588e-07j  [124 s]
+NORMALFORM: {"0.0": {"a": -4.794512461027046e-08, "b": 3.9023879777090174e-07, "Re_c": 7.901805551007494e-08, "Re_d": 1.804498030621453e-06, "det": -1.1735279392157924e-13, "theta": 0.21625892140015637, "delta": -1.6480936519069609, "static_branch": "supercritical", "hopf_branch": "subcritical", "mixed_modes": "at least one primary branch subcritical"}, "1.0": {"a": -6.660170396624363e-08, "b": 3.0936257099354425e-07, "Re_c": 1.2577759826117507e-07, "Re_d": 1.4930428541422733e-06, "det": -1.3835007935196942e-13, "theta": 0.20720274045400228, "delta": -1.8885042089151969, "static_branch": "supercritical", "hopf_branch": "subcritical", "mixed_modes": "at least one primary branch subcritical"}}

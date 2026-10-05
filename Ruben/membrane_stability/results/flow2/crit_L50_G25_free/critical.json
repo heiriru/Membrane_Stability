@@ -1,0 +1,28 @@
+{
+ "v0_c": 0.45499317518373394,
+ "bracket": [
+  0.4546875,
+  0.455078125
+ ],
+ "SL_c": 22.749658759186698,
+ "Re_c": 0.0,
+ "rho": 0.0,
+ "eta": 1.0,
+ "kappa": 1.0,
+ "sigma_r": 0.01,
+ "zeta": 1.0,
+ "L": 50.0,
+ "W": 50.0,
+ "r": 1.0,
+ "dofs": 34738,
+ "b_friction": 0.0,
+ "ell_b": null,
+ "z_outer": 0,
+ "pi_height": 2,
+ "omega_circle": 0.0,
+ "Gamma": 25.0,
+ "mesh": "/tmp/claude-0/meshes/pre_L50",
+ "h_min": 0.13711061149381523,
+ "criterion": "leading",
+ "newton_failed_at": null
+}

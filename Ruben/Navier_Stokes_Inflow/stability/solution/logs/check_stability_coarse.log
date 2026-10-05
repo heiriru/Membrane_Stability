@@ -1,0 +1,8 @@
+Re = 40: leading eigenvalue lambda = -0.02995 +0.73359 i  ->  STABLE
+   perturbations decay like exp(-0.0299 t): amplitude /10 every 76.9 time units
+   time: steady state 10 s + eigenvalues 137 s, no time integration
+SlepcInitialize() must be called before SlepcFinalize()
+Re = 60: leading eigenvalue lambda = +0.04806 +0.75730 i  ->  UNSTABLE
+   perturbations grow like exp(0.0481 t): amplitude x10 every 47.9 time units, oscillating with Strouhal number 0.1205
+   time: steady state 11 s + eigenvalues 140 s, no time integration
+SlepcInitialize() must be called before SlepcFinalize()

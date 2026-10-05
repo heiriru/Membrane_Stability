@@ -1,0 +1,15 @@
+start from the Monge state at t = 154952 (h = +4.6250), v0 = 0.97 v0_c
+initial solve done; vertical force at the Monge h: [-0.015112723638071734, -0.01537887205170443, -0.01597609105087012]  [31 s]
+step 1: t = 154972, dt = 20, h = +4.6342, z in [-11.578, +4.634], min n_z = +0.5029 (slope 1.72), drift 0.021, stretch [0.999, 1.97], F spread 8.13e-04  [149 s]
+step 2: t = 155012, dt = 40, h = +4.6456, z in [-11.590, +4.646], min n_z = +0.5016 (slope 1.72), drift 0.068, stretch [1.000, 1.95], F spread 8.08e-04  [305 s]
+  no convergence: dt -> 24
+  no convergence: dt -> 7.2
+  no convergence: dt -> 2.16
+  no convergence: dt -> 0.648
+  no convergence: dt -> 0.194
+  no convergence: dt -> 0.0583
+  no convergence: dt -> 0.0175
+  no convergence: dt -> 0.00525
+  no convergence: dt -> 0.00157
+  no convergence: dt -> 0.000472
+ended (newton_failed) at t = 155012 after 2 steps

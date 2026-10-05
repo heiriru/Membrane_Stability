@@ -1,0 +1,183 @@
+Reading parameters from /tmp/claude-0/meshes/square_005/mesh_metadata.csv...
+... close.
+Did not find sub_meshes
+[36mLoaded square_a problem (stability, flow)[0m
+Reading parameters from parameters_bc_square_a.csv...
+... close.
+Reading parameters from /tmp/claude-0/meshes/square_005/mesh_metadata.csv...
+... close.
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+\int f dx = 0.7446, should be 0.7441, relative error =  5.78e-04
+\int f ds_l = 0.962, should be 0.962, relative error =  7.36e-10
+\int f ds_r = 0.8056, should be 0.8056, relative error =  5.43e-10
+\int f ds_t = 0.9756, should be 0.9756, relative error =  5.01e-10
+\int f ds_b = 0.7766, should be 0.7766, relative error =  5.92e-10
+\int f ds_lr = 1.768, should be 1.768, relative error =  1.53e-10
+\int f ds_tb = 1.752, should be 1.752, relative error =  1.68e-11
+\int f ds_square = 3.52, should be 3.52, relative error =  8.53e-11
+\int f ds_circle = 1.526, should be 1.527, relative error =  5.04e-04
+\int f ds = 5.046, should be 5.047, relative error =  1.53e-04
+\int f dS = 87.59, should be 87.59, relative error =  1.05e-07
+Writing parameters to /home/user/Copy_Stage/Ruben/membrane_stability/results/flow_critical_rho0_eta4_m003/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m5.78e-04[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 1221
+Check l <-> r symmetry: <x - center_x> = [34m5.56e-04[39m
+Check t <-> b symmetry: <y - center_y> = [34m5.65e-04[39m
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+v0 = 0.000000: lambda_* = -4.1258e+04 +0.0000e+00 i, f = -1.0000e+00, leading = -4.1258e+04 +0.0000e+00 i, max|z*| = 0.000e+00  [37 + 34 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 0.500000: lambda_* = -3.5637e+04 +0.0000e+00 i, f = -1.0000e+00, leading = -3.5637e+04 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 2 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 1.000000: lambda_* = -2.9884e+04 +0.0000e+00 i, f = -1.0000e+00, leading = -2.9884e+04 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 1 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 1.500000: lambda_* = -2.3990e+04 +0.0000e+00 i, f = -1.0000e+00, leading = -2.3990e+04 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 2 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 2.000000: lambda_* = -1.7934e+04 +0.0000e+00 i, f = -1.0000e+00, leading = -1.7934e+04 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 2 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 2.500000: lambda_* = -1.1689e+04 +0.0000e+00 i, f = -1.0000e+00, leading = -1.1689e+04 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 2 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 3.000000: lambda_* = -5.2122e+03 +0.0000e+00 i, f = -1.0000e+00, leading = -5.2122e+03 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 2 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 4.000000: lambda_* = +8.8428e+03 +0.0000e+00 i, f = +8.8428e+03, leading = +8.8428e+03 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 2 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 3.500000: lambda_* = +1.5744e+03 +0.0000e+00 i, f = +1.5744e+03, leading = +1.5744e+03 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 1 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 3.250000: lambda_* = -1.8648e+03 +0.0000e+00 i, f = -1.0000e+00, leading = -1.8648e+03 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 2 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 3.375000: lambda_* = -1.5791e+02 +0.0000e+00 i, f = -1.0000e+00, leading = -1.5791e+02 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 2 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 3.437500: lambda_* = +7.0486e+02 +0.0000e+00 i, f = +7.0486e+02, leading = +7.0486e+02 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 2 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 3.406250: lambda_* = +2.7266e+02 +0.0000e+00 i, f = +2.7266e+02, leading = +2.7266e+02 +0.0000e+00 i, max|z*| = 0.000e+00  [4 + 2 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 3.390625: lambda_* = +5.7173e+01 +0.0000e+00 i, f = +5.7173e+01, leading = +5.7173e+01 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 2 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 3.382812: lambda_* = -5.0420e+01 +0.0000e+00 i, f = -1.0000e+00, leading = -5.0420e+01 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 2 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 3.386719: lambda_* = +3.3639e+00 +0.0000e+00 i, f = +3.3639e+00, leading = +3.3639e+00 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 2 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+v0 = 3.384766: lambda_* = -2.3531e+01 +0.0000e+00 i, f = -1.0000e+00, leading = -2.3531e+01 +0.0000e+00 i, max|z*| = 0.000e+00  [3 + 2 s]
+CRITICAL: {"v0_c": 3.3857421875, "bracket": [3.384765625, 3.38671875], "SL_c": 13.54296875, "Re_c": 0.0, "rho": 0.0, "eta": 4.0, "kappa": 1.0, "sigma_r": 1.0, "zeta": 1.0, "L": 1.0, "r": 0.25, "dofs": 16714, "mesh": "/tmp/claude-0/meshes/square_005", "h_min": 0.023453308082929576, "criterion": "divergence", "newton_failed_at": null}
+Solving nonlinear variational problem.
+  Newton solver finished in 0 iterations and 0 linear solver iterations.
+... done.

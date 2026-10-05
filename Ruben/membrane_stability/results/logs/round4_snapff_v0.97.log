@@ -1,0 +1,65 @@
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/snapff_v0.97/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+steady force-free: v0/v0_c = 0.0000, h = +0.86187  [32 s]
+steady force-free: v0/v0_c = 0.2000, h = +0.90789  [70 s]
+steady force-free: v0/v0_c = 0.4000, h = +0.96429  [98 s]
+steady force-free: v0/v0_c = 0.6000, h = +1.02929  [129 s]
+steady force-free: v0/v0_c = 0.7000, h = +1.05783  [157 s]
+steady force-free: v0/v0_c = 0.8000, h = +1.05934  [208 s]
+steady force-free: v0/v0_c = 0.8500, h = +1.02065  [262 s]
+steady force-free: v0/v0_c = 0.8800, h = +0.95604  [315 s]
+steady force-free: v0/v0_c = 0.9000, h = +0.86475  [365 s]
+steady force-free: v0/v0_c = 0.9100, h = +0.77854  [415 s]
+steady force-free: v0/v0_c = 0.9150, h = +0.70436  [466 s]
+step 1: t = 5.0000e+03, dt = 5.00e+03, h = +0.7850, max|z| = 3.342 (z in [-3.34, 0.78]), max slope = 0.300, max|dz/dt| = 2.43e-05  [519 s]
+step 2: t = 1.5000e+04, dt = 1.00e+04, h = +0.8728, max|z| = 3.552 (z in [-3.55, 0.87]), max slope = 0.309, max|dz/dt| = 2.10e-05  [558 s]
+step 3: t = 3.5000e+04, dt = 2.00e+04, h = +1.0011, max|z| = 3.950 (z in [-3.95, 1.00]), max slope = 0.344, max|dz/dt| = 2.01e-05  [607 s]
+step 4: t = 6.6888e+04, dt = 3.19e+04, h = +1.2024, max|z| = 4.674 (z in [-4.67, 1.20]), max slope = 0.413, max|dz/dt| = 2.27e-05  [654 s]
+step 5: t = 9.5075e+04, dt = 2.82e+04, h = +1.4422, max|z| = 5.546 (z in [-5.55, 1.44]), max slope = 0.500, max|dz/dt| = 3.09e-05  [702 s]
+step 6: t = 1.1576e+05, dt = 2.07e+04, h = +1.7482, max|z| = 6.504 (z in [-6.50, 1.75]), max slope = 0.608, max|dz/dt| = 4.63e-05  [752 s]
+step 7: t = 1.2958e+05, dt = 1.38e+04, h = +2.1254, max|z| = 7.474 (z in [-7.47, 2.13]), max slope = 0.734, max|dz/dt| = 7.02e-05  [803 s]
+step 8: t = 1.3870e+05, dt = 9.12e+03, h = +2.5598, max|z| = 8.410 (z in [-8.41, 2.56]), max slope = 0.878, max|dz/dt| = 1.03e-04  [849 s]
+step 9: t = 1.4490e+05, dt = 6.20e+03, h = +3.0383, max|z| = 9.293 (z in [-9.29, 3.04]), max slope = 1.044, max|dz/dt| = 1.46e-04  [896 s]
+step 10: t = 1.4929e+05, dt = 4.39e+03, h = +3.5496, max|z| = 10.117 (z in [-10.12, 3.55]), max slope = 1.235, max|dz/dt| = 1.99e-04  [943 s]
+step 11: t = 1.5251e+05, dt = 3.22e+03, h = +4.0819, max|z| = 10.877 (z in [-10.88, 4.08]), max slope = 1.458, max|dz/dt| = 2.62e-04  [996 s]
+step 12: t = 1.5495e+05, dt = 2.44e+03, h = +4.6250, max|z| = 11.572 (z in [-11.57, 4.62]), max slope = 1.715, max|dz/dt| = 3.39e-04  [1060 s]
+step 13: t = 1.5684e+05, dt = 1.89e+03, h = +5.1648, max|z| = 12.216 (z in [-12.22, 5.16]), max slope = 2.030, max|dz/dt| = 4.31e-04  [1122 s]
+step 14: t = 1.5832e+05, dt = 1.49e+03, h = +5.6881, max|z| = 12.834 (z in [-12.83, 5.69]), max slope = 2.404, max|dz/dt| = 5.42e-04  [1184 s]
+step 15: t = 1.5951e+05, dt = 1.18e+03, h = +6.1815, max|z| = 13.384 (z in [-13.38, 6.18]), max slope = 2.858, max|dz/dt| = 6.79e-04  [1245 s]
+step 16: t = 1.6045e+05, dt = 9.43e+02, h = +6.6319, max|z| = 13.867 (z in [-13.87, 6.63]), max slope = 3.379, max|dz/dt| = 8.60e-04  [1306 s]
+step 17: t = 1.6119e+05, dt = 7.44e+02, h = +7.0249, max|z| = 14.282 (z in [-14.28, 7.02]), max slope = 4.028, max|dz/dt| = 1.09e-03  [1367 s]
+step 18: t = 1.6178e+05, dt = 5.87e+02, h = +7.3551, max|z| = 14.628 (z in [-14.63, 7.36]), max slope = 4.641, max|dz/dt| = 1.53e-03  [1427 s]
+step 19: t = 1.6220e+05, dt = 4.19e+02, h = +7.5898, max|z| = 14.912 (z in [-14.91, 7.59]), max slope = 5.345, max|dz/dt| = 2.35e-03  [1488 s]
+step 20: t = 1.6247e+05, dt = 2.72e+02, h = +7.7336, max|z| = 15.124 (z in [-15.12, 7.73]), max slope = 5.849, max|dz/dt| = 3.38e-03  [1549 s]
+step 21: t = 1.6266e+05, dt = 1.89e+02, h = +7.8240, max|z| = 15.278 (z in [-15.28, 7.82]), max slope = 6.419, max|dz/dt| = 5.74e-03  [1617 s]
+step 22: t = 1.6277e+05, dt = 1.12e+02, h = +7.8713, max|z| = 15.348 (z in [-15.35, 7.87]), max slope = 6.727, max|dz/dt| = 7.81e-03  [1680 s]
+step 23: t = 1.6285e+05, dt = 8.20e+01, h = +7.9046, max|z| = 15.433 (z in [-15.43, 7.90]), max slope = 6.812, max|dz/dt| = 8.85e-03  [1740 s]
+step 24: t = 1.6293e+05, dt = 7.23e+01, h = +7.9341, max|z| = 15.502 (z in [-15.50, 7.93]), max slope = 6.994, max|dz/dt| = 9.10e-03  [1801 s]
+step 25: t = 1.6300e+05, dt = 7.03e+01, h = +7.9634, max|z| = 15.570 (z in [-15.57, 7.96]), max slope = 7.488, max|dz/dt| = 9.49e-03  [1851 s]
+step 26: t = 1.6306e+05, dt = 6.74e+01, h = +7.9915, max|z| = 15.667 (z in [-15.67, 7.99]), max slope = 8.058, max|dz/dt| = 1.14e-02  [1900 s]
+step 27: t = 1.6312e+05, dt = 5.62e+01, h = +8.0133, max|z| = 15.762 (z in [-15.76, 8.01]), max slope = 8.656, max|dz/dt| = 1.58e-02  [1960 s]
+step 28: t = 1.6316e+05, dt = 4.04e+01, h = +8.0291, max|z| = 15.840 (z in [-15.84, 8.03]), max slope = 9.074, max|dz/dt| = 2.62e-02  [2018 s]
+step 29: t = 1.6319e+05, dt = 2.44e+01, h = +8.0385, max|z| = 15.884 (z in [-15.88, 8.05]), max slope = 9.389, max|dz/dt| = 3.87e-02  [2079 s]
+step 30: t = 1.6320e+05, dt = 1.65e+01, h = +8.0407, max|z| = 15.903 (z in [-15.90, 8.07]), max slope = 9.706, max|dz/dt| = 4.81e-02  [2141 s]
+step 31: t = 1.6321e+05, dt = 1.33e+01, h = +8.0342, max|z| = 15.902 (z in [-15.90, 8.07]), max slope = 9.815, max|dz/dt| = 5.57e-02  [2198 s]
+step 32: t = 1.6323e+05, dt = 1.15e+01, h = +8.0196, max|z| = 15.915 (z in [-15.91, 8.04]), max slope = 9.775, max|dz/dt| = 6.47e-02  [2259 s]
+step 33: t = 1.6324e+05, dt = 9.90e+00, h = +8.0041, max|z| = 15.936 (z in [-15.94, 8.01]), max slope = 9.732, max|dz/dt| = 6.27e-02  [2318 s]
+step 34: t = 1.6325e+05, dt = 1.02e+01, h = +7.9932, max|z| = 15.957 (z in [-15.96, 8.01]), max slope = 9.716, max|dz/dt| = 5.45e-02  [2377 s]
+step 35: t = 1.6326e+05, dt = 1.17e+01, h = +7.9905, max|z| = 15.983 (z in [-15.98, 8.04]), max slope = 10.130, max|dz/dt| = 4.94e-02  [2436 s]
+step 36: t = 1.6327e+05, dt = 1.30e+01, h = +7.9925, max|z| = 16.015 (z in [-16.01, 8.08]), max slope = 10.745, max|dz/dt| = 5.14e-02  [2496 s]
+step 37: t = 1.6328e+05, dt = 1.25e+01, h = +7.9916, max|z| = 16.043 (z in [-16.04, 8.13]), max slope = 11.344, max|dz/dt| = 5.97e-02  [2555 s]
+step 38: t = 1.6329e+05, dt = 1.07e+01, h = +7.9859, max|z| = 16.053 (z in [-16.05, 8.18]), max slope = 11.785, max|dz/dt| = 6.27e-02  [2632 s]
+step 39: t = 1.6330e+05, dt = 1.02e+01, h = +7.9696, max|z| = 16.074 (z in [-16.07, 8.22]), max slope = 12.007, max|dz/dt| = 8.04e-02  [2702 s]
+step 40: t = 1.6331e+05, dt = 2.39e+00, h = +7.9662, max|z| = 16.089 (z in [-16.09, 8.24]), max slope = 12.034, max|dz/dt| = 9.61e-02  [2932 s]
+step 41: t = 1.6331e+05, dt = 4.77e+00, h = +7.9515, max|z| = 16.124 (z in [-16.12, 8.25]), max slope = 12.071, max|dz/dt| = 9.82e-02  [3008 s]
+step 42: t = 1.6332e+05, dt = 6.52e+00, h = +7.9357, max|z| = 16.165 (z in [-16.17, 8.27]), max slope = 12.050, max|dz/dt| = 8.40e-02  [3097 s]
+ended (newton_failed) at t = 1.6332e+05: {'t': 163318.28910917803, 'dt': 6.5182501422389825, 'h': 7.935652115454792, 'rate': 0.08402659259237028, 'F_spread': 1.08247474812647, 'max_abs_z': 16.165186298593152, 'z_min': -16.165186298593152, 'z_max': 8.273932505043375, 'max_slope': 12.049756629425215}

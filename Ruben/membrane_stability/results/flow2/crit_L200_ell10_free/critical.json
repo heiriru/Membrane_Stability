@@ -1,0 +1,28 @@
+{
+ "v0_c": 0.20842228457813827,
+ "bracket": [
+  0.20839843750000003,
+  0.20859375000000002
+ ],
+ "SL_c": 41.684456915627656,
+ "Re_c": 0.0,
+ "rho": 0.0,
+ "eta": 1.0,
+ "kappa": 1.0,
+ "sigma_r": 0.0025,
+ "zeta": 1.0,
+ "L": 200.0,
+ "W": 200.0,
+ "r": 1.0,
+ "dofs": 43726,
+ "b_friction": 0.01,
+ "ell_b": 10.0,
+ "z_outer": 0,
+ "pi_height": 2,
+ "omega_circle": 0.0,
+ "Gamma": 100.0,
+ "mesh": "/tmp/claude-0/meshes/pre_L200",
+ "h_min": 0.1418220560896579,
+ "criterion": "leading",
+ "newton_failed_at": null
+}

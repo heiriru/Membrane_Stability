@@ -1,0 +1,24 @@
+[36mLoaded cylinder problem[0m
+2d mesh
+Cylinder mesh: box = [-20, 40] x [-20, 20], c_r = [2.99e-16, -5.92e-16], r = 0.5, cells = 7039, h_min = 0.0506
+	length of boundary l = 40, should be 40, relative error = 0.00e+00
+	length of boundary r = 40, should be 40, relative error = 1.78e-16
+	length of boundary t = 60, should be 60, relative error = 0.00e+00
+	length of boundary b = 60, should be 60, relative error = 2.37e-16
+	length of boundary circle = 3.14, should be 3.14159, relative error = 5.06e-04
+	area = 2399.22, should be 2399.21
+problem = cylinder, number of degrees of freedom = 32008
+Solving nonlinear variational problem.
+  Newton solver finished in 4 iterations and 4 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 4 iterations and 4 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 4 iterations and 4 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 4 iterations and 4 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 4 iterations and 4 linear solver iterations.
+Re = 100.0000: leading eigenvalue = +0.124509 +0.737838 i (residual 2.0e-14), C_D = 1.0885, L_r = 6.1162   [steady 18 s, eigenvalues 187 s]
+sigma does not change sign in the given range of Re: no critical Reynolds number found
+... done.
+SlepcInitialize() must be called before SlepcFinalize()

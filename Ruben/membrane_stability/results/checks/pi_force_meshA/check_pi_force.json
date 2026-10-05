@@ -1,0 +1,17 @@
+{
+ "v0": 0.16531249999999997,
+ "eigenvalue": 1.1446493079439253e-08,
+ "net_bending_shear_on_PI": 0.0001903525497135729,
+ "abs_bending_shear_on_PI": 0.0001903525497135729,
+ "PI_mean_displacement": -0.02677313972181781,
+ "rim_slope_omega": 2.707804801675699e-18,
+ "irene_bending": 1.3994307602407921e-05,
+ "irene_rim_term": -5.0727260884395215e-06,
+ "irene_tension": -8.233506273603836e-06,
+ "irene_viscous": 4.625495526758923e-06,
+ "plate_bending": 1.3908523866842912e-05,
+ "plate_tension": 6.207832792855662e-06,
+ "plate_flow": -9.95842268120812e-06,
+ "rim_term_over_force_times_displacement": 0.9953673925384818,
+ "plate_energy_total": 1.0157933978490457e-05
+}

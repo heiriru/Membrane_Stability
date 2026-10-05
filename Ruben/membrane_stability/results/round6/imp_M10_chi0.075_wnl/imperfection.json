@@ -1,0 +1,20 @@
+{
+ "M": 10.0,
+ "chi": 0.075,
+ "beta": 1.0,
+ "C": 0.25,
+ "phi_outflow": "absorbing",
+ "phi_form": "consistent",
+ "v0_c": 0.13163810729980469,
+ "SL_c": 13.163810729980469,
+ "lambda_v": 0.00019946359770016287,
+ "a": 6.232789033207037e-08,
+ "a_parts": {
+  "second_order": 1.2713915763346942e-08,
+  "cubic": 4.9613974568723426e-08
+ },
+ "H_Q": 5.025706800842438e-05,
+ "criticality": "subcritical (snap)",
+ "perfect_branch_coef": -0.0023737618716323716,
+ "runs": []
+}

@@ -1,0 +1,17 @@
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/pe_M10_chic/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+v0 = 0.0: chi_c = -0.05020 (infinite flat membrane, no flow: -0.04750); Im lambda = +0.00e+00  [319 s]
+v0 = 0.02: chi_c = -0.04718 (infinite flat membrane, no flow: -0.04750); Im lambda = +3.50e-06  [488 s]
+v0 = 0.05: chi_c = -0.04098 (infinite flat membrane, no flow: -0.04750); Im lambda = +2.61e-05  [669 s]
+v0 = 0.1: chi_c = -0.02579 (infinite flat membrane, no flow: -0.04750); Im lambda = +4.60e-05  [842 s]
+v0 = 0.2: unstable at chi = 0.05 (flow-driven buckling first)
+PHI: {"C": 0.25, "C0": 0.5, "eps": 1.0, "M": 10.0, "sigma0": 0.0025, "chi_c0_infinite": -0.0475, "k_star": 0.15000000000000002, "wavelength": 41.8879020478639, "phi_inflow_dirichlet": 1, "pi_height": 2, "phi_outflow": "sponge", "phi_form": "linear", "chi_c": [{"v0": 0.0, "SL": 0.0, "chi_c": -0.0502025604248047, "lam_imag": 0.0}, {"v0": 0.02, "SL": 2.0, "chi_c": -0.04717689514160157, "lam_imag": 3.499633334891336e-06}, {"v0": 0.05, "SL": 5.0, "chi_c": -0.040980911254882825, "lam_imag": 2.6112741692505813e-05}, {"v0": 0.1, "SL": 10.0, "chi_c": -0.025792312622070317, "lam_imag": 4.604930599161437e-05}, {"v0": 0.2, "chi_c": null, "note": "unstable even at chi = 0.05 (flow buckling)"}], "v0_c": []}

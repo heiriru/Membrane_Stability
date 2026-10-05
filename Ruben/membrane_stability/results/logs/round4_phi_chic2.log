@@ -1,0 +1,17 @@
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/phi_chic2/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+v0 = 0.0: chi_c = -0.05058 (infinite flat membrane, no flow: -0.04750); Im lambda = +0.00e+00  [148 s]
+v0 = 0.02: chi_c = -0.08274 (infinite flat membrane, no flow: -0.04750); Im lambda = +0.00e+00  [308 s]
+v0 = 0.05: chi_c = -0.12437 (infinite flat membrane, no flow: -0.04750); Im lambda = +0.00e+00  [468 s]
+v0 = 0.1: chi_c = -0.40086 (infinite flat membrane, no flow: -0.04750); Im lambda = +1.27e-05  [645 s]
+v0 = 0.2: stable down to chi = -3.3975
+PHI: {"C": 0.25, "C0": 0.5, "eps": 1.0, "M": 1.0, "sigma0": 0.0025, "chi_c0_infinite": -0.0475, "k_star": 0.15000000000000002, "wavelength": 41.8879020478639, "phi_inflow_dirichlet": 1, "pi_height": 2, "chi_c": [{"v0": 0.0, "SL": 0.0, "chi_c": -0.05057624816894533, "lam_imag": 0.0}, {"v0": 0.02, "SL": 2.0, "chi_c": -0.08273750305175781, "lam_imag": 0.0}, {"v0": 0.05, "SL": 5.0, "chi_c": -0.12437355041503909, "lam_imag": 0.0}, {"v0": 0.1, "SL": 10.0, "chi_c": -0.4008645629882813, "lam_imag": 1.2661140447347763e-05}, {"v0": 0.2, "chi_c": null, "note": "stable down to chi = -3.3975"}], "v0_c": []}

@@ -1,0 +1,10 @@
+steady state at rest: max|v| = 1.4e-07, max|z| = 0.0e+00
+   Lambda (no-flow)   expected i*sqrt(Lambda/rho)   computed eigenvalue (flow)           rel. error |Im|   Re
+   4.627524e+04       2.151168e+02                 -2.963e-11 +2.122148e+02i        1.3e-02      -3.0e-11
+   4.633973e+04       2.152666e+02                 -3.069e-11 +2.122148e+02i        1.4e-02      -3.1e-11
+   4.635556e+04       2.153034e+02                 -2.972e-11 +2.122148e+02i        1.4e-02      -3.0e-11
+   4.641939e+04       2.154516e+02                 -2.960e-11 +2.122148e+02i        1.5e-02      -3.0e-11
+   1.000986e+05       3.163836e+02                 +3.177e-10 +3.150877e+02i        4.1e-03      +3.2e-10
+   1.037461e+05       3.220964e+02                 +9.342e-11 +3.258838e+02i        1.2e-02      +9.3e-11
+max relative error of the frequency = 1.50e-02, max |Re|/|Im| = 1.0e-12
+CHECK FLOW AT REST: PASSED

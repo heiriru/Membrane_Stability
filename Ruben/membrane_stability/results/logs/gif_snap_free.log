@@ -1,0 +1,30 @@
+Reading parameters from /tmp/claude-0/meshes/pre_A/mesh_metadata.csv...
+... close.
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Reading parameters from parameters_bc_square_b.csv...
+... close.
+Reading parameters from /tmp/claude-0/meshes/pre_A/mesh_metadata.csv...
+... close.
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+\int f dx = 4.982e+03, should be 4.994e+03, relative error =  2.52e-03
+\int f ds_l = 51.39, should be 50.51, relative error =  1.74e-02
+\int f ds_r = 49.39, should be 49.45, relative error =  1.20e-03
+\int f ds_t = 45.99, should be 46.05, relative error =  1.32e-03
+\int f ds_b = 49.96, should be 49.81, relative error =  3.03e-03
+\int f ds_lr = 100.8, should be 99.96, relative error =  8.18e-03
+\int f ds_tb = 95.95, should be 95.86, relative error =  9.41e-04
+\int f ds_square = 196.7, should be 195.8, relative error =  4.64e-03
+\int f ds_circle = 3.509, should be 3.509, relative error =  9.65e-05
+\int f ds = 200.2, should be 199.3, relative error =  4.56e-03
+\int f dS = 6.934e+03, should be 6.946e+03, relative error =  1.64e-03
+Writing parameters to /tmp/claude-0/runs/gif_snap_free/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+Check t <-> b symmetry: <y - center_y> = [34m-2.93e-02[39m
+SNAPSHOT: {"v0": 0.276, "eigenvalues": [[2.1945134137978609e-07, 0.0, 1.2828234457302053e-06], [-8.9630515041649e-06, 0.0, 6.653632643775509e-07], [-3.308984456032986e-05, 0.0, 1.087055511881907e-07], [-0.00010209159676425444, 0.0, 8.205942931809178e-08]], "b_friction": 0.0, "pi_height": 2, "mesh": "/tmp/claude-0/meshes/pre_A"}

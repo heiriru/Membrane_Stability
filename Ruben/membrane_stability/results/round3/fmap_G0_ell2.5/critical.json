@@ -1,0 +1,28 @@
+{
+ "v0_c": 0.11655221694347988,
+ "bracket": [
+  0.11650390625000001,
+  0.1166015625
+ ],
+ "SL_c": 11.655221694347988,
+ "Re_c": 0.0,
+ "rho": 0.0,
+ "eta": 1.0,
+ "kappa": 1.0,
+ "sigma_r": 0.0,
+ "zeta": 1.0,
+ "L": 100.0,
+ "W": 100.0,
+ "r": 1.0,
+ "dofs": 38938,
+ "b_friction": 0.16,
+ "ell_b": 2.5,
+ "z_outer": 0,
+ "pi_height": 2,
+ "omega_circle": 0.0,
+ "Gamma": 0.0,
+ "mesh": "/tmp/claude-0/meshes/pre_A",
+ "h_min": 0.13552124900121237,
+ "criterion": "leading",
+ "newton_failed_at": null
+}

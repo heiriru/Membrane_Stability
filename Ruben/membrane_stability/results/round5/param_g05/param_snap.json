@@ -1,0 +1,29 @@
+{
+ "v0_c": 0.2750373007979814,
+ "v0_factor": 0.97,
+ "t_slope": -0.3,
+ "start_index": 4,
+ "t_start": 154952.45979948647,
+ "clamped": false,
+ "end": "newton_failed",
+ "t_end": 164815.36770736956,
+ "steps": 18,
+ "final": {
+  "t": 164815.36770736956,
+  "dt": 301.2387471899749,
+  "h": 10.95213978522331,
+  "F_spread": 0.0035691779349266988,
+  "F_at_h": 6.240841190726688e-12,
+  "z_min": -17.54440186433108,
+  "z_max": 10.96435284863762,
+  "min_nz": -0.14900331703570402,
+  "max_slope": Infinity,
+  "max_drift": 2.9140768162042137,
+  "stretch_max": 8.342264932290966,
+  "stretch_min": 0.24791424115981298
+ },
+ "gauge_delta": 0.5,
+ "gauge_eq": 0.0,
+ "monge_run": "/home/user/Copy_Stage/Ruben/membrane_stability/results/round4/snapff_v0.97",
+ "wall": 617.0438532829285
+}

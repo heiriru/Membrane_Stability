@@ -1,0 +1,20 @@
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/snap_t-0.3_v0.92/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+steady branch up to v0 = 0.9 v0_c: {'v0_over_v0c': 0.9, 'A': 3.4875024206835046, 'max_abs_z': 3.4010336328546495, 'z_min': -3.4010336328546495, 'z_max': 0.006450171643366263, 'max_slope': 0.2995503339990267, 'sigma_min': -0.15479664719778533}  [233 s]
+step 10: t = 4.5397e+05, dt = 4.63e+04, max|dz/dt| = 1.16e-05, A = +6.412, max|z| = 6.357, max slope = 0.474, min sigma = -0.1570  [364 s]
+step 20: t = 5.7291e+05, dt = 1.60e+03, max|dz/dt| = 4.80e-04, A = +14.523, max|z| = 15.373, max slope = 1.822, min sigma = -0.1530  [507 s]
+step 30: t = 5.8003e+05, dt = 2.65e+02, max|dz/dt| = 3.00e-03, A = +18.126, max|z| = 20.108, max slope = 5.269, min sigma = -0.1475  [669 s]
+step 40: t = 5.8099e+05, dt = 2.67e+01, max|dz/dt| = 2.83e-02, A = +18.964, max|z| = 21.307, max slope = 8.323, min sigma = -0.1270  [787 s]
+step 50: t = 5.8114e+05, dt = 8.15e+00, max|dz/dt| = 1.04e-01, A = +19.200, max|z| = 21.732, max slope = 12.314, min sigma = -0.1422  [912 s]
+Newton failed at t = 5.8118e+05 with dt = 1.14e+00: stopping
+time stepping ended (newton_failed) at t = 5.8118e+05 after 56 steps: {'t': 581184.6323708533, 'dt': 2.2871170094826865, 'rate': 0.07745971893266775, 'A': 19.30098343913845, 'max_abs_z': 22.07900888033252, 'z_min': -22.07900888033252, 'z_max': 0.8355692566297457, 'max_slope': 14.329305102711547, 'sigma_min': -0.11393115148414941}  [1064 s]
+... done.

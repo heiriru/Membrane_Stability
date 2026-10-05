@@ -1,0 +1,5 @@
+DFG benchmark 2D-1 (Re = 20), 192257 dofs:
+   C_D      = 5.578212   reference 5.579535   relative error 2.4e-04
+   C_L      = 0.010606   reference 0.010619   relative error 1.3e-03
+   Delta_p  = 2.936810   reference 2.938004   relative error 4.1e-04
+CHECK DFG BENCHMARK: PASSED

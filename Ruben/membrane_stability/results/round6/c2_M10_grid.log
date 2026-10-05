@@ -1,0 +1,38 @@
+Reading parameters from /tmp/claude-0/meshes/pre_A/mesh_metadata.csv...
+... close.
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Reading parameters from parameters_bc_square_b.csv...
+... close.
+Reading parameters from /tmp/claude-0/meshes/pre_A/mesh_metadata.csv...
+... close.
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/r6/c2_M10_grid/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+Check t <-> b symmetry: <y - center_y> = [34m-2.93e-02[39m
+v0 = 0.120, chi = +0.100: -4.41e-06+0.0e+00i, -1.71e-05+0.0e+00i, -3.98e-05+0.0e+00i, -5.06e-05+0.0e+00i, -5.78e-05+0.0e+00i  [50 s]
+v0 = 0.120, chi = +0.050: -1.07e-06+0.0e+00i, -1.08e-05+0.0e+00i, -3.02e-05+0.0e+00i, -4.29e-05+0.0e+00i, -4.54e-05+0.0e+00i  [61 s]
+v0 = 0.120, chi = +0.000: -8.03e-06+0.0e+00i, -1.28e-05+0.0e+00i, -1.44e-05+2.1e-05i, -4.04e-05+5.5e-06i, -4.07e-05+0.0e+00i  [73 s]
+v0 = 0.120, chi = -0.030: -5.47e-06+0.0e+00i, -9.20e-06+5.8e-05i, -9.23e-06+0.0e+00i, -3.20e-05+3.0e-05i, -3.83e-05+0.0e+00i  [84 s]
+v0 = 0.140, chi = +0.100: +3.53e-07+0.0e+00i, -1.31e-05+0.0e+00i, -3.78e-05+0.0e+00i, -5.01e-05+0.0e+00i, -5.53e-05+0.0e+00i  [132 s]
+v0 = 0.140, chi = +0.050: +1.07e-06+0.0e+00i, -7.71e-06+0.0e+00i, -2.68e-05+0.0e+00i, -4.15e-05+0.0e+00i, -4.30e-05+0.0e+00i  [143 s]
+v0 = 0.140, chi = +0.000: -8.30e-06+3.3e-05i, -8.41e-06+0.0e+00i, -1.09e-05+0.0e+00i, -3.69e-05+1.0e-05i, -4.16e-05+0.0e+00i  [155 s]
+v0 = 0.140, chi = -0.030: -4.49e-06+0.0e+00i, -8.23e-06+0.0e+00i, -2.00e-05+8.2e-05i, -3.33e-05+0.0e+00i, -3.86e-05+3.6e-05i  [166 s]
+v0 = 0.160, chi = +0.100: +4.90e-06+0.0e+00i, -9.07e-06+0.0e+00i, -3.44e-05+0.0e+00i, -4.94e-05+0.0e+00i, -5.28e-05+0.0e+00i  [214 s]
+v0 = 0.160, chi = +0.050: -2.98e-07+0.0e+00i, -4.94e-06+0.0e+00i, -2.51e-05+1.6e-06i, -4.30e-05+0.0e+00i, -5.21e-05+0.0e+00i  [225 s]
+v0 = 0.160, chi = +0.000: -3.24e-06+4.4e-05i, -8.82e-06+0.0e+00i, -9.61e-06+0.0e+00i, -3.35e-05+1.4e-05i, -4.27e-05+0.0e+00i  [236 s]
+v0 = 0.160, chi = -0.030: -5.68e-06+0.0e+00i, -7.33e-06+0.0e+00i, -1.51e-05+0.0e+00i, -2.17e-05+1.2e-04i, -4.32e-05+0.0e+00i  [247 s]
+v0 = 0.180, chi = +0.100: +8.84e-06+0.0e+00i, -5.14e-06+0.0e+00i, -3.00e-05+0.0e+00i, -4.51e-05+0.0e+00i, -4.85e-05+0.0e+00i  [295 s]
+v0 = 0.180, chi = +0.050: -2.54e-06+0.0e+00i, -5.48e-06+1.6e-05i, -1.77e-05+0.0e+00i, -4.29e-05+0.0e+00i, -5.14e-05+0.0e+00i  [307 s]
+v0 = 0.180, chi = +0.000: +2.28e-07+5.5e-05i, -6.80e-06+0.0e+00i, -1.13e-05+0.0e+00i, -3.01e-05+1.8e-05i, -4.35e-05+0.0e+00i  [318 s]
+v0 = 0.180, chi = -0.030: -3.69e-06+8.6e-06i, -6.76e-06+0.0e+00i, -1.40e-05+1.5e-04i, -4.46e-05+8.1e-06i, -4.48e-05+0.0e+00i  [330 s]
+v0 = 0.200, chi = +0.100: +1.10e-05+0.0e+00i, -1.33e-06+0.0e+00i, -2.40e-05+0.0e+00i, -2.93e-05+0.0e+00i, -4.73e-05+0.0e+00i  [377 s]
+v0 = 0.200, chi = +0.050: +4.68e-06+2.9e-05i, -7.28e-07+0.0e+00i, -1.40e-05+0.0e+00i, -4.45e-05+0.0e+00i, -4.99e-05+0.0e+00i  [389 s]
+v0 = 0.200, chi = +0.000: +1.76e-06+6.8e-05i, -5.05e-06+0.0e+00i, -1.27e-05+0.0e+00i, -2.70e-05+2.3e-05i, -4.41e-05+0.0e+00i  [400 s]
+v0 = 0.200, chi = -0.030: +9.90e-07+1.2e-05i, -4.38e-06+1.8e-04i, -6.98e-06+0.0e+00i, -3.24e-05+0.0e+00i, -4.48e-05+0.0e+00i  [412 s]

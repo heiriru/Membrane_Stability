@@ -1,0 +1,223 @@
+\input{preamble}
+\begin{document}
+\thispagestyle{plain}
+\begin{center}
+{\LARGE\bfseries\textcolor{ink}{Flow-driven buckling and mechanochemical\\[3pt] instabilities of membranes with protein inclusions}}\\[9pt]
+{\large Stability, snap-through, flutter, and collective patterns}\\[6pt]
+{\small Research report from six computational rounds | 4 October 2026}
+\end{center}
+\begin{abstract}
+A membrane flowing past an anchored protein can lose stability because obstacle drag creates an upstream region of compressive stress. We construct a finite-element stability analysis directly from IRENE's residual equations and validate it against analytical spectra, cylinder-wake instability, an independent plate reduction, nonlinear time integration, and mesh refinement. Physical vertical force balance at the protein raises the reference buckling threshold from $\SL\simeq16$ to $27.45$. Continuation and a computed weakly nonlinear reduction show that the transition is subcritical: a small imposed contact slope advances a fold according to Koiter's $2/3$ law, after which the membrane collapses into an upstream pit and develops an overhang beneath the lifted protein. In-plane friction instead supports a saturated fluttering wave source in a window of screening lengths. Static ring pulling distinguishes stable height control from a force-controlled tether-nucleation barrier. Extensions to mobile curvature-coupled proteins and periodic arrays reveal transport-dependent mechanochemical instabilities and drifting terrace patterns. The report separates quantitatively verified thresholds from model-dependent extrapolations and unresolved large-deformation dynamics.
+\end{abstract}
+
+\section{Introduction and physical setting}
+Membrane shape and membrane flow are coupled through curvature, incompressibility, and surface stress. A protein inclusion supplies both a geometric constraint and an obstacle to tangential motion. Steady deformation alone cannot establish whether a computed membrane persists under perturbations. This distinction is especially important when a force--displacement curve softens or when flow generates compressive stress.
+
+IRENE provides a finite-element formulation for viscous fluid surfaces \cite{irene}. The large-deformation protein study of Ferraro and Castellana \cite{ferraro} motivates two questions addressed here: which ring-pulling equilibria are stable, and whether sufficiently strong flow destabilizes a membrane around an inclusion. We extend the steady solver with linear spectra, continuation, adjoint projections, and nonlinear dynamics. The central result is a flow-induced snap, with friction-driven flutter as a stable dynamic alternative.
+
+\subsection{Membrane, inclusion, and control parameters}
+The membrane has bending rigidity $\kappa$, surface viscosity $\eta$, and imposed reference tension $\sigma_0$. In the Monge representation its surface is $\bm X=(x,y,z)$, with $g_{ij}=\delta_{ij}+z_{,i}z_{,j}$, area element $\dd A=\sqrt g\,\dd x\dd y$, mean curvature $\mathcal H=\tfrac12g^{ij}b_{ij}$, and Gaussian curvature $\mathcal K$. The no-flow energy is
+\begin{equation}
+E[z]=\int_\Omega(2\kappa\mathcal H^2+\sigma_0)\,\dd A .\label{eq:energy}
+\end{equation}
+The anchored inclusion is a rigid disc of radius $r_0$: anchoring fixes its lateral position, while its vertical height may be prescribed or force-free. The contact slope is denoted $s=\tan\alpha$; it is not time. For flow through a square of side $L$, the drive and tension parameters are $\SL=\eta v_0L/\kappa$ and $\Gamma=\sigma_0L^2/\kappa$. The reference problem has $L=100r_0$, $\Gamma=25$, no slip on the inclusion, and zero contact slope. Normal friction $\zeta>0$ gives a relaxation time $\tau_n=\zeta r_0^4/\kappa$. In-plane friction $b$, when present, is a separate coupling with screening length $\ell_b=\sqrt{\eta/b}$.
+
+\clearpage
+\section{Stability from the equations and physical boundary conditions}
+\subsection{Residual, constraints, and spectrum}
+Writing the dynamics as $\mathsf B(\Psi)\dot\Psi+\mathcal R(\Psi)=0$, a steady state $\Psi_*$ has perturbations $\widehat\Psi\e^{\lambda t}$ satisfying
+\begin{equation}
+\mathsf A\widehat\Psi=\lambda\mathsf B_*\widehat\Psi,\qquad
+\mathsf A=-D\mathcal R(\Psi_*).\label{eq:eig}
+\end{equation}
+IRENE's mixed flow fields are $\Psi=(\bm v,w,\sigma,z,\bm\omega,\mu)$, where $\bm\omega=\nabla z$ and $\mu=\mathcal H$. The time form supplies mass only to dynamic fields; tension, gradient, and curvature constraints retain zero mass. In the overdamped limit the velocities are algebraically slaved and normal drag regularizes shape relaxation. Homogeneous perturbation boundary conditions and rigid-rim constraints are imposed before solving with shift-invert methods. Growth means $\Real\lambda>0$; a complex crossing indicates an oscillatory instability. The detailed residual sign convention, finite elements, and singular mass treatment are given in Supplement S1.
+
+The cylinder-wake benchmark gives $\mathrm{Re}_c=46.32$ on the finest mesh, compared with approximately $46.7$ in Ref.~\cite{wake}. Twenty flat-annulus eigenvalues converge to within $2.3\times10^{-4}$ of the Bessel spectrum. In the reference flow geometry, the full and independently discretized plate models agree to $0.1$--$0.4\%$. BDF2 growth/decay checks reach relative differences of $1.3\times10^{-4}$ in their tested cases. These are distinct validation problems, rather than one aggregate error estimate.
+
+\fig{membrane_flow2_threshold_vs_tension.png}{Critical drive with physical protein conditions. The rigid force-free and clamped formulations agree with their plate reductions. The lower grey curve uses the original free-rim condition without a vertical force equation and is retained only as a diagnostic. All thresholds refer to $L=100r_0$.}{fig:bc}{76mm}
+
+\subsection{Three formulation issues exposed by the stability analysis}
+A free protein height requires one equation for its net vertical force. The original \source{square_b} rim retains a bending-flux boundary term without imposing that balance. In its critical mode the associated vertical work accounts for the extra destabilizing term to a ratio of $0.995$. Tying the rim to one rigid height and imposing zero net vertical force gives $\SL_c=27.449$ on mesh C, compared with $16.168$ for the original condition; a clamped height gives $27.664$.
+
+The original tangential boundary terms also admit growing dynamic modes at rest. Restoring dissipative natural tractions removes them. Finally, the implemented boundary line-force diagnostic fails the recorded refinement tests and omits a moment contribution to virtual work. Reliable ring forces are obtained from $-\dd E/\dd h$; flow forces use a conserved stress flux or a consistent reaction. These findings concern the implemented conditions and diagnostics, not the validity of IRENE as a general framework. Their implications for the published calculations require discussion with its authors.
+
+\clearpage
+\section{Static ring pulling: stability depends on the control ensemble}
+\subsection{Height control and the force-controlled zero mode}
+For an annulus $r_0<r<R$, the outer height and slope are fixed, while the protein imposes height $h$ and contact slope. Across the computed branches for $R/r_0=5,10,30$ and $0\leq\tan\alpha\leq2$, all admissible height-controlled growth rates remain negative. Additional large-ring branches extend the force comparison to $R/r_0=100$. The axisymmetric mode is usually least stable. A tilt mode can become least stable near the steep ends of small-ring branches, but no non-axisymmetric crossing was found. This is a statement about the sampled branches and the resolved Monge range, not a global convexity theorem.
+
+Let $q$ denote the internal shape degrees of freedom at fixed $h$, and let $E_*(h)=E(q_*(h),h)$ be their relaxed energy. The force exerted by the membrane on the protein is $F_m=-E_*'(h)$; the external upward holding force is $P=E_*'(h)=-F_m$. When $E_{qq}$ is positive, the remaining force-control stiffness is the Schur complement
+\begin{equation}
+K_h=E_{hh}-E_{hq}E_{qq}^{-1}E_{qh}=E_*''(h)=\frac{\dd P}{\dd h}=-\frac{\dd F_m}{\dd h}.\label{eq:schur}
+\end{equation}
+Thus force-controlled stability is lost at the extremum of the holding-force curve. Negative $\dd P/\dd h$ is unstable even when every fixed-height shape mode is stable. The force-controlled conclusion follows from this energetic reduction; it does not rely on an uncorrected sum of IRENE's rim rows.
+
+\fig{membrane_ring_force_physical_units.png}{Mesh-converged force on the protein for $\tan\alpha=0.5$, plotted with the repository convention $F_m=-\dd E/\dd h$. Upward holding-force maxima therefore appear as negative extrema. The dotted line denotes the magnitude of the long-tube force. Large rings have not reached their force extrema within this figure's displacement window.}{fig:ring}{88mm}
+
+\subsection{A confinement-dependent tether barrier}
+For $r_0=10\,\mathrm{nm}$, $\kappa=10k_BT$ at $300\,\mathrm K$, and $\sigma_0\simeq10^{-6}\,\mathrm{N/m}$, the upward holding-force maximum is about $22\,\mathrm{pN}$ for $R=50\,\mathrm{nm}$ and $8.5\,\mathrm{pN}$ for $R=100\,\mathrm{nm}$. The downward extrema are about $15$ and $6.8\,\mathrm{pN}$. These barriers exceed the long-tube force
+\begin{equation}
+P_t=2\pi\sqrt{2\kappa\sigma_0}\simeq1.8\,\mathrm{pN},\qquad r_t=\sqrt{\kappa/(2\sigma_0)}\simeq140\,\mathrm{nm}.\label{eq:tether}
+\end{equation}
+An independent axisymmetric arclength solver reproduces the Monge forces and follows large-ring branches into tubes approaching this plateau \cite{tethers}. Small rings, narrower than $r_t$, instead constrain a neck; their overshoot should not be described as an unconstrained long tube. Force control above the barrier drives extrusion, whereas an existing long tube resists with $P_t$, giving the familiar loading--unloading asymmetry.
+
+\clearpage
+\section{Flow-driven buckling and geometric thresholds}
+\subsection{Exact reduction about a flat membrane}
+At zero contact slope, the base membrane remains flat and the tangential problem is incompressible two-dimensional Stokes flow. Its tensile-positive stress is $\mathsf T=\sigma\mathsf I+2\eta\mathsf d$, with $\mathsf d=\tfrac12(\nabla\bm v+\nabla\bm v^T)$. At zero inertia the stress is linear in the imposed velocity: $\mathsf T=\sigma_0\mathsf I+v_0\mathsf T_1$. Normal and tangential perturbations decouple at first order. With no tangential body force, $\nabla\cdot\mathsf T=0$, and the normal equation is
+\begin{equation}
+\zeta\partial_t z=-\kappa\Delta^2 z+\mathsf T:\nabla\nabla z
+=-\kappa\Delta^2z+\nabla\cdot(\mathsf T\nabla z).\label{eq:plate}
+\end{equation}
+The operator is self-adjoint under the physical clamped or rigid force-free rim conditions. For destabilizing trial shapes the first crossing is equivalently
+\begin{equation}
+v_c=\min_z\frac{\kappa\int(\Delta z)^2\dd^2x+\sigma_0\int|\nabla z|^2\dd^2x}
+{-\int\nabla z\cdot\mathsf T_1\nabla z\,\dd^2x}.\label{eq:rayleigh}
+\end{equation}
+This Rayleigh quotient is an exact flat-state reduction, not a small-amplitude fit to the full eigenvalues.
+
+\fig{membrane_flow2_plate_model.png}{Energy decomposition, flow-induced tension, and the critical mode of the corrected flat-state problem. The tension falls upstream of the no-slip obstacle, and the critical deflection lies upstream rather than being centred on the protein. The negative flow contribution balances bending and the imposed tension.}{fig:mechanism}{73mm}
+
+\subsection{Compression is the driver}
+Obstacle drag is balanced by a tension gradient. The upstream tension drops enough to create a region of compressive principal stress, and the membrane buckles as a compressed plate. In the energy budget the tension drop supplies most of the destabilization; the viscous part of the stress supplies the remainder. The critical dome is centred approximately $20r_0$ upstream in the reference box. No inertia is needed for this mechanism.
+
+\subsection{The threshold belongs to a specified outer problem}
+For the rigid force-free inclusion, successive meshes give $\SL_c=27.504,27.465,27.449$. At fixed $\Gamma=25$, increasing $L/r_0$ from $50$ to $100$ to $200$ gives $22.75,27.50,32.43$: an approximately logarithmic increase over this tested range. At fixed dimensional tension, the same change instead gives $19.51,27.50,47.51$, because $\Gamma$ changes. Increasing the width from $50$ to $200r_0$ changes the threshold from $21.86$ to $31.44$; holding only the inflow edge lowers it to $12.12$.
+
+These dependencies reflect the two-dimensional Stokes outer problem and the shape boundary conditions. Local Brinkman friction screens velocity disturbances but leaves a harmonic tension disturbance, so it does not remove finite-box dependence. The threshold $27.45$ is therefore a reproducible reference value, not an inclusion-specific material constant. Adjoint calculations further identify a band $5$--$15r_0$ upstream where a tangential force most efficiently raises or lowers the threshold (Supplement S5).
+
+\clearpage
+\section{Several anchored proteins and the drag scale}
+\subsection{A finite cluster buckles collectively}
+The independently implemented plate model was applied to 24 arrangements of rigid force-free inclusions at $\Gamma=25$. Adding proteins lowers the critical drive, especially when they obstruct the flow side by side. For a pair separated by $30r_0$, the threshold is $16.5$ along the flow and $14.4$ across it, compared with $27.44$ for one protein. Five proteins across the flow at spacing $10r_0$ give $\SL_c=7.1$, whereas five in a line along the flow give $15.5$. Streamwise shielding and transverse blockage therefore affect the critical velocity strongly.
+
+The leading shape is nevertheless one collective dome upstream of the group; the inclusions move vertically in phase.
+
+\fig{membrane_r3_multi.png}{Finite protein groups: arrangement-dependent thresholds, total anchoring drag at onset, and collective critical shapes. The force plotted in panel (b) is the sum over all inclusions in the finite patch. The clustering of this quantity is much tighter than that of the critical drive.}{fig:multi}{77mm}
+
+\subsection{A common force scale, with a precise domain of validity}
+While the critical velocity varies by almost a factor of four, the total in-plane drag at onset lies between $1.05$ and $1.50\,\kappa/r_0$ across the tested finite groups. The single inclusion gives $1.05\,\kappa/r_0$. This supports the practical scaling criterion
+\begin{equation}
+F_{\mathrm{drag,patch}}\sim\kappa/r_0\qquad\text{for the tested finite clusters}.\label{eq:drag}
+\end{equation}
+The force unit is $\kappa/r_0\simeq4.1\,\mathrm{pN}$ for the reference parameters. The coefficient is approximate and changes with tension and geometry; the data do not establish an exact universal constant.
+
+\subsection{Periodic lattices replace the arbitrary box by density}
+A square lattice has one disc in a cell of side $L_c$ and area fraction $\Phi=\pi r_0^2/L_c^2$. Periodic Stokes flow and Bloch perturbations provide an outer problem defined by a physical density. The neutral mode at Bloch wavevector $\bm q=0$ is a uniform vertical translation. The instability occurs when the longitudinal long-wave stiffness changes sign, rather than through this symmetry mode itself.
+
+For dilute lattices, $L_c/r_0=56$ and $80$, the computed long-wave critical drag \emph{per protein} is $1.09$ and $1.00\,\kappa/r_0$. The critical mean speed tends to approximately $0.24\,\kappa/(\eta r_0)$. Dense lattices require larger per-protein drag: $18.6\,\kappa/r_0$ at $\Phi=8.7\%$. Thus the common force scale connects a finite patch's total drag with a dilute periodic lattice's drag per cell. It must not be applied as a per-protein criterion to every finite cluster or dense lattice. The nonlinear consequences of density are developed in Section~10.
+
+\clearpage
+\section{The snap and its weakly nonlinear explanation}
+\subsection{Subcriticality from continuation and projection}
+The perfect, clamped-inclusion branch at zero slope bends toward smaller drive. With the critical mode normalized by $\max|z_c|=1$ and shape amplitude $A$ in units of $r_0$, the computed amplitude equation is
+\begin{equation}
+\dot A=\lambda_v(v_0-v_c)A+N_3A^3+H_s s+\cdots,\label{eq:landau}
+\end{equation}
+where $\lambda_v=3.3126\times10^{-4}$, $N_3=1.6505\times10^{-7}>0$, and $H_s=-9.2488\times10^{-5}$ in repository units (mesh A, clamped inclusion). The coefficients follow from derivatives of the residual and direct/adjoint projections; no continuation data are fitted to obtain them. The nonzero equilibrium branch is
+\begin{equation}
+\frac{v_0}{v_c}=1-\frac{N_3}{\lambda_vv_c}A^2
+=1-0.0017966A^2,\label{eq:branch}
+\end{equation}
+agreeing with $0.00179$ from continuation. Its amplitude eigenvalue is positive, so this nearby buckled state is unstable. The direct cubic geometry term supplies about $96\%$ of $N_3$, and second-order flow/tension readjustment about $4\%$.
+
+\fig{membrane_r3_landau.png}{Weakly nonlinear predictions against full continuation. The perfect branch bends backward, establishing subcritical buckling. The imperfection law includes a coefficient computed from the equations. Clamped and force-free fold data are distinct; the displayed clamped theory is not a fitted force-free formula.}{fig:landau}{76mm}
+
+\subsection{A small contact slope advances the fold}
+At a fold, both the right-hand side of Eq.~\eqref{eq:landau} and its derivative with respect to $A$ vanish. Hence
+\begin{equation}
+A_f^3=\frac{H_s s}{2N_3},\qquad
+1-\frac{v_f}{v_c}=\frac{3N_3}{\lambda_vv_c}\left|\frac{H_s s}{2N_3}\right|^{2/3}
+=0.231|s|^{2/3}.\label{eq:koiter}
+\end{equation}
+The predicted shifts are $1.07,2.23,4.97,10.3\%$ for $|s|=0.01,0.03,0.1,0.3$; continuation gives $1.1,2.2,4.8,9.2\%$. The departure at the largest slope is consistent with leaving the cubic regime. A force-free inclusion has slightly later folds: shifts of $1.8,4.1,8.1\%$ for $|s|=0.03,0.1,0.3$.
+
+\subsection{Correct force balance changes the deformation scenario}
+For a force-free protein with $s=-0.3$, the rest height is $0.862r_0$. Its membrane remains near its rest shape up to about $\SL=23$, then snaps near $25.3$. The original free-rim condition instead gives deflections above $10r_0$ already near $\SL=14$. The corrected branches therefore support an abrupt instability rather than the large smooth response of that implementation. Subcriticality establishes an imperfection-sensitive snap and a barrier; a closed steady loading--unloading loop for the post-snap single-protein flow state has not been resolved. It should not be inferred solely from the cubic equation.
+
+\clearpage
+\section{After the snap: a lifted protein and an upstream invagination}
+\subsection{Nonlinear dynamics with a vertical force balance}
+BDF2 integration beyond the imperfect fold shows a long bottleneck followed by accelerating collapse. With a clamped inclusion the upstream pit reaches about $20$--$22r_0$ depth and the wall approaches vertical. With a force-free inclusion, a secant solve enforces zero vertical reaction at each time step. The protein rises to $7$--$8r_0$ on the downstream crest while the upstream pit deepens to approximately $-16.5r_0$. This reverses the early expectation that a free protein would simply follow the pit downward.
+
+The drop from crest to pit is about $24r_0$ across $10r_0$, creating an S-shaped profile. Protein lift is established before the annular-force diagnostic degrades at large slope. The late Monge snapshots identify a geometric limit, not converged predictions of a terminal shape (Supplement S7).
+
+\fig{membrane_r5_fold_parametric.png}{Continuation of the force-free post-snap state on a parametric surface, compared with the Monge calculation. True-aspect-ratio centreline profiles show the wall turning over beneath the elevated protein. The final large-deformation state is limited by mesh distortion; it is not a completed tube.}{fig:overhang}{93mm}
+
+\subsection{A parametric surface follows the wall through vertical}
+The surface is generalized to $\bm X(\bm u,t)$ with a mixed frame $\mathsf E=\nabla_{\bm u}\bm X$. IRENE's geometric and force forms are reused with this frame. Kinematics is $\partial_t\bm X=w\bm n+a^i\bm e_i$, where $\bm a$ chooses tangential mesh motion rather than material transport. A regularized quasi-Monge gauge allows parametrization points to slide as the wall turns vertical. The protein's force is evaluated as a consistent vertical reaction of the volume force balances.
+
+From a common snapshot at slope $1.7$, the two descriptions agree closely in pit depth up to slope seven; protein heights differ by about $7\%$, reflecting the sensitivity of the force-free height to the force discretization. The parametric calculation reaches $\min n_z\simeq-0.67$, a genuine overhang, with the protein at $h\simeq10.5$--$11r_0$ and pit depth $-23.6r_0$. The membrane undercuts the elevated disc. This supports the onset of a flow-driven invagination within the model.
+
+\subsection{What the calculation does not establish}
+The final wall occupies a few distorted elements, with local area stretch approaching forty. Later harmonic reparametrization and remeshing reduce distortion but do not yield a convergent continuation to a tube. A regular ALE formulation with integrated mesh smoothing, or earlier remeshing with curvature-consistent transfer, remains necessary. Self-contact, scission, and a physical endpoint are outside the demonstrated result. The axisymmetric \emph{no-flow} tube calculation in Section~3 must not be confused with a successfully grown \emph{flow-driven} tube.
+
+\clearpage
+\section{Friction-driven flutter: a stable source of upstream waves}
+\subsection{Non-conservative normal forcing}
+For a tangential body force $\bm f$, in-plane balance gives $\nabla\cdot\mathsf T+\bm f=0$. The normal stress acts as $\mathsf T:\nabla\nabla z$, so the flat-state equation becomes
+\begin{equation}
+\zeta z_t=-\kappa\Delta^2z+\nabla\cdot(\mathsf T\nabla z)+\bm f\cdot\nabla z.\label{eq:follower}
+\end{equation}
+For Brinkman coupling, $\bm f=b(v_0\bm e_x-\bm v)$. The last term breaks self-adjointness and permits a complex pair to cross first. Merely inserting a friction-dependent stress into the divergence-form operator would miss this follower term.
+
+A map in $(\ell_b,\Gamma)$ identifies flutter between static-divergence sectors. For $\Gamma=25$, flutter occurs first over approximately $3.2<\ell_b/r_0<13$; increasing tension narrows the window. Eleven comparisons of the plate and full IRENE calculations agree within $0.3\%$, including instability type. Strong and weak friction recover static onset in the tested reference boxes.
+
+\fig{membrane_r5_flutter.png}{Nonlinear flutter at $\ell_b=7r_0$, $\Gamma=25$, and a rigid force-free protein. Growth saturates above onset, and the space--time bands reveal upstream propagation. The negative effective nonlinear growth contribution supports a stabilizing Hopf transition; these finite-amplitude runs are not a precision measurement of a single cubic coefficient.}{fig:flutter}{101mm}
+
+\subsection{Saturation and the return below threshold}
+At $\ell_b=7r_0$, the flat-state Hopf threshold is $\SL_c=22.30$, with $\omega_c=7.96\times10^{-6}\tau_n^{-1}$ and period $7.9\times10^5\tau_n$. At $1.05,1.10,1.20$ times the critical velocity, the measured upstream amplitudes are $3.9\pm0.3$, $6.5\pm0.6$, and approximately $11r_0$. The protein itself oscillates by roughly $\pm3$--$4r_0$, emitting crests that travel upstream and decay over about $30r_0$.
+
+At $1.05v_c$, the initial growth rate is $3.3\times10^{-6}$, compared with $3.7\times10^{-6}$ inferred from the linear slope. A below-threshold kick decays. More decisively, restarting the saturated cycle at $0.97v_c$ reduces its amplitude to about $0.01r_0$ after three periods. No hysteresis is observed in this test, unlike the barrier-controlled ring and subcritical lattice states.
+
+These runs support a supercritical, saturating flutter regime. The amplitudes increase faster than the leading square-root law, and fitted nonlinear coefficients depend on the sampled drive, indicating higher-order effects. Flutter is the stable protein-attached wave source demonstrated in the full flowing-membrane dynamics. Its dimensional period remains proportional to the chosen normal friction; a local drag model cannot supply a quantitatively established solvent-wave frequency without an appropriate bulk-fluid calculation.
+
+\clearpage
+\section{Mobile curvature proteins: transport selects the instability}
+\subsection{A conserved mechanochemical field}
+The follow-up problem introduces a signed protein-density deviation $\varphi$, distinct from the anchored-disc area fraction $\Phi$. Its energy density and chemical potential are
+\begin{align}
+W&=2\kappa(\mathcal H-C\varphi)^2+\tfrac12\chi\varphi^2+\tfrac14\beta\varphi^4+\tfrac12\epsilon_p|\nabla_s\varphi|^2,\label{eq:proteinenergy}\\
+m&=-4\kappa C(\mathcal H-C\varphi)+\chi\varphi+\beta\varphi^3-\epsilon_p\Delta_s\varphi.\nonumber
+\end{align}
+Material conservation with tangential advection and mobility $M$ is coupled to shape by spontaneous curvature and to tangential force balance by chemical stresses. Consistent nonlinear virtual-power forms reproduce the linear thresholds and decrease the free energy in no-flow tests. The final open-flow runs use an absorbing outflow layer; a passive stiffening layer can instead act as an artificial chemical barrier.
+
+\fig{membrane_r5_peclet.png}{Mobility dependence of demixing and buckling with absorbing outflow. Slow diffusion suppresses global demixing and changes the buckling threshold modestly. Fast diffusion permits curvature relaxation and merges the two instability sectors. Intermediate mobility produces travelling modes. These sweeps use the rigid force-free flat-state condition; the separate codimension-two analysis uses a clamped protein.}{fig:peclet}{75mm}
+
+\subsection{Advection, diffusion, and travelling modes}
+For $C=0.25$, $\epsilon_p=1$, and $\sigma_0=0.0025$ in repository units, the no-flow box threshold is $\chi_c=-0.0506$, close to the infinite-plane value $-0.0475$ \cite{leibler}. A scale-dependent P\'eclet number compares residence time $\ell/v_0$ with diffusive relaxation of a protein mode. Mobility $M$ is the scanned parameter, not itself a P\'eclet number (Supplement S8).
+
+At $M=1$, proteins traverse the patch before relaxing into the buckle. With free outflow, $\chi_c$ falls to $-0.406$ at $\SL=20$, and buckling levels off near $\SL_c=25$, only $8$--$9\%$ below the protein-free value. At $M\geq100$, the fields cooperate: for $\chi=-0.03$, the threshold reaches $3.2$, about $8.6$ times lower than $27.5$. At $M\simeq10$, a complex pair describes travelling mechanochemical modes.
+
+\subsection{Merger, runaway, and a recruited wake}
+With a \emph{clamped} protein at $M=10$, the static window restabilizes and its real eigenvalues merge into a travelling pair near $\chi\simeq0.06$--$0.09$, $\SL\simeq18$--$20$. Near-zero paired eigenvalues and projected coefficients support a degenerate Bogdanov--Takens-type organizing centre; its exact location and quintic unfolding remain unresolved. Away from it, static and oscillatory cubic coefficients are destabilizing. Time integration confirms growing oscillations or static deflection followed by a deep pit with a large curvature-matched protein deviation. The final states are not resolved attractors.
+
+A source of curvature proteins at the rim is an imperfection, not a mechanism that removes the snap. At $M=1$, $\chi=-0.05$, the fold advances by $3.7,8.1,20.4\%$ for injection rates $Q=0.01,0.03,0.1$; the weakly nonlinear prediction is $3.6,7.5,16.7\%$. The leading law is again $Q^{2/3}$. The backward-branch coefficient increases from $0.0018$ to $0.0030$, while the unscaled cubic coefficient increases only about $21\%$: ``sharper'' refers to the normalized continuation curve.
+
+\clearpage
+\section{Collective terraces and the scope of the results}
+\subsection{A long-wave equation from periodic cells}
+For mean lattice height $Z$ and slope $u=Z_x$, Bloch coefficients and nonlinear tilted-cell stresses give
+\begin{equation}
+\zeta Z_t=\partial_xJ(u)-K_{\rm eff}Z_{xxxx}-\zeta cZ_x,\qquad
+J(u)=\sigma_{\rm eff}u+g_3u^3+g_5u^5.\label{eq:lattice}
+\end{equation}
+Writing the relative drive as $\delta=D/D_{\rm lw}-1$ gives $\sigma_{\rm eff}=-\delta\sigma_{\rm rest}$. Differentiation yields a convected Cahn--Hilliard-type equation for the slope. Drift affects disturbance survival in a finite patch.
+
+Small-slope cell fits place the sign change of $g_3$ near $\Phi_*\simeq0.075$. At $\Phi=8.7\%$, stable slopes emerge continuously in the one-dimensional reduction and form terraces. At $\Phi=4.9\%$, steep terraces persist below onset with hysteresis; at $\Phi\leq1.6\%$, the computed terms do not saturate growth. These are reduced-equation results with frozen flat-state flow.
+
+\fig{membrane_r6_slope2d.png}{Two-dimensional lattice reduction. Long-wave stiffness is softened along the flow but remains positive transversely. Straight terrace ridges run across the flow. Positive transverse terrace stiffness excludes a zigzag in the tested dense and intermediate-density cases. A localized patch spreads laterally at a speed close to the linear pulled-front prediction.}{fig:terraces}{66mm}
+
+\subsection{Transverse stability and finite patches}
+The two-dimensional equation retains anisotropic stresses and bending. At $\Phi=8.7\%$, longitudinal stiffness vanishes at onset while $\sigma_{yy}=0.677\,\kappa/r_0^2$. Terrace perturbations have positive $D_{yy}=\partial J_y/\partial u_y$, including the $4.9\%$ lattice. Simulations relax to $Z_y\simeq0$, confirming ridges along $y$, perpendicular to the flow. Lateral invasion occurs at $0.089r_0/\tau_n$, compared with the linear estimate $0.084$.
+
+For the one-dimensional linear dispersion $\lambda=(-\sigma_{\rm eff}q^2-K_{\rm eff}q^4)/\zeta-icq$, the absolute/convective distinction \cite{huerre} gives a scaled drift threshold $1.622$. The reduction predicts $\delta_a\simeq0.94$--$1.18$, or a drive near twice the periodic threshold. However, at this drive the characteristic length is only $1.6$--$2r_0$, smaller than a lattice cell: the factor of two is a reduced-model trend that requires a finite-patch Bloch/full-model check, not a converged microscopic prediction.
+
+\subsection{Discussion and a coherent publication programme}
+The core result connects protein drag, compression, snap-through, and friction-driven waves; ring pulling supplies a control-ensemble comparison. For the reference parameters, $\kappa/r_0\simeq4.1\,\mathrm{pN}$ and $v_c\simeq110\,\mu\mathrm{m/s}$ in a $1\,\mu\mathrm m$ box: plausible force scales do not imply accessibility at weak cellular flows. A local friction approximation also omits nonlocal three-dimensional hydrodynamics.
+
+Physical force balance, buckling, imperfection sensitivity, and flutter form a core paper; mobile proteins and terraces form a follow-up. Before submission, scope and authorship must be agreed with the supervisor and M. Castellana; the force and boundary diagnostics require joint review, and corrected-branch penalty/domain robustness and reproducibility need completion. The supplement records those limits explicitly while preserving all 2026 figures. Neither a completed flow-driven tube nor a fully classified degenerate bifurcation is claimed.
+
+\clearpage
+\input{references}
+\end{document}

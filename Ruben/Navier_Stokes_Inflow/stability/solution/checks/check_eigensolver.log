@@ -1,0 +1,16 @@
+1) heat equation: computed (SLEPc, complex shift) vs exact
+     -19.739216    -19.739216   exact   -19.739209
+     -49.348090    -49.348090   exact   -49.348022
+     -49.348146    -49.348146   exact   -49.348022
+     -78.957300    -78.957300   exact   -78.956835
+     -98.696703    -98.696703   exact   -98.696044
+     -98.696703    -98.696703   exact   -98.696044
+   max relative error = 6.68e-06
+2) rotation-coupled system: leading computed eigenvalues vs exact (Im >= 0)
+     -19.739216 +10.000000 i   exact   -19.739209 +10.000000 i
+     -49.348090 +10.000000 i   exact   -49.348022 +10.000000 i
+     -78.957300 +10.000000 i   exact   -78.956835 +10.000000 i
+     -98.696703 +10.000000 i   exact   -98.696044 +10.000000 i
+   SLEPc (real arithmetic, conjugate pairs): -19.739216+10.000000j
+   max relative error = 6.65e-06
+CHECK EIGENSOLVER: PASSED

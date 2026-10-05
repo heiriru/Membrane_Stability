@@ -1,0 +1,24 @@
+G = 0.000: sigma_abs saddle = +0.25000, impulse response = +0.24991
+G = 0.100: sigma_abs saddle = +0.24875, impulse response = +0.23826
+G = 0.200: sigma_abs saddle = +0.24505, impulse response = +0.25146
+G = 0.300: sigma_abs saddle = +0.23898, impulse response = +0.23302
+G = 0.400: sigma_abs saddle = +0.23070, impulse response = +0.23230
+G = 0.500: sigma_abs saddle = +0.22034, impulse response = +0.22635
+G = 0.600: sigma_abs saddle = +0.20808, impulse response = +0.20664
+G = 0.700: sigma_abs saddle = +0.19404, impulse response = +0.19590
+G = 0.800: sigma_abs saddle = +0.17838, impulse response = +0.17927
+G = 0.900: sigma_abs saddle = +0.16119, impulse response = +0.16744
+G = 1.000: sigma_abs saddle = +0.14260, impulse response = +0.14212
+G = 1.100: sigma_abs saddle = +0.12268, impulse response = +0.12588
+G = 1.200: sigma_abs saddle = +0.10152, impulse response = +0.09598
+G = 1.300: sigma_abs saddle = +0.07918, impulse response = +0.08448
+G = 1.400: sigma_abs saddle = +0.05574, impulse response = +0.05159
+G = 1.500: sigma_abs saddle = +0.03125, impulse response = +0.02891
+G = 1.600: sigma_abs saddle = +0.00576, impulse response = +0.01114
+G* = 1.62208
+
+{"ell_b": 5.0, "v0": 0.1999, "compressed_area": 6486.423994535529, "absolute_area": 5374.794544806055, "s_max": 0.3191362495549266, "G_min": 3.185164660072404e-05, "drift_upstream": true, "absolute_extent_x": [-50.0, 9.224649951119417]}
+{"ell_b": 20.0, "v0": 0.2583, "compressed_area": 6684.702698586219, "absolute_area": 6222.228550414098, "s_max": 0.2563748281532933, "G_min": 4.908884110574455e-06, "drift_upstream": true, "absolute_extent_x": [-50.0, 17.435103396227262]}
+{"ell_b": 3.0, "v0": 0.155, "compressed_area": 6381.602936535572, "absolute_area": 5301.796693322442, "s_max": 0.326442408154255, "G_min": 5.009080614781696e-05, "drift_upstream": false, "absolute_extent_x": [-50.0, 10.337453223667637]}
+{"ell_b": 10.0, "v0": 0.244, "compressed_area": 6635.498475879836, "absolute_area": 5856.648434495193, "s_max": 0.29194613829578225, "G_min": 2.149452317034524e-05, "drift_upstream": true, "absolute_extent_x": [-50.0, 11.108597594019663]}
+SlepcInitialize() must be called before SlepcFinalize()

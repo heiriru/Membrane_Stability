@@ -1,0 +1,19 @@
+[36mLoaded square_b problem (stability, flow)[0m
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/plate_A_ell10_rigid/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+flat base state at v0 = 0.1 (max|z*| = 0.0e+00), full FE rates: [-2.6694527158770426e-06, -4.8415370790609035e-05, -6.0193950376033694e-05, -0.00011446360741780912]  [20 s]
+plate model rates at v0 = 0.1: [-1.23513098249221e-05, -6.030134808468983e-05, -6.342168965463376e-05, -0.00011915682361257474]
+leading rate: full -2.669453e-06, plate -1.235131e-05, relative difference 3.63e+00
+Gamma = 0: v0_c = 0.239326, SL_c = 23.9326 (residual 1.1e-10); energy: bending +1.307e-04, tension +0.000e+00, flow_sigma -1.328e-04, flow_viscous +2.091e-06; sum/bending = 4.9e-08; azimuthal |z_m|/max (m=0..4): [0.    1.    0.583 0.127 0.01 ]
+Gamma = 5: v0_c = 0.248704, SL_c = 24.8704 (residual 6.8e-13); energy: bending +1.313e-04, tension +5.197e-06, flow_sigma -1.387e-04, flow_viscous +2.207e-06; sum/bending = 5.2e-08; azimuthal |z_m|/max (m=0..4): [0.    1.    0.587 0.129 0.011]
+Gamma = 10: v0_c = 0.258068, SL_c = 25.8068 (residual 3.3e-13); energy: bending +1.318e-04, tension +1.043e-05, flow_sigma -1.446e-04, flow_viscous +2.323e-06; sum/bending = 5.5e-08; azimuthal |z_m|/max (m=0..4): [0.    1.    0.591 0.131 0.011]
+Gamma = 25: v0_c = 0.286079, SL_c = 28.6079 (residual 8.9e-13); energy: bending +1.334e-04, tension +2.629e-05, flow_sigma -1.624e-04, flow_viscous +2.677e-06; sum/bending = 6.5e-08; azimuthal |z_m|/max (m=0..4): [0.    1.    0.6   0.139 0.013]
+Gamma = 50: v0_c = 0.285690, SL_c = 28.5690 (residual 2.7e-13); energy: bending +3.151e-05, tension +1.108e-05, flow_sigma -3.650e-05, flow_viscous -6.088e-06; sum/bending = 1.3e-07; azimuthal |z_m|/max (m=0..4): [1.    0.235 0.072 0.006 0.001]
+Gamma = 100: v0_c = 0.344160, SL_c = 34.4160 (residual 5.0e-13); energy: bending +5.578e-05, tension +3.625e-05, flow_sigma -7.807e-05, flow_viscous -1.397e-05; sum/bending = 1.4e-07; azimuthal |z_m|/max (m=0..4): [1.    0.368 0.109 0.012 0.   ]
+PLATE: {"L": 100.0, "W": 100.0, "r": 1.0, "sigma0": 0.0025, "ell_b": 10.0, "z_outer": 0} [[0.0, 23.93261614446171], [5.0, 24.870404991179864], [10.0, 25.806775791796614], [25.0, 28.607892036207815], [50.0, 28.569018830074565], [100.0, 34.41596487636998]]

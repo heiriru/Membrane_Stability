@@ -1,0 +1,10 @@
+{
+ "r0": 1.0,
+ "R": 5.0,
+ "kappa": 1.0,
+ "sigma": 0.0025,
+ "ell": 20.0,
+ "tan_alpha": 1.0,
+ "dofs": 36056,
+ "mesh": "/tmp/claude-0/meshes/ring_R5"
+}

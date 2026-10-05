@@ -1,0 +1,72 @@
+Reading parameters from /tmp/claude-0/meshes/pre_A/mesh_metadata.csv...
+... close.
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Reading parameters from parameters_bc_square_b.csv...
+... close.
+Reading parameters from /tmp/claude-0/meshes/pre_A/mesh_metadata.csv...
+... close.
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/r6/imp_M1/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+Check t <-> b symmetry: <y - center_y> = [34m-2.93e-02[39m
+v0_c = 0.243923 (SL_c = 24.392), leading eigenvalue -2.391e-11+0.000e+00j  [1221 s]
+lambda_v = +2.7476e-04, a = +1.9902e-07 (second order +1.806e-07, cubic +1.842e-08), H_Q = +3.2300e-04; symmetry: odd part of B2(q0, q0) 9.9e-16  [1457 s]
+  Q = 0.01: v0/v0_c = 0.82000, z_max = +0.3335, phi_max = 0.0296, lambda = -1.109e-05
+  Q = 0.01: v0/v0_c = 0.84000, z_max = +0.3657, phi_max = 0.0312, lambda = -9.934e-06
+  Q = 0.01: v0/v0_c = 0.86000, z_max = +0.4077, phi_max = 0.0332, lambda = -8.747e-06
+  Q = 0.01: v0/v0_c = 0.88000, z_max = +0.4650, phi_max = 0.0360, lambda = -7.526e-06
+  Q = 0.01: v0/v0_c = 0.90000, z_max = +0.5466, phi_max = 0.0401, lambda = -6.260e-06
+  Q = 0.01: v0/v0_c = 0.92000, z_max = +0.6724, phi_max = 0.0464, lambda = -4.929e-06
+  Q = 0.01: v0/v0_c = 0.94000, z_max = +0.8969, phi_max = 0.0577, lambda = -3.456e-06
+  Q = 0.01: v0/v0_c = 0.96000, z_max = +1.5406, phi_max = 0.0899, lambda = -1.215e-06
+  Q = 0.01: v0/v0_c = 0.96250, z_max = +1.9178, phi_max = 0.1085, lambda = -2.359e-07
+  Q = 0.01: v0/v0_c = 0.96258, z_max = +1.9827, phi_max = 0.1117, lambda = -6.989e-08
+Q = 0.01: fold at v0/v0_c = 0.96258 (1 - v_f/v0_c = 0.0374; WNL 0.03597459815477555), z at fold 1.9827357215077959  [3922 s]
+  Q = 0.03: v0/v0_c = 0.82000, z_max = +1.0144, phi_max = 0.0886, lambda = -1.063e-05
+  Q = 0.03: v0/v0_c = 0.84000, z_max = +1.1190, phi_max = 0.0936, lambda = -9.350e-06
+  Q = 0.03: v0/v0_c = 0.86000, z_max = +1.2610, phi_max = 0.1004, lambda = -7.976e-06
+  Q = 0.03: v0/v0_c = 0.88000, z_max = +1.4670, phi_max = 0.1102, lambda = -6.440e-06
+  Q = 0.03: v0/v0_c = 0.90000, z_max = +1.8068, phi_max = 0.1266, lambda = -4.532e-06
+  Q = 0.03: v0/v0_c = 0.91000, z_max = +2.1077, phi_max = 0.1410, lambda = -3.166e-06
+  Q = 0.03: v0/v0_c = 0.91500, z_max = +2.3650, phi_max = 0.1532, lambda = -2.106e-06
+  Q = 0.03: v0/v0_c = 0.91750, z_max = +2.5979, phi_max = 0.1642, lambda = -1.180e-06
+  Q = 0.03: v0/v0_c = 0.91813, z_max = +2.7050, phi_max = 0.1693, lambda = -7.559e-07
+  Q = 0.03: v0/v0_c = 0.91844, z_max = +2.8008, phi_max = 0.1738, lambda = -3.751e-07
+  Q = 0.03: v0/v0_c = 0.91852, z_max = +2.8522, phi_max = 0.1762, lambda = -1.698e-07
+Q = 0.03: fold at v0/v0_c = 0.91852 (1 - v_f/v0_c = 0.0815; WNL 0.07483017966254149), z at fold 2.852173233204649  [6990 s]
+Traceback (most recent call last):
+  File "/home/user/Copy_Stage/Ruben/membrane_stability/irene_addon/stability/flow_phi/imperfection.py", line 200, in <module>
+    flat(0.8 * v0_c, Qv)
+  File "/home/user/Copy_Stage/Ruben/membrane_stability/irene_addon/stability/flow_phi/imperfection.py", line 79, in flat
+    newton(F_src)
+  File "/home/user/Copy_Stage/Ruben/membrane_stability/irene_addon/stability/flow_phi/imperfection.py", line 67, in newton
+    return solver.solve()
+           ^^^^^^^^^^^^^^
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     https://fenicsproject.discourse.group/
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve linear system using PETSc Krylov solver.
+*** Reason:  Solution failed to converge in 0 iterations (PETSc reason DIVERGED_PC_FAILED, residual norm ||r|| = 0.000000e+00).
+*** Where:   This error was encountered inside PETScKrylovSolver.cpp.
+*** Process: 0
+*** 
+*** DOLFIN version: 2019.2.0.13.dev0
+*** Git changeset:  ubuntu
+*** -------------------------------------------------------------------------
+

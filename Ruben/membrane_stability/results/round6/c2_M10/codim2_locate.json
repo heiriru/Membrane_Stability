@@ -1,0 +1,35 @@
+{
+ "M": 10.0,
+ "C": 0.25,
+ "eps": 1.0,
+ "pi_height": 1,
+ "phi_outflow": "absorbing",
+ "phi_form": "consistent",
+ "sigma0": 0.0025,
+ "scan": [
+  {
+   "chi": 0.25,
+   "v0_static": 0.1731161979980469,
+   "v0_hopf": null,
+   "omega_hopf": null
+  },
+  {
+   "chi": 0.1,
+   "v0_static": 0.13850862060546876,
+   "v0_hopf": 0.21727348430175786,
+   "omega_hopf": 0.0
+  },
+  {
+   "chi": 0.0,
+   "v0_static": null,
+   "v0_hopf": 0.17826219848632813,
+   "omega_hopf": 5.409775535919252e-05
+  },
+  {
+   "chi": -0.03,
+   "v0_static": null,
+   "v0_hopf": 0.195022152743429,
+   "omega_hopf": 1.1212809280538545e-05
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "FEniCS Development Environment",
+  "image": "ghcr.io/scientificcomputing/fenics-gmsh:2024-05-30",
+  "extensions": ["ms-python.python"],
+  "workspaceFolder": "/workspace",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}

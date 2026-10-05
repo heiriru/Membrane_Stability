@@ -1,0 +1,46 @@
+import colorama as col
+from fenics import *
+import importlib
+import ufl_legacy as ufl
+
+import boundary_geometry as bgeo
+import geometry as geo
+import input_output as io
+import mesh as msh
+import physics as phys
+import switch_problem as swi
+
+rmsh = importlib.import_module(swi.rmsh)
+vp = importlib.import_module(swi.vp)
+
+i, j, k, l = ufl.indices(4)
+
+import print_out_solution as prout
+
+print("Check of BCs:")
+print(
+    f"\t\t<<|v^i - v_l^i|^2>>_[partial Omega l] = {col.Fore.RED}{msh.abs_wrt_measure(sqrt((prout.v_output[i] - vp.v_l[i]) * (prout.v_output[i] - vp.v_l[i])), rmsh.ds_l):.{io.number_of_decimals}e}{col.Style.RESET_ALL}")
+print(
+    f"\t\t<<|v^i - v_circle^i|^2>>_[partial Omega circle] = {col.Fore.RED}{msh.abs_wrt_measure(sqrt((prout.v_output[i] - vp.v_circle[i]) * (prout.v_output[i] - vp.v_circle[i])), rmsh.ds_circle):.{io.number_of_decimals}e}{col.Style.RESET_ALL}")
+print(
+    f"\t\t<<(v^i n_i)^2>>_[partial Omega tb] = {col.Fore.RED}{msh.abs_wrt_measure(bgeo.n_tb(prout.omega_output)[i] * geo.g(prout.omega_output)[i, j] * prout.v_output[j], rmsh.ds_tb):.{io.number_of_decimals}e}{col.Style.RESET_ALL}")
+print(
+    f"\t\t<<(d^[i1] n_i)^2>>_[partial Omega r] = {col.Fore.RED}{msh.abs_wrt_measure(geo.d_c(prout.v_output, prout.w_output, prout.omega_output)[i, 0] * geo.g(prout.omega_output)[i, k] * (bgeo.n_lr(prout.omega_output))[k], rmsh.ds_r):.{io.number_of_decimals}e}{col.Style.RESET_ALL}")
+print(
+    f"\t\t<<(w - w_square)^2>>_[partial Omega square] = {col.Fore.RED}{msh.difference_wrt_measure(prout.w_output, vp.w_square, rmsh.ds_square):.{io.number_of_decimals}e}{col.Style.RESET_ALL}")
+print(
+    f"\t\t<<(sigma - sigma_r)^2>>_[partial Omega r] = {col.Fore.RED}{msh.difference_wrt_measure(prout.sigma_output, vp.sigma_r, rmsh.ds_r):.{io.number_of_decimals}e}{col.Style.RESET_ALL}")
+print(
+    f"\t\t<<(z - z_square)^2>>_[partial Omega square] = {col.Fore.RED}{msh.difference_wrt_measure(prout.z_output, vp.z_square, rmsh.ds_square):.{io.number_of_decimals}e}{col.Style.RESET_ALL}")
+print(
+    f"\t\t<<|omega_i - omega_circle_i|^2>>_[partial Omega circle] = {col.Fore.RED}{msh.abs_wrt_measure(sqrt((prout.omega_output[i] - vp.omega_circle[i]) * (prout.omega_output[i] - vp.omega_circle[i])), rmsh.ds_circle):.{io.number_of_decimals}e}{col.Style.RESET_ALL}")
+print(
+    f"\t\t<<(n^i \omega_i - omega_square )^2>>_[partial Omega lr] = {col.Fore.RED}{msh.difference_wrt_measure((bgeo.n_lr(prout.omega_output))[i] * prout.omega_output[i], vp.omega_square, rmsh.ds_lr):.{io.number_of_decimals}e}{col.Style.RESET_ALL}")
+print(
+    f"\t\t<<(n^i \omega_i - omega_square )^2>>_[partial Omega tb] = {col.Fore.RED}{msh.difference_wrt_measure((bgeo.n_tb(prout.omega_output))[i] * prout.omega_output[i], vp.omega_square, rmsh.ds_tb):.{io.number_of_decimals}e}{col.Style.RESET_ALL}")
+
+print(
+    f"\t\t<<[mu - H(omega)]^2>>_[partial Omega] = {col.Fore.RED}{msh.difference_wrt_measure(prout.mu_output, geo.H(prout.omega_output), rmsh.ds):.{io.number_of_decimals}e}{col.Style.RESET_ALL}")
+
+
+import print_out_force_on_boundary_bc_square

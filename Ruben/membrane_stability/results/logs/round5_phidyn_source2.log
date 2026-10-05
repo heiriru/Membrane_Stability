@@ -1,0 +1,27 @@
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/phidyn_source2/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+step 10: t = 1.7852e+03, dt = 400, phi in [+0.0000, +0.0320], z in [-0.020, +0.032], G = 2.50305307e+01, N = +3.5789e+01  [185 s]
+step 20: t = 5.7852e+03, dt = 400, phi in [-0.0000, +0.0390], z in [-0.142, +0.075], G = 2.51648210e+01, N = +9.8303e+01  [339 s]
+step 30: t = 9.7852e+03, dt = 400, phi in [-0.0001, +0.0536], z in [-0.385, +0.122], G = 2.53392988e+01, N = +1.3897e+02  [493 s]
+step 40: t = 1.3785e+04, dt = 400, phi in [-0.0003, +0.0717], z in [-0.653, +0.178], G = 2.54898893e+01, N = +1.6432e+02  [649 s]
+step 50: t = 1.7785e+04, dt = 400, phi in [-0.0006, +0.0848], z in [-0.893, +0.231], G = 2.55980909e+01, N = +1.7936e+02  [801 s]
+step 60: t = 2.1785e+04, dt = 400, phi in [-0.0009, +0.0938], z in [-1.091, +0.280], G = 2.56668622e+01, N = +1.8759e+02  [953 s]
+step 70: t = 2.5785e+04, dt = 400, phi in [-0.0035, +0.1001], z in [-1.250, +0.334], G = 2.57050899e+01, N = +1.9139e+02  [1107 s]
+step 80: t = 2.9785e+04, dt = 400, phi in [-0.0058, +0.1042], z in [-1.374, +0.389], G = 2.57217741e+01, N = +1.9237e+02  [1258 s]
+step 90: t = 3.3785e+04, dt = 400, phi in [-0.0077, +0.1069], z in [-1.470, +0.443], G = 2.57242185e+01, N = +1.9160e+02  [1412 s]
+step 100: t = 3.7785e+04, dt = 400, phi in [-0.0094, +0.1086], z in [-1.543, +0.496], G = 2.57177878e+01, N = +1.8980e+02  [1565 s]
+step 110: t = 4.1785e+04, dt = 400, phi in [-0.0108, +0.1096], z in [-1.599, +0.547], G = 2.57061977e+01, N = +1.8743e+02  [1718 s]
+step 120: t = 4.5785e+04, dt = 400, phi in [-0.0121, +0.1102], z in [-1.642, +0.595], G = 2.56919170e+01, N = +1.8479e+02  [1875 s]
+step 130: t = 4.9785e+04, dt = 400, phi in [-0.0132, +0.1104], z in [-1.675, +0.640], G = 2.56765280e+01, N = +1.8206e+02  [2028 s]
+step 140: t = 5.3785e+04, dt = 400, phi in [-0.0143, +0.1106], z in [-1.701, +0.684], G = 2.56610079e+01, N = +1.7935e+02  [2181 s]
+step 150: t = 5.7785e+04, dt = 400, phi in [-0.0154, +0.1106], z in [-1.720, +0.724], G = 2.56459322e+01, N = +1.7675e+02  [2333 s]
+ended (t_end) at t = 6.0000e+04 after 156 steps

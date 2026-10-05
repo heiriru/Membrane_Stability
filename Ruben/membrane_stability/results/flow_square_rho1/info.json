@@ -1,0 +1,11 @@
+{
+ "kappa": 1.0,
+ "rho": 1.0,
+ "eta": 1.0,
+ "sigma_r": 1.0,
+ "omega_circle": 0.0,
+ "L": 1.0,
+ "r": 0.25,
+ "dofs": 16714,
+ "mesh": "/tmp/claude-0/meshes/square_005"
+}

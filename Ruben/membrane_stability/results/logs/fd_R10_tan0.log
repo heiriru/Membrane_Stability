@@ -1,0 +1,678 @@
+Reading parameters from /tmp/claude-0/meshes/ring_R10/mesh_metadata.csv...
+... close.
+Did not find sub_meshes
+[36mLoaded ring problem (stability)[0m
+Reading parameters from /tmp/claude-0/meshes/ring_R10/mesh_metadata.csv...
+... close.
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/ring.py called /home/fenics/shared/modules/mesh/read/ring.py
+\int f dx = 158.2, should be 158.3, relative error =  5.60e-04
+\int f ds_r = 2.776, should be 2.776, relative error =  8.05e-05
+\int f ds_R = 43.39, should be 43.36, relative error =  5.36e-04
+\int f ds = 46.16, should be 46.14, relative error =  5.09e-04
+Writing parameters to /home/user/Copy_Stage/Ruben/membrane_stability/results/ring_R10_tan0/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m5.60e-04[39m
+Module /home/fenics/shared/modules/mesh/read/ring.py called /home/fenics/shared/modules/mesh/check_tags/ring.py
+Reading parameters from parameters_bc_ring.csv...
+... close.
+{"r0": 1.0, "R": 10.0, "kappa": 1.0, "sigma": 0.0025, "ell": 20.0, "tan_alpha": 0.0, "dofs": 57396, "mesh": "/tmp/claude-0/meshes/ring_R10"}
+Solving nonlinear variational problem.
+  Newton solver finished in 0 iterations and 0 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +0.000: F = -dE/dh = -0.00000e+00, F_line = +0.00000e+00, F_z - M = +0.00000e+00, E = 7.77222e-01, lambda_max = -7.4822e-02 (m = 0), lambda(m=0,1,2) = -7.482e-02 -8.411e-02 -1.349e-01  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +0.250: F = -dE/dh = -1.64245e-01, F_line = -1.51090e-01, F_z - M = -1.51090e-01, E = 7.97770e-01, lambda_max = -7.4692e-02 (m = 0), lambda(m=0,1,2) = -7.469e-02 -8.396e-02 -1.347e-01  [14 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +0.500: F = -dE/dh = -3.26858e-01, F_line = -3.00556e-01, F_z - M = -3.00556e-01, E = 8.59209e-01, lambda_max = -7.4304e-02 (m = 0), lambda(m=0,1,2) = -7.430e-02 -8.354e-02 -1.341e-01  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +0.750: F = -dE/dh = -4.86248e-01, F_line = -4.46812e-01, F_z - M = -4.46814e-01, E = 9.60931e-01, lambda_max = -7.3664e-02 (m = 0), lambda(m=0,1,2) = -7.366e-02 -8.284e-02 -1.333e-01  [14 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +1.000: F = -dE/dh = -6.40899e-01, F_line = -5.88350e-01, F_z - M = -5.88354e-01, E = 1.10194e+00, lambda_max = -7.2781e-02 (m = 0), lambda(m=0,1,2) = -7.278e-02 -8.187e-02 -1.320e-01  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +1.250: F = -dE/dh = -7.89412e-01, F_line = -7.23772e-01, F_z - M = -7.23780e-01, E = 1.28087e+00, lambda_max = -7.1669e-02 (m = 0), lambda(m=0,1,2) = -7.167e-02 -8.065e-02 -1.305e-01  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +1.500: F = -dE/dh = -9.30527e-01, F_line = -8.51820e-01, F_z - M = -8.51835e-01, E = 1.49603e+00, lambda_max = -7.0344e-02 (m = 0), lambda(m=0,1,2) = -7.034e-02 -7.920e-02 -1.287e-01  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +1.750: F = -dE/dh = -1.06315e+00, F_line = -9.71399e-01, F_z - M = -9.71423e-01, E = 1.74543e+00, lambda_max = -6.8824e-02 (m = 0), lambda(m=0,1,2) = -6.882e-02 -7.753e-02 -1.266e-01  [14 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +2.000: F = -dE/dh = -1.18638e+00, F_line = -1.08160e+00, F_z - M = -1.08163e+00, E = 2.02682e+00, lambda_max = -6.7129e-02 (m = 0), lambda(m=0,1,2) = -6.713e-02 -7.567e-02 -1.242e-01  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +2.250: F = -dE/dh = -1.29950e+00, F_line = -1.18169e+00, F_z - M = -1.18174e+00, E = 2.33778e+00, lambda_max = -6.5283e-02 (m = 0), lambda(m=0,1,2) = -6.528e-02 -7.364e-02 -1.216e-01  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +2.500: F = -dE/dh = -1.40200e+00, F_line = -1.27114e+00, F_z - M = -1.27121e+00, E = 2.67569e+00, lambda_max = -6.3307e-02 (m = 0), lambda(m=0,1,2) = -6.331e-02 -7.147e-02 -1.189e-01  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +2.750: F = -dE/dh = -1.49354e+00, F_line = -1.34962e+00, F_z - M = -1.34971e+00, E = 3.03786e+00, lambda_max = -6.1225e-02 (m = 0), lambda(m=0,1,2) = -6.123e-02 -6.917e-02 -1.159e-01  [14 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +3.000: F = -dE/dh = -1.57401e+00, F_line = -1.41696e+00, F_z - M = -1.41707e+00, E = 3.42154e+00, lambda_max = -5.9060e-02 (m = 0), lambda(m=0,1,2) = -5.906e-02 -6.678e-02 -1.129e-01  [14 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +3.250: F = -dE/dh = -1.64343e+00, F_line = -1.47317e+00, F_z - M = -1.47331e+00, E = 3.82395e+00, lambda_max = -5.6833e-02 (m = 0), lambda(m=0,1,2) = -5.683e-02 -6.432e-02 -1.097e-01  [14 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +3.500: F = -dE/dh = -1.70200e+00, F_line = -1.51842e+00, F_z - M = -1.51859e+00, E = 4.24235e+00, lambda_max = -5.4566e-02 (m = 0), lambda(m=0,1,2) = -5.457e-02 -6.181e-02 -1.065e-01  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +3.750: F = -dE/dh = -1.75005e+00, F_line = -1.55299e+00, F_z - M = -1.55321e+00, E = 4.67407e+00, lambda_max = -5.2278e-02 (m = 0), lambda(m=0,1,2) = -5.228e-02 -5.928e-02 -1.032e-01  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +4.000: F = -dE/dh = -1.78802e+00, F_line = -1.57729e+00, F_z - M = -1.57755e+00, E = 5.11653e+00, lambda_max = -4.9988e-02 (m = 0), lambda(m=0,1,2) = -4.999e-02 -5.673e-02 -9.992e-02  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +4.250: F = -dE/dh = -1.81646e+00, F_line = -1.59181e+00, F_z - M = -1.59211e+00, E = 5.56728e+00, lambda_max = -4.7712e-02 (m = 0), lambda(m=0,1,2) = -4.771e-02 -5.420e-02 -9.662e-02  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +4.500: F = -dE/dh = -1.83597e+00, F_line = -1.59710e+00, F_z - M = -1.59746e+00, E = 6.02402e+00, lambda_max = -4.5465e-02 (m = 0), lambda(m=0,1,2) = -4.547e-02 -5.169e-02 -9.335e-02  [14 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +4.750: F = -dE/dh = -1.84721e+00, F_line = -1.59376e+00, F_z - M = -1.59418e+00, E = 6.48458e+00, lambda_max = -4.3259e-02 (m = 0), lambda(m=0,1,2) = -4.326e-02 -4.923e-02 -9.012e-02  [14 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +5.000: F = -dE/dh = -1.85088e+00, F_line = -1.58243e+00, F_z - M = -1.58291e+00, E = 6.94699e+00, lambda_max = -4.1104e-02 (m = 0), lambda(m=0,1,2) = -4.110e-02 -4.681e-02 -8.694e-02  [14 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +5.250: F = -dE/dh = -1.84769e+00, F_line = -1.56373e+00, F_z - M = -1.56429e+00, E = 7.40945e+00, lambda_max = -3.9010e-02 (m = 0), lambda(m=0,1,2) = -3.901e-02 -4.446e-02 -8.382e-02  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +5.500: F = -dE/dh = -1.83834e+00, F_line = -1.53830e+00, F_z - M = -1.53894e+00, E = 7.87032e+00, lambda_max = -3.6984e-02 (m = 0), lambda(m=0,1,2) = -3.698e-02 -4.218e-02 -8.079e-02  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +5.750: F = -dE/dh = -1.82353e+00, F_line = -1.50675e+00, F_z - M = -1.50747e+00, E = 8.32817e+00, lambda_max = -3.5031e-02 (m = 0), lambda(m=0,1,2) = -3.503e-02 -3.997e-02 -7.784e-02  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +6.000: F = -dE/dh = -1.80394e+00, F_line = -1.46964e+00, F_z - M = -1.47047e+00, E = 8.78169e+00, lambda_max = -3.3155e-02 (m = 0), lambda(m=0,1,2) = -3.316e-02 -3.785e-02 -7.499e-02  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +6.250: F = -dE/dh = -1.78022e+00, F_line = -1.42751e+00, F_z - M = -1.42844e+00, E = 9.22979e+00, lambda_max = -3.1360e-02 (m = 0), lambda(m=0,1,2) = -3.136e-02 -3.581e-02 -7.223e-02  [14 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +6.500: F = -dE/dh = -1.75297e+00, F_line = -1.38083e+00, F_z - M = -1.38187e+00, E = 9.67151e+00, lambda_max = -2.9647e-02 (m = 0), lambda(m=0,1,2) = -2.965e-02 -3.386e-02 -6.958e-02  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +6.750: F = -dE/dh = -1.72276e+00, F_line = -1.32998e+00, F_z - M = -1.33115e+00, E = 1.01060e+01, lambda_max = -2.8016e-02 (m = 0), lambda(m=0,1,2) = -2.802e-02 -3.200e-02 -6.704e-02  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +7.000: F = -dE/dh = -1.69011e+00, F_line = -1.27530e+00, F_z - M = -1.27661e+00, E = 1.05327e+01, lambda_max = -2.6467e-02 (m = 0), lambda(m=0,1,2) = -2.647e-02 -3.022e-02 -6.460e-02  [14 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +7.250: F = -dE/dh = -1.65552e+00, F_line = -1.21698e+00, F_z - M = -1.21845e+00, E = 1.09509e+01, lambda_max = -2.5000e-02 (m = 0), lambda(m=0,1,2) = -2.500e-02 -2.853e-02 -6.227e-02  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +7.500: F = -dE/dh = -1.61941e+00, F_line = -1.15510e+00, F_z - M = -1.15675e+00, E = 1.13603e+01, lambda_max = -2.3612e-02 (m = 0), lambda(m=0,1,2) = -2.361e-02 -2.693e-02 -6.004e-02  [14 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +7.750: F = -dE/dh = -1.58217e+00, F_line = -1.08956e+00, F_z - M = -1.09142e+00, E = 1.17605e+01, lambda_max = -2.2302e-02 (m = 0), lambda(m=0,1,2) = -2.230e-02 -2.541e-02 -5.791e-02  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +8.000: F = -dE/dh = -1.54417e+00, F_line = -1.01998e+00, F_z - M = -1.02209e+00, E = 1.21513e+01, lambda_max = -2.1067e-02 (m = 0), lambda(m=0,1,2) = -2.107e-02 -2.397e-02 -5.589e-02  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +8.250: F = -dE/dh = -1.50570e+00, F_line = -9.45566e-01, F_z - M = -9.47967e-01, E = 1.25326e+01, lambda_max = -1.9904e-02 (m = 0), lambda(m=0,1,2) = -1.990e-02 -2.261e-02 -5.396e-02  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +8.500: F = -dE/dh = -1.46704e+00, F_line = -8.64782e-01, F_z - M = -8.67572e-01, E = 1.29042e+01, lambda_max = -1.8811e-02 (m = 0), lambda(m=0,1,2) = -1.881e-02 -2.133e-02 -5.213e-02  [28 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 4 iterations and 4 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  +8.750: F = -dE/dh = -1.42845e+00, F_line = -7.74823e-01, F_z - M = -7.78190e-01, E = 1.32661e+01, lambda_max = -1.7785e-02 (m = 0), lambda(m=0,1,2) = -1.778e-02 -2.012e-02 -5.040e-02  [15 s]
+Solving nonlinear variational problem.
+  Newton solver finished in 5 iterations and 5 linear solver iterations.
+Solving nonlinear variational problem.
+  Solving nonlinear variational problem.
+    Solving nonlinear variational problem.
+      Solving nonlinear variational problem.
+        Newton solver finished in 4 iterations and 4 linear solver iterations.
+      Solving nonlinear variational problem.
+        Solving nonlinear variational problem.
+Newton failed beyond h = +8.750: end of the branch in this direction
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -0.250: F = -dE/dh = +1.64245e-01, F_line = +1.51090e-01, F_z - M = +1.51090e-01, E = 7.97770e-01, lambda_max = -7.4692e-02 (m = 0), lambda(m=0,1,2) = -7.469e-02 -8.396e-02 -1.347e-01  [15 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -0.500: F = -dE/dh = +3.26858e-01, F_line = +3.00556e-01, F_z - M = +3.00556e-01, E = 8.59209e-01, lambda_max = -7.4304e-02 (m = 0), lambda(m=0,1,2) = -7.430e-02 -8.354e-02 -1.341e-01  [15 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -0.750: F = -dE/dh = +4.86248e-01, F_line = +4.46812e-01, F_z - M = +4.46814e-01, E = 9.60931e-01, lambda_max = -7.3664e-02 (m = 0), lambda(m=0,1,2) = -7.366e-02 -8.284e-02 -1.333e-01  [15 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -1.000: F = -dE/dh = +6.40899e-01, F_line = +5.88350e-01, F_z - M = +5.88354e-01, E = 1.10194e+00, lambda_max = -7.2781e-02 (m = 0), lambda(m=0,1,2) = -7.278e-02 -8.187e-02 -1.320e-01  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -1.250: F = -dE/dh = +7.89412e-01, F_line = +7.23772e-01, F_z - M = +7.23780e-01, E = 1.28087e+00, lambda_max = -7.1669e-02 (m = 0), lambda(m=0,1,2) = -7.167e-02 -8.065e-02 -1.305e-01  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -1.500: F = -dE/dh = +9.30527e-01, F_line = +8.51820e-01, F_z - M = +8.51835e-01, E = 1.49603e+00, lambda_max = -7.0344e-02 (m = 0), lambda(m=0,1,2) = -7.034e-02 -7.920e-02 -1.287e-01  [15 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -1.750: F = -dE/dh = +1.06315e+00, F_line = +9.71399e-01, F_z - M = +9.71423e-01, E = 1.74543e+00, lambda_max = -6.8824e-02 (m = 0), lambda(m=0,1,2) = -6.882e-02 -7.753e-02 -1.266e-01  [15 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -2.000: F = -dE/dh = +1.18638e+00, F_line = +1.08160e+00, F_z - M = +1.08163e+00, E = 2.02682e+00, lambda_max = -6.7129e-02 (m = 0), lambda(m=0,1,2) = -6.713e-02 -7.567e-02 -1.242e-01  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -2.250: F = -dE/dh = +1.29950e+00, F_line = +1.18169e+00, F_z - M = +1.18174e+00, E = 2.33778e+00, lambda_max = -6.5283e-02 (m = 0), lambda(m=0,1,2) = -6.528e-02 -7.364e-02 -1.216e-01  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -2.500: F = -dE/dh = +1.40200e+00, F_line = +1.27114e+00, F_z - M = +1.27121e+00, E = 2.67569e+00, lambda_max = -6.3307e-02 (m = 0), lambda(m=0,1,2) = -6.331e-02 -7.147e-02 -1.189e-01  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -2.750: F = -dE/dh = +1.49354e+00, F_line = +1.34962e+00, F_z - M = +1.34971e+00, E = 3.03786e+00, lambda_max = -6.1225e-02 (m = 0), lambda(m=0,1,2) = -6.123e-02 -6.917e-02 -1.159e-01  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -3.000: F = -dE/dh = +1.57401e+00, F_line = +1.41696e+00, F_z - M = +1.41707e+00, E = 3.42154e+00, lambda_max = -5.9060e-02 (m = 0), lambda(m=0,1,2) = -5.906e-02 -6.678e-02 -1.129e-01  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -3.250: F = -dE/dh = +1.64343e+00, F_line = +1.47317e+00, F_z - M = +1.47331e+00, E = 3.82395e+00, lambda_max = -5.6833e-02 (m = 0), lambda(m=0,1,2) = -5.683e-02 -6.432e-02 -1.097e-01  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -3.500: F = -dE/dh = +1.70200e+00, F_line = +1.51842e+00, F_z - M = +1.51859e+00, E = 4.24235e+00, lambda_max = -5.4566e-02 (m = 0), lambda(m=0,1,2) = -5.457e-02 -6.181e-02 -1.065e-01  [15 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -3.750: F = -dE/dh = +1.75005e+00, F_line = +1.55299e+00, F_z - M = +1.55321e+00, E = 4.67407e+00, lambda_max = -5.2278e-02 (m = 0), lambda(m=0,1,2) = -5.228e-02 -5.928e-02 -1.032e-01  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -4.000: F = -dE/dh = +1.78802e+00, F_line = +1.57729e+00, F_z - M = +1.57755e+00, E = 5.11653e+00, lambda_max = -4.9988e-02 (m = 0), lambda(m=0,1,2) = -4.999e-02 -5.673e-02 -9.992e-02  [15 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -4.250: F = -dE/dh = +1.81646e+00, F_line = +1.59181e+00, F_z - M = +1.59211e+00, E = 5.56728e+00, lambda_max = -4.7712e-02 (m = 0), lambda(m=0,1,2) = -4.771e-02 -5.420e-02 -9.662e-02  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -4.500: F = -dE/dh = +1.83597e+00, F_line = +1.59710e+00, F_z - M = +1.59746e+00, E = 6.02402e+00, lambda_max = -4.5465e-02 (m = 0), lambda(m=0,1,2) = -4.547e-02 -5.169e-02 -9.335e-02  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -4.750: F = -dE/dh = +1.84721e+00, F_line = +1.59376e+00, F_z - M = +1.59418e+00, E = 6.48458e+00, lambda_max = -4.3259e-02 (m = 0), lambda(m=0,1,2) = -4.326e-02 -4.923e-02 -9.012e-02  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -5.000: F = -dE/dh = +1.85088e+00, F_line = +1.58243e+00, F_z - M = +1.58291e+00, E = 6.94699e+00, lambda_max = -4.1104e-02 (m = 0), lambda(m=0,1,2) = -4.110e-02 -4.681e-02 -8.694e-02  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -5.250: F = -dE/dh = +1.84769e+00, F_line = +1.56373e+00, F_z - M = +1.56429e+00, E = 7.40945e+00, lambda_max = -3.9010e-02 (m = 0), lambda(m=0,1,2) = -3.901e-02 -4.446e-02 -8.382e-02  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -5.500: F = -dE/dh = +1.83834e+00, F_line = +1.53830e+00, F_z - M = +1.53894e+00, E = 7.87032e+00, lambda_max = -3.6984e-02 (m = 0), lambda(m=0,1,2) = -3.698e-02 -4.218e-02 -8.079e-02  [15 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -5.750: F = -dE/dh = +1.82353e+00, F_line = +1.50675e+00, F_z - M = +1.50747e+00, E = 8.32817e+00, lambda_max = -3.5031e-02 (m = 0), lambda(m=0,1,2) = -3.503e-02 -3.997e-02 -7.784e-02  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -6.000: F = -dE/dh = +1.80394e+00, F_line = +1.46964e+00, F_z - M = +1.47047e+00, E = 8.78169e+00, lambda_max = -3.3155e-02 (m = 0), lambda(m=0,1,2) = -3.316e-02 -3.785e-02 -7.499e-02  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -6.250: F = -dE/dh = +1.78022e+00, F_line = +1.42751e+00, F_z - M = +1.42844e+00, E = 9.22979e+00, lambda_max = -3.1360e-02 (m = 0), lambda(m=0,1,2) = -3.136e-02 -3.581e-02 -7.223e-02  [15 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -6.500: F = -dE/dh = +1.75297e+00, F_line = +1.38083e+00, F_z - M = +1.38187e+00, E = 9.67151e+00, lambda_max = -2.9647e-02 (m = 0), lambda(m=0,1,2) = -2.965e-02 -3.386e-02 -6.958e-02  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -6.750: F = -dE/dh = +1.72276e+00, F_line = +1.32998e+00, F_z - M = +1.33115e+00, E = 1.01060e+01, lambda_max = -2.8016e-02 (m = 0), lambda(m=0,1,2) = -2.802e-02 -3.200e-02 -6.704e-02  [15 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -7.000: F = -dE/dh = +1.69011e+00, F_line = +1.27530e+00, F_z - M = +1.27661e+00, E = 1.05327e+01, lambda_max = -2.6467e-02 (m = 0), lambda(m=0,1,2) = -2.647e-02 -3.022e-02 -6.460e-02  [15 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -7.250: F = -dE/dh = +1.65552e+00, F_line = +1.21698e+00, F_z - M = +1.21845e+00, E = 1.09509e+01, lambda_max = -2.5000e-02 (m = 0), lambda(m=0,1,2) = -2.500e-02 -2.853e-02 -6.227e-02  [15 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -7.500: F = -dE/dh = +1.61941e+00, F_line = +1.15510e+00, F_z - M = +1.15675e+00, E = 1.13603e+01, lambda_max = -2.3612e-02 (m = 0), lambda(m=0,1,2) = -2.361e-02 -2.693e-02 -6.004e-02  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -7.750: F = -dE/dh = +1.58217e+00, F_line = +1.08956e+00, F_z - M = +1.09142e+00, E = 1.17605e+01, lambda_max = -2.2302e-02 (m = 0), lambda(m=0,1,2) = -2.230e-02 -2.541e-02 -5.791e-02  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -8.000: F = -dE/dh = +1.54417e+00, F_line = +1.01998e+00, F_z - M = +1.02209e+00, E = 1.21513e+01, lambda_max = -2.1067e-02 (m = 0), lambda(m=0,1,2) = -2.107e-02 -2.397e-02 -5.589e-02  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -8.250: F = -dE/dh = +1.50570e+00, F_line = +9.45566e-01, F_z - M = +9.47967e-01, E = 1.25326e+01, lambda_max = -1.9904e-02 (m = 0), lambda(m=0,1,2) = -1.990e-02 -2.261e-02 -5.396e-02  [15 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -8.500: F = -dE/dh = +1.46704e+00, F_line = +8.64782e-01, F_z - M = +8.67572e-01, E = 1.29042e+01, lambda_max = -1.8811e-02 (m = 0), lambda(m=0,1,2) = -1.881e-02 -2.133e-02 -5.213e-02  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 3 iterations and 3 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 4 iterations and 4 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+          Solving nonlinear variational problem.
+            Newton solver finished in 2 iterations and 2 linear solver iterations.
+h =  -8.750: F = -dE/dh = +1.42845e+00, F_line = +7.74823e-01, F_z - M = +7.78190e-01, E = 1.32661e+01, lambda_max = -1.7785e-02 (m = 0), lambda(m=0,1,2) = -1.778e-02 -2.012e-02 -5.040e-02  [14 s]
+          Solving nonlinear variational problem.
+            Newton solver finished in 5 iterations and 5 linear solver iterations.
+          Solving nonlinear variational problem.
+            Solving nonlinear variational problem.
+              Solving nonlinear variational problem.
+                Solving nonlinear variational problem.
+                  Newton solver finished in 4 iterations and 4 linear solver iterations.
+                Solving nonlinear variational problem.
+                  Solving nonlinear variational problem.
+Newton failed beyond h = -8.750: end of the branch in this direction
+... done.

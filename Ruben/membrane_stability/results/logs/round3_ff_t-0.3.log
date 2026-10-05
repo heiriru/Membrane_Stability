@@ -1,0 +1,35 @@
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/ff_t-0.3/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+[v0] v0/v0_c = 0.00000, h = +0.86187, A = +0.1565, max|z| = 0.8619, F = -5.14e-10 (spread 5.6e-06)  [31 s]
+[v0] v0/v0_c = 0.10000, h = +0.88367, A = +0.1510, max|z| = 0.8837, F = +5.07e-14 (spread 6.1e-06)  [67 s]
+[v0] v0/v0_c = 0.20000, h = +0.90789, A = +0.1409, max|z| = 0.9079, F = +1.27e-11 (spread 6.3e-06)  [97 s]
+[v0] v0/v0_c = 0.30000, h = +0.93473, A = +0.1238, max|z| = 0.9347, F = +1.44e-11 (spread 6.4e-06)  [126 s]
+[v0] v0/v0_c = 0.40000, h = +0.96429, A = +0.0954, max|z| = 0.9643, F = +1.11e-11 (spread 6.8e-06)  [156 s]
+[v0] v0/v0_c = 0.50000, h = +0.99629, A = +0.0476, max|z| = 0.9963, F = +2.52e-12 (spread 7.4e-06)  [185 s]
+[v0] v0/v0_c = 0.55000, h = +1.01285, A = +0.0117, max|z| = 1.0129, F = -3.84e-13 (spread 7.9e-06)  [215 s]
+[v0] v0/v0_c = 0.60000, h = +1.02929, A = -0.0365, max|z| = 1.0293, F = -4.49e-13 (spread 8.7e-06)  [245 s]
+[v0] v0/v0_c = 0.65000, h = +1.04480, A = -0.1029, max|z| = 1.0448, F = -1.22e-11 (spread 9.9e-06)  [277 s]
+[v0] v0/v0_c = 0.70000, h = +1.05783, A = -0.1975, max|z| = 1.0578, F = -9.12e-11 (spread 1.2e-05)  [307 s]
+[v0] v0/v0_c = 0.75000, h = +1.06512, A = -0.3386, max|z| = 1.0651, F = -5.90e-10 (spread 1.7e-05)  [338 s]
+[v0] v0/v0_c = 0.80000, h = +1.05934, A = -0.5647, max|z| = 1.0593, F = -1.33e-13 (spread 2.5e-05)  [377 s]
+[v0] v0/v0_c = 0.84000, h = +1.03301, A = -0.8675, max|z| = 1.1523, F = -1.52e-12 (spread 3.7e-05)  [414 s]
+[v0] v0/v0_c = 0.87000, h = +0.98371, A = -1.2477, max|z| = 1.5550, F = -9.99e-12 (spread 5.2e-05)  [465 s]
+[v0] v0/v0_c = 0.90000, h = +0.86475, A = -1.9764, max|z| = 2.3157, F = -6.40e-10 (spread 8.1e-05)  [514 s]
+[v0] v0/v0_c = 0.91000, h = +0.77854, A = -2.4534, max|z| = 2.8095, F = -6.84e-10 (spread 1.0e-04)  [705 s]
+[v0] v0/v0_c = 0.91500, h = +0.70436, A = -2.8513, max|z| = 3.2200, F = -8.87e-10 (spread 1.2e-04)  [854 s]
+[v0] v0/v0_c = 0.91750, h = +0.64101, A = -3.1870, max|z| = 3.5658, F = -7.98e-14 (spread 1.3e-04)  [1049 s]
+[v0] v0/v0_c = 0.91875, h = +0.57769, A = -3.5216, max|z| = 3.9101, F = -2.35e-10 (spread 1.5e-04)  [1208 s]
+[v0] v0/v0_c = 0.91891, h = +0.56026, A = -3.6138, max|z| = 4.0049, F = -5.00e-11 (spread 1.5e-04)  [1716 s]
+[v0] v0/v0_c = 0.91898, h = +0.54422, A = -3.6987, max|z| = 4.0921, F = -2.92e-12 (spread 1.5e-04)  [1908 s]
+[v0] v0/v0_c = 0.91899, h = +0.54033, A = -3.7193, max|z| = 4.1133, F = -1.19e-10 (spread 1.5e-04)  [2381 s]
+[v0] v0/v0_c = 0.91900, h = +0.53749, A = -3.7344, max|z| = 4.1288, F = -6.62e-11 (spread 1.5e-04)  [2586 s]
+[v0] v0/v0_c = 0.91900, h = +0.53537, A = -3.7456, max|z| = 4.1404, F = -1.84e-10 (spread 1.6e-04)  [2778 s]

@@ -1,0 +1,41 @@
+Did not find sub_meshes
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/param_eq/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+start from the Monge state at t = 154952 (h = +4.6250), v0 = 0.97 v0_c
+initial solve done; vertical force at the Monge h: [0.0, 0.0, 0.0]  [1 s]
+resuming at t = 164875 (step 19), h = +10.9515
+step 20: t = 164995, dt = 120, h = +10.9683, z in [-17.806, +10.978], min n_z = -0.1802 (slope inf), drift 3.300, stretch [0.236, 8.77], F spread 4.51e-03  [245 s]
+step 21: t = 165145, dt = 150, h = +10.9707, z in [-18.030, +10.983], min n_z = -0.2032 (slope inf), drift 3.643, stretch [0.234, 9.18], F spread 5.41e-03  [488 s]
+step 22: t = 165295, dt = 150, h = +10.9732, z in [-18.262, +10.993], min n_z = -0.2241 (slope inf), drift 4.024, stretch [0.232, 9.66], F spread 6.27e-03  [647 s]
+step 23: t = 165445, dt = 150, h = +10.9742, z in [-18.503, +11.004], min n_z = -0.2436 (slope inf), drift 4.446, stretch [0.232, 10.59], F spread 7.09e-03  [896 s]
+step 24: t = 165595, dt = 150, h = +10.9748, z in [-18.827, +11.020], min n_z = -0.2615 (slope inf), drift 4.906, stretch [0.233, 11.73], F spread 7.95e-03  [1104 s]
+step 25: t = 165745, dt = 150, h = +10.9743, z in [-19.183, +11.044], min n_z = -0.2773 (slope inf), drift 5.409, stretch [0.235, 13.15], F spread 8.97e-03  [1314 s]
+step 26: t = 165895, dt = 150, h = +10.9673, z in [-19.561, +11.069], min n_z = -0.2974 (slope inf), drift 5.958, stretch [0.241, 14.90], F spread 1.04e-02  [1559 s]
+step 27: t = 166045, dt = 150, h = +10.9037, z in [-19.966, +11.037], min n_z = -0.3294 (slope inf), drift 6.553, stretch [0.275, 17.08], F spread 1.29e-02  [1801 s]
+step 28: t = 166187, dt = 142, h = +10.7783, z in [-20.375, +10.940], min n_z = -0.3663 (slope inf), drift 7.149, stretch [0.340, 19.57], F spread 1.68e-02  [2043 s]
+step 29: t = 166312, dt = 125, h = +10.6613, z in [-20.757, +10.842], min n_z = -0.4080 (slope inf), drift 7.701, stretch [0.390, 22.14], F spread 2.15e-02  [2247 s]
+step 30: t = 166424, dt = 111, h = +10.5778, z in [-21.110, +10.770], min n_z = -0.4503 (slope inf), drift 8.206, stretch [0.418, 24.73], F spread 2.62e-02  [2453 s]
+step 31: t = 166525, dt = 101, h = +10.5320, z in [-21.503, +10.731], min n_z = -0.4918 (slope inf), drift 8.671, stretch [0.433, 27.32], F spread 3.06e-02  [2654 s]
+step 32: t = 166618, dt = 92.9, h = +10.5184, z in [-21.900, +10.723], min n_z = -0.5316 (slope inf), drift 9.103, stretch [0.438, 29.94], F spread 3.46e-02  [2855 s]
+step 33: t = 166704, dt = 86.7, h = +10.5298, z in [-22.323, +10.741], min n_z = -0.5696 (slope inf), drift 9.508, stretch [0.434, 32.57], F spread 3.87e-02  [3105 s]
+step 34: t = 166786, dt = 81.9, h = +10.5565, z in [-22.730, +10.772], min n_z = -0.6058 (slope inf), drift 9.889, stretch [0.426, 35.23], F spread 4.37e-02  [3365 s]
+step 35: t = 166864, dt = 78, h = +10.5957, z in [-23.147, +10.818], min n_z = -0.6400 (slope inf), drift 10.252, stretch [0.413, 37.97], F spread 4.56e-02  [3654 s]
+step 36: t = 166939, dt = 75, h = +10.6420, z in [-23.636, +10.871], min n_z = -0.6720 (slope inf), drift 10.609, stretch [0.155, 40.83], F spread 3.65e-02  [3847 s]
+  no convergence: dt -> 21.8
+  no convergence: dt -> 6.53
+  no convergence: dt -> 1.96
+  no convergence: dt -> 0.587
+  no convergence: dt -> 0.176
+  no convergence: dt -> 0.0529
+  no convergence: dt -> 0.0159
+  no convergence: dt -> 0.00476
+  no convergence: dt -> 0.00143
+  no convergence: dt -> 0.000428
+ended (newton_failed) at t = 166939 after 36 steps

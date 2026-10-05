@@ -1,0 +1,51 @@
+[36mLoaded cylinder problem[0m
+2d mesh
+Cylinder mesh: box = [-20, 40] x [-20, 20], c_r = [2.99e-16, -5.92e-16], r = 0.5, cells = 7039, h_min = 0.0506
+	length of boundary l = 40, should be 40, relative error = 0.00e+00
+	length of boundary r = 40, should be 40, relative error = 1.78e-16
+	length of boundary t = 60, should be 60, relative error = 0.00e+00
+	length of boundary b = 60, should be 60, relative error = 2.37e-16
+	length of boundary circle = 3.14, should be 3.14159, relative error = 5.06e-04
+	area = 2399.22, should be 2399.21
+DNS at Re = 100.0, dt = 0.1, T = 300.0, dofs = 32008
+Solving nonlinear variational problem.
+  Newton solver finished in 4 iterations and 4 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 4 iterations and 4 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 4 iterations and 4 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 4 iterations and 4 linear solver iterations.
+Solving nonlinear variational problem.
+  Newton solver finished in 4 iterations and 4 linear solver iterations.
+t =   10.00  C_D = 1.08503  C_L = -2.738e-04  E = 2.332e-06  [108 s, 1.08 s/step]
+t =   20.00  C_D = 1.08504  C_L = +4.400e-05  E = 1.278e-04  [251 s, 1.26 s/step]
+t =   30.00  C_D = 1.08509  C_L = +1.076e-03  E = 3.394e-03  [377 s, 1.26 s/step]
+t =   40.00  C_D = 1.08582  C_L = +1.249e-03  E = 5.752e-02  [484 s, 1.21 s/step]
+t =   50.00  C_D = 1.09420  C_L = -1.164e-02  E = 6.926e-01  [586 s, 1.17 s/step]
+t =   60.00  C_D = 1.14485  C_L = -3.772e-02  E = 3.569e+00  [687 s, 1.15 s/step]
+t =   70.00  C_D = 1.23463  C_L = +1.321e-01  E = 6.468e+00  [790 s, 1.13 s/step]
+t =   80.00  C_D = 1.29941  C_L = -1.248e-01  E = 7.221e+00  [891 s, 1.11 s/step]
+t =   90.00  C_D = 1.31779  C_L = -9.454e-02  E = 7.106e+00  [993 s, 1.10 s/step]
+t =  100.00  C_D = 1.33653  C_L = +3.050e-01  E = 6.865e+00  [1098 s, 1.10 s/step]
+t =  110.00  C_D = 1.34763  C_L = -2.654e-01  E = 6.753e+00  [1203 s, 1.09 s/step]
+t =  120.00  C_D = 1.33383  C_L = -7.149e-03  E = 6.738e+00  [1308 s, 1.09 s/step]
+t =  130.00  C_D = 1.33710  C_L = +2.773e-01  E = 6.753e+00  [1409 s, 1.08 s/step]
+t =  140.00  C_D = 1.35030  C_L = -3.066e-01  E = 6.760e+00  [1568 s, 1.12 s/step]
+t =  150.00  C_D = 1.33817  C_L = +6.990e-02  E = 6.768e+00  [1687 s, 1.12 s/step]
+t =  160.00  C_D = 1.33387  C_L = +2.280e-01  E = 6.780e+00  [1797 s, 1.12 s/step]
+t =  170.00  C_D = 1.34909  C_L = -3.277e-01  E = 6.775e+00  [1906 s, 1.12 s/step]
+t =  180.00  C_D = 1.34256  C_L = +1.421e-01  E = 6.772e+00  [2016 s, 1.12 s/step]
+t =  190.00  C_D = 1.33206  C_L = +1.664e-01  E = 6.784e+00  [2126 s, 1.12 s/step]
+t =  200.00  C_D = 1.34611  C_L = -3.312e-01  E = 6.780e+00  [2239 s, 1.12 s/step]
+t =  210.00  C_D = 1.34658  C_L = +2.066e-01  E = 6.772e+00  [2376 s, 1.13 s/step]
+t =  220.00  C_D = 1.33212  C_L = +9.582e-02  E = 6.782e+00  [2486 s, 1.13 s/step]
+t =  230.00  C_D = 1.34209  C_L = -3.170e-01  E = 6.782e+00  [2596 s, 1.13 s/step]
+t =  240.00  C_D = 1.34944  C_L = +2.603e-01  E = 6.772e+00  [2704 s, 1.13 s/step]
+t =  250.00  C_D = 1.33405  C_L = +2.032e-02  E = 6.780e+00  [2816 s, 1.13 s/step]
+t =  260.00  C_D = 1.33787  C_L = -2.856e-01  E = 6.784e+00  [2929 s, 1.13 s/step]
+t =  270.00  C_D = 1.35048  C_L = +3.002e-01  E = 6.774e+00  [3043 s, 1.13 s/step]
+t =  280.00  C_D = 1.33750  C_L = -5.602e-02  E = 6.777e+00  [3156 s, 1.13 s/step]
+t =  290.00  C_D = 1.33432  C_L = -2.389e-01  E = 6.784e+00  [3267 s, 1.13 s/step]
+t =  300.00  C_D = 1.34956  C_L = +3.244e-01  E = 6.776e+00  [3375 s, 1.12 s/step]
+... done.

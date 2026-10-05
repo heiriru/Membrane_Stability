@@ -1,0 +1,16 @@
+{
+ "v0": 0.2,
+ "eigenvalue_re": 5.57877807681844e-06,
+ "eigenvalue_im": 0.0,
+ "fitted_rate": 5.579478066750711e-06,
+ "rel_error": 0.00012547370098479774,
+ "dt": 3585.0144466413226,
+ "n_steps": 200,
+ "eps": 0.001,
+ "final_amplitude": 0.03687941790900156,
+ "rho": 0.0,
+ "eta": 1.0,
+ "zeta": 1.0,
+ "SL": 20.0,
+ "mesh": "/tmp/claude-0/meshes/pre_A"
+}

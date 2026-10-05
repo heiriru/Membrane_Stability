@@ -1,0 +1,11 @@
+start from the Monge state at t = 154952 (h = +4.6250), v0 = 0.97 v0_c
+initial solve done; vertical force at the Monge h: [-0.016623422567347158, -0.016892509579523343, -0.017489257093789526]  [31 s]
+step 1: t = 154972, dt = 20, h = +4.6372, z in [-11.578, +4.637], min n_z = +0.5030 (slope 1.72), drift 0.005, stretch [0.998, 1.99], F spread 8.28e-04  [158 s]
+step 2: t = 155012, dt = 40, h = +4.6565, z in [-11.590, +4.657], min n_z = +0.5018 (slope 1.72), drift 0.014, stretch [0.990, 1.99], F spread 8.42e-04  [274 s]
+step 3: t = 155092, dt = 80, h = +4.6913, z in [-11.615, +4.691], min n_z = +0.4989 (slope 1.74), drift 0.031, stretch [0.951, 1.98], F spread 8.74e-04  [393 s]
+step 4: t = 155252, dt = 160, h = +4.7607, z in [-11.666, +4.761], min n_z = +0.4921 (slope 1.77), drift 0.067, stretch [0.874, 1.98], F spread 9.02e-04  [481 s]
+step 5: t = 155572, dt = 320, h = +4.9173, z in [-11.773, +4.917], min n_z = +0.4767 (slope 1.84), drift 0.150, stretch [0.709, 1.98], F spread 9.54e-04  [676 s]
+  secant failed: step taken at the previous PI height
+step 6: t = 156212, dt = 640, h = +4.9173, z in [-12.007, +4.917], min n_z = +0.4571 (slope 1.95), drift 0.274, stretch [0.703, 1.98], F spread 1.03e-03  [1283 s]
+  secant failed: step taken at the previous PI height
+step 7: t = 157492, dt = 1.28e+03, h = +4.9173, z in [-12.561, +4.917], min n_z = +0.4259 (slope 2.12), drift 0.583, stretch [0.698, 1.97], F spread 9.15e-04  [1570 s]

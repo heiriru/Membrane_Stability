@@ -1,0 +1,14 @@
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/phidyn_source/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+step 10: t = 2.2666e+03, dt = 769, phi in [+0.0000, +0.0335], z in [-0.026, +0.038], G = 2.50427375e+01, N = +4.4641e+01  [348 s]
+step 20: t = 2.1150e+04, dt = 2e+03, phi in [-0.0009, +0.0928], z in [-1.062, +0.271], G = 2.56639559e+01, N = +1.8741e+02  [678 s]
+ended (t_end) at t = 3.0000e+04 after 25 steps

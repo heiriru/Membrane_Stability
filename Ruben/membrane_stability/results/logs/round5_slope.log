@@ -1,0 +1,17 @@
+Lc = 6: phi = 0.0873, sigma_rest = 0.6823, K = 1.815, c = -0.6204, g3 = -0.3799, g5 = +436.758 (data up to u = 0.15)
+Lc = 8: phi = 0.0491, sigma_rest = 0.2561, K = 1.287, c = -0.1782, g3 = -1.5838, g5 = +49.577 (data up to u = 0.2)
+Lc = 10: phi = 0.0314, sigma_rest = 0.1299, K = 1.138, c = -0.0738, g3 = -0.8392, g5 = +6.318 (data up to u = 0.25)
+Lc = 14: phi = 0.0160, sigma_rest = 0.0513, K = 1.053, c = -0.0215, g3 = -0.3297, g5 = -0.906 (data up to u = 0.25)
+Lc = 20: phi = 0.0079, sigma_rest = 0.0215, K = 1.032, c = -0.0064, g3 = -0.1404, g5 = -0.614 (data up to u = 0.25)
+periodic dense_eps0.05: final max|u| = 0.0955, walls [22 16 16]  [44 s]
+periodic dense_eps0.2: final max|u| = 0.1346, walls [34 24 22]  [88 s]
+periodic dilute_eps0.05: final max|u| = 0.1963, walls [20 14 14]  [132 s]
+hysteresis run done  [224 s]
+Lc = 6: absolute threshold eps_a = 0.9419878345069846, global eps_g(L_p) = [(50, 0.9864), (100, 0.9502), (200, 0.94)]  [247 s]
+Lc = 8: absolute threshold eps_a = 0.9740930429943092, global eps_g(L_p) = [(50, 1.0637), (100, 0.9945), (200, 0.9775)]  [262 s]
+Lc = 10: absolute threshold eps_a = 1.024549709297033, global eps_g(L_p) = [(50, 1.1848), (100, 1.0627), (200, 1.033)]  [280 s]
+Lc = 14: absolute threshold eps_a = 1.1109307007092053, global eps_g(L_p) = [(50, 1.4936), (100, 1.2037), (200, 1.1332)]  [295 s]
+Lc = 20: absolute threshold eps_a = 1.1804040951669512, global eps_g(L_p) = [(50, 2.1132), (100, 1.4023), (200, 1.2344)]  [311 s]
+patch L6_patch200_eps1.13: final max|H| = 0.4643  [1432 s]
+patch L8_patch200_eps1.17: final max|H| = 0.9901  [2567 s]
+done

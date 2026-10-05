@@ -1,0 +1,23 @@
+
+{"ell_b": 1.5, "Gamma": 0.0, "v0_div": 0.0775074410064453, "v0_flutter": null, "omega_flutter": null, "v0_c": 0.0775074410064453, "SL_c": 7.75074410064453, "kind": "divergence", "n_eig": 14, "wall": 29.132635354995728}
+{"ell_b": 2.0, "Gamma": 0.0, "v0_div": 0.09856322045857219, "v0_flutter": null, "omega_flutter": null, "v0_c": 0.09856322045857219, "SL_c": 9.856322045857219, "kind": "divergence", "n_eig": 18, "wall": 66.19937419891357}
+{"ell_b": 2.5, "Gamma": 0.0, "v0_div": 0.11633057384842696, "v0_flutter": null, "omega_flutter": null, "v0_c": 0.11633057384842696, "SL_c": 11.633057384842695, "kind": "divergence", "n_eig": 21, "wall": 109.46712279319763}
+{"ell_b": 3.0, "Gamma": 0.0, "v0_div": null, "v0_flutter": 0.13023271683521398, "omega_flutter": 9.890970789570446e-06, "v0_c": 0.13023271683521398, "SL_c": 13.023271683521397, "kind": "flutter", "n_eig": 23, "wall": 157.01183319091797}
+{"ell_b": 3.5, "Gamma": 0.0, "v0_div": null, "v0_flutter": 0.14107604922931447, "omega_flutter": 9.502122220738064e-06, "v0_c": 0.14107604922931447, "SL_c": 14.107604922931447, "kind": "flutter", "n_eig": 24, "wall": 207.77762866020203}
+{"ell_b": 4.0, "Gamma": 0.0, "v0_div": null, "v0_flutter": 0.15034339506983008, "omega_flutter": 9.138428092071772e-06, "v0_c": 0.15034339506983008, "SL_c": 15.034339506983008, "kind": "flutter", "n_eig": 25, "wall": 257.4108798503876}
+{"ell_b": 4.5, "Gamma": 0.0, "v0_div": null, "v0_flutter": 0.15822939896073704, "omega_flutter": 8.758230723926013e-06, "v0_c": 0.15822939896073704, "SL_c": 15.822939896073704, "kind": "flutter", "n_eig": 26, "wall": 309.6790623664856}
+{"ell_b": 5.0, "Gamma": 0.0, "v0_div": null, "v0_flutter": 0.16471647339318174, "omega_flutter": 8.315605380719664e-06, "v0_c": 0.16471647339318174, "SL_c": 16.471647339318174, "kind": "flutter", "n_eig": 27, "wall": 362.703773021698}
+{"ell_b": 6.0, "Gamma": 0.0, "v0_div": null, "v0_flutter": 0.1755555890594261, "omega_flutter": 7.486442532881602e-06, "v0_c": 0.1755555890594261, "SL_c": 17.555558905942608, "kind": "flutter", "n_eig": 28, "wall": 420.92788338661194}
+{"ell_b": 7.0, "Gamma": 0.0, "v0_div": null, "v0_flutter": 0.18406193460616638, "omega_flutter": 6.680771343879715e-06, "v0_c": 0.18406193460616638, "SL_c": 18.406193460616638, "kind": "flutter", "n_eig": 29, "wall": 479.2802457809448}
+{"ell_b": 8.0, "Gamma": 0.0, "v0_div": null, "v0_flutter": 0.19116653384403914, "omega_flutter": 5.9406309581135085e-06, "v0_c": 0.19116653384403914, "SL_c": 19.116653384403914, "kind": "flutter", "n_eig": 30, "wall": 539.7211475372314}
+{"ell_b": 10.0, "Gamma": 0.0, "v0_div": null, "v0_flutter": 0.2015514782364409, "omega_flutter": 4.505436787792816e-06, "v0_c": 0.2015514782364409, "SL_c": 20.15514782364409, "kind": "flutter", "n_eig": 30, "wall": 597.459059715271}
+{"ell_b": 12.0, "Gamma": 0.0, "v0_div": null, "v0_flutter": 0.20946910308182032, "omega_flutter": 3.2444817754450087e-06, "v0_c": 0.20946910308182032, "SL_c": 20.946910308182034, "kind": "flutter", "n_eig": 31, "wall": 660.3319170475006}
+{"ell_b": 14.0, "Gamma": 0.0, "v0_div": null, "v0_flutter": 0.21519708030713836, "omega_flutter": 1.937271437653667e-06, "v0_c": 0.21519708030713836, "SL_c": 21.519708030713836, "kind": "flutter", "n_eig": 32, "wall": 727.8237686157227}
+{"ell_b": 17.0, "Gamma": 0.0, "v0_div": 0.20377528874253797, "v0_flutter": null, "omega_flutter": null, "v0_c": 0.20377528874253797, "SL_c": 20.377528874253798, "kind": "divergence", "n_eig": 31, "wall": 790.3494431972504}
+{"ell_b": 20.0, "Gamma": 0.0, "v0_div": 0.20529363923301325, "v0_flutter": null, "omega_flutter": null, "v0_c": 0.20529363923301325, "SL_c": 20.529363923301325, "kind": "divergence", "n_eig": 31, "wall": 851.7536129951477}
+{"ell_b": 25.0, "Gamma": 0.0, "v0_div": 0.20870992783658265, "v0_flutter": null, "omega_flutter": null, "v0_c": 0.20870992783658265, "SL_c": 20.870992783658266, "kind": "divergence", "n_eig": 31, "wall": 910.6518411636353}
+{"ell_b": 30.0, "Gamma": 0.0, "v0_div": 0.2109874535722956, "v0_flutter": null, "omega_flutter": null, "v0_c": 0.2109874535722956, "SL_c": 21.09874535722956, "kind": "divergence", "n_eig": 31, "wall": 973.9029886722565}
+{"ell_b": 40.0, "Gamma": 0.0, "v0_div": 0.2140241545532462, "v0_flutter": null, "omega_flutter": null, "v0_c": 0.2140241545532462, "SL_c": 21.40241545532462, "kind": "divergence", "n_eig": 31, "wall": 1045.2147397994995}
+{"ell_b": 60.0, "Gamma": 0.0, "v0_div": 0.2164041689470662, "v0_flutter": null, "omega_flutter": null, "v0_c": 0.2164041689470662, "SL_c": 21.64041689470662, "kind": "divergence", "n_eig": 32, "wall": 1110.7945804595947}
+... done.
+SlepcInitialize() must be called before SlepcFinalize()

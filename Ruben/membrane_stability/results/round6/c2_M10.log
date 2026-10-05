@@ -1,0 +1,22 @@
+Reading parameters from /tmp/claude-0/meshes/pre_A/mesh_metadata.csv...
+... close.
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Reading parameters from parameters_bc_square_b.csv...
+... close.
+Reading parameters from /tmp/claude-0/meshes/pre_A/mesh_metadata.csv...
+... close.
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/r6/c2_M10/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+Check t <-> b symmetry: <y - center_y> = [34m-2.93e-02[39m
+chi = +0.2500: static v0 = 0.1731161979980469, Hopf v0 = None (omega = None)  [925 s]
+chi = +0.1000: static v0 = 0.13850862060546876, Hopf v0 = 0.21727348430175786 (omega = 0.0)  [2301 s]
+chi = +0.0000: static v0 = None, Hopf v0 = 0.17826219848632813 (omega = 5.409775535919252e-05)  [3628 s]
+chi = -0.0300: static v0 = None, Hopf v0 = 0.195022152743429 (omega = 1.1212809280538545e-05)  [4589 s]

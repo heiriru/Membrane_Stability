@@ -1,0 +1,21 @@
+{
+ "v0_c": 7.666015625,
+ "bracket": [
+  7.6640625,
+  7.66796875
+ ],
+ "SL_c": 7.666015625,
+ "Re_c": 0.0,
+ "rho": 0.0,
+ "eta": 1.0,
+ "kappa": 1.0,
+ "sigma_r": 1.0,
+ "zeta": 1.0,
+ "L": 1.0,
+ "r": 0.25,
+ "dofs": 16714,
+ "mesh": "/tmp/claude-0/meshes/square_005",
+ "h_min": 0.023453308082929576,
+ "criterion": "divergence",
+ "newton_failed_at": null
+}

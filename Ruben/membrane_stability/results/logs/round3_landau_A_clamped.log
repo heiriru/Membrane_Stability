@@ -1,0 +1,22 @@
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/landau_A_clamped/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+v0_c = 0.277316: lambda = -1.290e-12, lambda_v = +3.312616e-04  [90 s]
+adjoint eigenvalue -1.290e-12
+y^T D2(x1, x1) = -1.086e-19 (0 by symmetry), |D2(x1, x1)| = 5.435e-03  [104 s]
+x2: max|z2| = 1.561e-16 (0 by symmetry), max|x2| = 4.036e-04
+N3 = +1.650471e-07 ({'from_x2': 6.913323526452537e-09, 'from_cubic': 1.5813379435326502e-07}); N3 / (lambda_v v0_c) = +1.796647e-03  [138 s]
+H = -9.248806e-05 (residual of psi0 at t = 0: 1.4e-14)
+t = -0.01: predicted fold A_f = +1.410, 1 - v_fold/v0_c = 0.0107
+t = -0.03: predicted fold A_f = +2.033, 1 - v_fold/v0_c = 0.0223
+t = -0.10: predicted fold A_f = +3.037, 1 - v_fold/v0_c = 0.0497
+t = -0.30: predicted fold A_f = +4.380, 1 - v_fold/v0_c = 0.1034
+LANDAU: {"v0_c": 0.2773155257591126, "lambda_c": -1.290232739511911e-12, "lambda_v": 0.0003312615655533512, "N3": 1.650471178797181e-07, "N3_parts": {"from_x2": 6.913323526452537e-09, "from_cubic": 1.5813379435326502e-07}, "coef_perfect_branch": 0.001796646808425762, "y_D2_x1x1": -1.0864196349130555e-19, "max_abs_z2": 1.5609339056804998e-16, "H": -9.248806114531842e-05, "koiter_prefactor": 0.23078936282254187, "fold_predictions": {"-0.01": {"A_fold": 1.4097731824791129, "one_minus_vfold_over_v0c": 0.010712293293937185}, "-0.03": {"A_fold": 2.0332447666614084, "one_minus_vfold_over_v0c": 0.02228246798850614}, "-0.1": {"A_fold": 3.0372642494096502, "one_minus_vfold_over_v0c": 0.04972206093552391}, "-0.3": {"A_fold": 4.380493058621121, "one_minus_vfold_over_v0c": 0.10342605460078427}}, "pi_height": 1, "mesh": "/tmp/claude-0/meshes/pre_A", "wall_time": 138.19829511642456}

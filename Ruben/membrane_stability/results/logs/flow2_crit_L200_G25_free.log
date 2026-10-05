@@ -1,0 +1,24 @@
+[36mLoaded square_b problem (stability, flow)[0m
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/crit_L200_G25_free/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m6.43e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 3149
+v0 = 0.000000: lambda_* = -1.1681e-06 +0.0000e+00 i, f = -1.1681e-06, leading = -1.1681e-06 +0.0000e+00 i, max|z*| = 0.000e+00  [0 + 4 s]
+v0 = 0.100000: lambda_* = -6.2023e-07 +0.0000e+00 i, f = -6.2023e-07, leading = -6.2023e-07 +0.0000e+00 i, max|z*| = 0.000e+00  [15 + 3 s]
+v0 = 0.200000: lambda_* = +1.5003e-06 +0.0000e+00 i, f = +1.5003e-06, leading = +1.5003e-06 +0.0000e+00 i, max|z*| = 0.000e+00  [15 + 3 s]
+v0 = 0.150000: lambda_* = -2.0876e-07 +0.0000e+00 i, f = -2.0876e-07, leading = -2.0876e-07 +0.0000e+00 i, max|z*| = 0.000e+00  [14 + 3 s]
+v0 = 0.175000: lambda_* = +3.8839e-07 +0.0000e+00 i, f = +3.8839e-07, leading = +3.8839e-07 +0.0000e+00 i, max|z*| = 0.000e+00  [17 + 4 s]
+v0 = 0.162500: lambda_* = +8.4647e-09 +0.0000e+00 i, f = +8.4647e-09, leading = +8.4647e-09 +0.0000e+00 i, max|z*| = 0.000e+00  [17 + 4 s]
+v0 = 0.156250: lambda_* = -1.1595e-07 +0.0000e+00 i, f = -1.1595e-07, leading = -1.1595e-07 +0.0000e+00 i, max|z*| = 0.000e+00  [17 + 4 s]
+v0 = 0.159375: lambda_* = -5.8553e-08 +0.0000e+00 i, f = -5.8553e-08, leading = -5.8553e-08 +0.0000e+00 i, max|z*| = 0.000e+00  [17 + 4 s]
+v0 = 0.160938: lambda_* = -2.6349e-08 +0.0000e+00 i, f = -2.6349e-08, leading = -2.6349e-08 +0.0000e+00 i, max|z*| = 0.000e+00  [15 + 4 s]
+v0 = 0.161719: lambda_* = -9.2791e-09 +0.0000e+00 i, f = -9.2791e-09, leading = -9.2791e-09 +0.0000e+00 i, max|z*| = 0.000e+00  [15 + 4 s]
+v0 = 0.162109: lambda_* = -4.9277e-10 +0.0000e+00 i, f = -4.9277e-10, leading = -4.9277e-10 +0.0000e+00 i, max|z*| = 0.000e+00  [15 + 3 s]
+v0 = 0.162305: lambda_* = +3.9644e-09 +0.0000e+00 i, f = +3.9644e-09, leading = +3.9644e-09 +0.0000e+00 i, max|z*| = 0.000e+00  [15 + 3 s]
+v0 = 0.162207: lambda_* = +1.7305e-09 +0.0000e+00 i, f = +1.7305e-09, leading = +1.7305e-09 +0.0000e+00 i, max|z*| = 0.000e+00  [15 + 3 s]
+CRITICAL: {"v0_c": 0.16213101995620477, "bracket": [0.16210937500000003, 0.16220703125000002], "SL_c": 32.42620399124095, "Re_c": 0.0, "rho": 0.0, "eta": 1.0, "kappa": 1.0, "sigma_r": 0.000625, "zeta": 1.0, "L": 200.0, "W": 200.0, "r": 1.0, "dofs": 43726, "b_friction": 0.0, "ell_b": null, "z_outer": 0, "pi_height": 2, "omega_circle": 0.0, "Gamma": 25.0, "mesh": "/tmp/claude-0/meshes/pre_L200", "h_min": 0.1418220560896579, "criterion": "leading", "newton_failed_at": null}
+... done.

@@ -1,0 +1,60 @@
+(a) small deformations: exact linear theory vs FE
+      h      tan(alpha)   sigma     F_exact        F_virtual      F_line        err_virtual  err_line
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+   0.020    0.000     0.0025   -7.63762e-02   -7.63821e-02   -7.01162e-02   7.8e-05      8.2e-02
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+  Newton solver finished in 0 iterations and 0 linear solver iterations.
+  Newton solver finished in 0 iterations and 0 linear solver iterations.
+  Newton solver finished in 0 iterations and 0 linear solver iterations.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+   0.000    0.020     0.0025   -8.96439e-02   -8.96370e-02   -7.77182e-02   7.8e-05      1.3e-01
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+   0.020    0.000     1.0000   -1.76277e-01   -1.76272e-01   -1.69481e-01   3.1e-05      3.9e-02
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+  Newton solver finished in 0 iterations and 0 linear solver iterations.
+  Newton solver finished in 0 iterations and 0 linear solver iterations.
+  Newton solver finished in 0 iterations and 0 linear solver iterations.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+  Newton solver finished in 1 iterations and 1 linear solver iterations.
+   0.000    0.020     1.0000   -1.20977e-01   -1.20958e-01   -1.07781e-01   1.6e-04      1.1e-01
+(b) catenoid (zero mean curvature, exact for any sigma): F_exact = 2 pi r0 sigma c / r0
+      c      h          sigma    F_exact        F_virtual      F_line        err_virtual  err_line   moment term
+  Newton solver finished in 4 iterations and 4 linear solver iterations.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+   0.25  -0.4062    1.0000   +1.57080e+00   +1.57086e+00   +1.60407e+00   4.2e-05      2.1e-02    +1.1e-06
+  Newton solver finished in 5 iterations and 5 linear solver iterations.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+   0.50  -0.8381    1.0000   +3.14159e+00   +3.14168e+00   +3.22248e+00   2.9e-05      2.6e-02    +3.4e-05
+  Newton solver finished in 5 iterations and 5 linear solver iterations.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+   0.70  -1.2311    1.0000   +4.39823e+00   +4.39822e+00   +4.51897e+00   2.2e-06      2.7e-02    +2.9e-04
+  Newton solver finished in 5 iterations and 5 linear solver iterations.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+  Newton solver finished in 3 iterations and 3 linear solver iterations.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+  Newton solver finished in 2 iterations and 2 linear solver iterations.
+   0.50  -0.8381    0.0025   +7.85398e-03   +7.98680e-03   +8.88421e-02   1.7e-02      1.0e+01    +4.8e-05

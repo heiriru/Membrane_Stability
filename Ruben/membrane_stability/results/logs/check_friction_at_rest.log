@@ -1,0 +1,17 @@
+Lambda from the bending waves (rho omega^2): [41258.03542033 41515.86093515 41585.14144466 41659.87674874
+   Lambda = 4.12580354e+04   lambda = -4.12580354e+04   -zeta*lambda = 4.12580354e+04   rel. error 3.6e-10
+   Lambda = 4.15158609e+04   lambda = -4.15158609e+04   -zeta*lambda = 4.15158609e+04   rel. error 2.6e-10
+   Lambda = 4.15851414e+04   lambda = -4.15851414e+04   -zeta*lambda = 4.15851414e+04   rel. error 3.2e-11
+   Lambda = 4.16598767e+04   lambda = -4.16598768e+04   -zeta*lambda = 4.16598768e+04   rel. error 1.2e-09
+   Lambda = 8.57863283e+04   lambda = -8.57863283e+04   -zeta*lambda = 8.57863283e+04   rel. error 2.7e-11
+   Lambda = 8.93177537e+04   lambda = -8.93177537e+04   -zeta*lambda = 8.93177537e+04   rel. error 2.3e-12
+max relative error = 1.21e-09, max |Im lambda| = 0.0e+00
+CHECK FRICTION AT REST: PASSED
+   Lambda = 4.12580354e+04   lambda = -1.37526785e+04   -zeta*lambda = 4.12580354e+04   rel. error 3.8e-11
+   Lambda = 4.15158609e+04   lambda = -1.38386203e+04   -zeta*lambda = 4.15158609e+04   rel. error 5.6e-11
+   Lambda = 4.15851414e+04   lambda = -1.38617138e+04   -zeta*lambda = 4.15851414e+04   rel. error 2.5e-11
+   Lambda = 4.16598767e+04   lambda = -1.38866256e+04   -zeta*lambda = 4.16598768e+04   rel. error 1.2e-10
+   Lambda = 8.57863283e+04   lambda = -2.85954428e+04   -zeta*lambda = 8.57863283e+04   rel. error 8.3e-12
+   Lambda = 8.93177537e+04   lambda = -2.97725846e+04   -zeta*lambda = 8.93177537e+04   rel. error 2.5e-11
+max relative error = 1.18e-10, max |Im lambda| = 0.0e+00
+CHECK FRICTION AT REST: PASSED

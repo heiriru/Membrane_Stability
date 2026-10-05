@@ -1,0 +1,22 @@
+The confirmation runs use the coarse cylinder mesh, with the same spaces and boundary conditions as its steady and spectral calculations. The first velocity probe is at $(3,0)$. The new time integrator starts from the computed base flow and applies a weak vertical body-force kick of amplitude $10^{-3}$ near $(x,y)=(1.5,0)$ during $0<t<1$. After one first-order start-up step, BDF2 with semi-implicit extrapolated convection uses $\Delta t=0.1$ and runs to $t=300$. Probe velocities, lift, drag, and perturbation energy are recorded. In the small-amplitude interval, the first probe is fitted to
+\begin{equation}
+v_{\rm probe}(t)=c+A\exp(\sigma_{\rm DNS}t)\cos(\omega_{\rm DNS}t+\theta).
+\label{eq:cylinder-fit}
+\end{equation}
+The fitting window follows the initial kick/transient and ends before nonlinear saturation. Its archived bounds are $60.4$--$300$ at $\mathrm{Re}=40$, $15$--$75.2$ at $60$, and $15$--$33.7$ at $100$. Because energy is quadratic in the perturbation, its exponential rate is $2\sigma$ in a single-mode regime; the probe fit supplies the rate reported here rather than assuming an energy fit is identical during a mixed transient.
+
+\begin{table}[htbp]\centering\small
+\begin{tabular}{rrrrrl}\toprule
+$\mathrm{Re}$ & $\sigma_{\rm eig}$ & $\sigma_{\rm DNS}$ & $\omega_{\rm eig}$ & $\omega_{\rm DNS}$ & Outcome\\\midrule
+40 & $-0.02995$ & $-0.02812$ & 0.73359 & 0.73384 & Decay to steady flow\\
+60 & $+0.04806$ & $+0.05021$ & 0.75730 & 0.75719 & Growth, then shedding\\
+100 & $+0.12451$ & $+0.12551$ & 0.73784 & 0.73922 & Growth, then shedding\\\bottomrule
+\end{tabular}
+\caption[Cylinder time-domain confirmation]{Quantitative time-domain confirmation from \source{solution/dns_vs_eigenvalues.json} of the working cylinder study. Growth and frequency are in the cylinder time unit $D/U_\infty$. The signs of the measured and predicted growth rates agree in all three cases.}
+\label{tab:cylinder-dns}
+\end{table}
+Relative to the eigenvalue predictions, growth-rate differences are approximately $6.1\%$, $4.5\%$, and $0.8\%$ at $\mathrm{Re}=40,60,100$, while frequency differences are below $0.2\%$. Thus the method correctly predicts both the decay of a stable wake and the growing oscillation of an unstable wake. The figures immediately below show the fitted linear interval and its subsequent nonlinear fate.
+
+At $\mathrm{Re}=100$, the saturated simulation gives $\mathrm{St}=0.16544$, mean drag coefficient $\overline C_D=1.3411$, and lift amplitude $0.3325$. These describe the established vortex street, not the linear mode: its frequency $\omega_{\rm eig}=0.73784$ corresponds to $\mathrm{St}\simeq0.1174$. Distinguishing the two frequencies avoids comparing a base-state eigenvalue with the already saturated nonlinear oscillation.
+
+Together, the pressure-constrained spectrum, refined Hopf threshold, correct growth-rate signs, accurately reproduced linear frequencies, and resolved vortex shedding confirm the stability workflow on this successful test. The confirmation validates the formulation and spectral search in a canonical flow problem; it does not replace the membrane-specific checks of force balance, boundary conditions, or large-deformation dynamics.

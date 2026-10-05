@@ -1,0 +1,22 @@
+Reading parameters from /tmp/claude-0/meshes/pre_A/mesh_metadata.csv...
+... close.
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Reading parameters from parameters_bc_square_b.csv...
+... close.
+Reading parameters from /tmp/claude-0/meshes/pre_A/mesh_metadata.csv...
+... close.
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/r6/c2_M10_bt/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+Check t <-> b symmetry: <y - center_y> = [34m-2.93e-02[39m
+it 0: chi = +0.07500, v0 = 0.18000: mu1 = +1.916e-11, mu2 = +2.448e-06 (lambda = 5.770e-06+0.000e+00j, -3.321e-06+0.000e+00j)  [48 s]
+it 1: chi = +0.06176, v0 = 0.18228: mu1 = -4.832e-11, mu2 = -2.257e-05 (lambda = -2.395e-06+0.000e+00j, -2.018e-05+0.000e+00j)  [155 s]
+it 2: chi = +0.06436, v0 = 0.17989: mu1 = +1.912e-12, mu2 = -2.133e-06 (lambda = 6.798e-07+0.000e+00j, -2.813e-06+0.000e+00j)  [264 s]
+it 3: chi = +0.08674, v0 = 0.19989: mu1 = +4.053e-12, mu2 = +5.822e-06 (lambda = 6.450e-06+0.000e+00j, -6.283e-07+0.000e+00j)  [374 s]

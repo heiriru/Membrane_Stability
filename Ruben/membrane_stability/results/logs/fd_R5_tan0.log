@@ -1,0 +1,58 @@
+Reading parameters from /tmp/claude-0/meshes/ring_R5/mesh_metadata.csv...
+... close.
+Did not find sub_meshes
+[36mLoaded ring problem (stability)[0m
+Reading parameters from /tmp/claude-0/meshes/ring_R5/mesh_metadata.csv...
+... close.
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/ring.py called /home/fenics/shared/modules/mesh/read/ring.py
+Writing parameters to /tmp/claude-0/runs/ring_R5_tan0/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m3.43e-04[39m
+Module /home/fenics/shared/modules/mesh/read/ring.py called /home/fenics/shared/modules/mesh/check_tags/ring.py
+Reading parameters from parameters_bc_ring.csv...
+... close.
+{"r0": 1.0, "R": 5.0, "kappa": 1.0, "sigma": 0.0025, "ell": 20.0, "tan_alpha": 0.0, "dofs": 36056, "mesh": "/tmp/claude-0/meshes/ring_R5"}
+h =  +0.000: F = -dE/dh = -0.00000e+00, F_line = +0.00000e+00, F_z - M = +0.00000e+00, E = 1.88382e-01, lambda_max = -1.9195e+00 (m = 0), lambda(m=0,1,2) = -1.920e+00 -2.089e+00 -2.802e+00  [11 s]
+h =  +0.250: F = -dE/dh = -9.46383e-01, F_line = -9.77225e-01, F_z - M = -9.77227e-01, E = 3.07219e-01, lambda_max = -1.9025e+00 (m = 0), lambda(m=0,1,2) = -1.903e+00 -2.071e+00 -2.781e+00  [12 s]
+h =  +0.500: F = -dE/dh = -1.84236e+00, F_line = -1.90434e+00, F_z - M = -1.90436e+00, E = 6.57362e-01, lambda_max = -1.8528e+00 (m = 0), lambda(m=0,1,2) = -1.853e+00 -2.018e+00 -2.720e+00  [11 s]
+h =  +0.750: F = -dE/dh = -2.64369e+00, F_line = -2.73738e+00, F_z - M = -2.73743e+00, E = 1.22049e+00, lambda_max = -1.7740e+00 (m = 0), lambda(m=0,1,2) = -1.774e+00 -1.935e+00 -2.623e+00  [11 s]
+h =  +1.000: F = -dE/dh = -3.31714e+00, F_line = -3.44332e+00, F_z - M = -3.44344e+00, E = 1.96853e+00, lambda_max = -1.6716e+00 (m = 0), lambda(m=0,1,2) = -1.672e+00 -1.826e+00 -2.496e+00  [10 s]
+h =  +1.250: F = -dE/dh = -3.84313e+00, F_line = -4.00275e+00, F_z - M = -4.00297e+00, E = 2.86676e+00, lambda_max = -1.5521e+00 (m = 0), lambda(m=0,1,2) = -1.552e+00 -1.699e+00 -2.347e+00  [11 s]
+h =  +1.500: F = -dE/dh = -4.21588e+00, F_line = -4.41000e+00, F_z - M = -4.41038e+00, E = 3.87731e+00, lambda_max = -1.4222e+00 (m = 0), lambda(m=0,1,2) = -1.422e+00 -1.561e+00 -2.185e+00  [9 s]
+h =  +1.750: F = -dE/dh = -4.44161e+00, F_line = -4.67140e+00, F_z - M = -4.67197e+00, E = 4.96244e+00, lambda_max = -1.2880e+00 (m = 0), lambda(m=0,1,2) = -1.288e+00 -1.418e+00 -2.016e+00  [9 s]
+h =  +2.000: F = -dE/dh = -4.53543e+00, F_line = -4.80215e+00, F_z - M = -4.80296e+00, E = 6.08713e+00, lambda_max = -1.1549e+00 (m = 0), lambda(m=0,1,2) = -1.155e+00 -1.276e+00 -1.847e+00  [9 s]
+h =  +2.250: F = -dE/dh = -4.51788e+00, F_line = -4.82288e+00, F_z - M = -4.82398e+00, E = 7.22088e+00, lambda_max = -1.0270e+00 (m = 0), lambda(m=0,1,2) = -1.027e+00 -1.138e+00 -1.682e+00  [10 s]
+h =  +2.500: F = -dE/dh = -4.41174e+00, F_line = -4.75646e+00, F_z - M = -4.75790e+00, E = 8.33870e+00, lambda_max = -9.0706e-01 (m = 0), lambda(m=0,1,2) = -9.071e-01 -1.009e+00 -1.527e+00  [9 s]
+h =  +2.750: F = -dE/dh = -4.23946e+00, F_line = -4.62552e+00, F_z - M = -4.62734e+00, E = 9.42125e+00, lambda_max = -7.9697e-01 (m = 0), lambda(m=0,1,2) = -7.970e-01 -8.904e-01 -1.383e+00  [10 s]
+h =  +3.000: F = -dE/dh = -4.02153e+00, F_line = -4.45079e+00, F_z - M = -4.45304e+00, E = 1.04546e+01, lambda_max = -6.9753e-01 (m = 0), lambda(m=0,1,2) = -6.975e-01 -7.825e-01 -1.251e+00  [10 s]
+h =  +3.250: F = -dE/dh = -3.77549e+00, F_line = -4.25033e+00, F_z - M = -4.25307e+00, E = 1.14297e+01, lambda_max = -6.0890e-01 (m = 0), lambda(m=0,1,2) = -6.089e-01 -6.858e-01 -1.131e+00  [10 s]
+h =  +3.500: F = -dE/dh = -3.51558e+00, F_line = -4.03968e+00, F_z - M = -4.04297e+00, E = 1.23412e+01, lambda_max = -5.3072e-01 (m = 0), lambda(m=0,1,2) = -5.307e-01 -6.001e-01 -1.025e+00  [9 s]
+h =  +3.750: F = -dE/dh = -3.25283e+00, F_line = -3.83283e+00, F_z - M = -3.83678e+00, E = 1.31873e+01, lambda_max = -4.6235e-01 (m = 0), lambda(m=0,1,2) = -4.624e-01 -5.247e-01 -9.299e-01  [10 s]
+h =  +4.000: F = -dE/dh = -2.99538e+00, F_line = -3.64456e+00, F_z - M = -3.64936e+00, E = 1.39681e+01, lambda_max = -4.0296e-01 (m = 0), lambda(m=0,1,2) = -4.030e-01 -4.587e-01 -8.464e-01  [10 s]
+h =  +4.250: F = -dE/dh = -2.74899e+00, F_line = -3.49375e+00, F_z - M = -3.49979e+00, E = 1.46859e+01, lambda_max = -3.5166e-01 (m = 0), lambda(m=0,1,2) = -3.517e-01 -4.014e-01 -7.732e-01  [13 s]
+h =  +4.500: F = -dE/dh = -2.51765e+00, F_line = -3.40691e+00, F_z - M = -3.41498e+00, E = 1.53439e+01, lambda_max = -3.0764e-01 (m = 0), lambda(m=0,1,2) = -3.076e-01 -3.517e-01 -7.092e-01  [13 s]
+h =  +4.750: F = -dE/dh = -2.30473e+00, F_line = -3.42254e+00, F_z - M = -3.43441e+00, E = 1.59462e+01, lambda_max = -2.7033e-01 (m = 0), lambda(m=0,1,2) = -2.703e-01 -3.088e-01 -6.539e-01  [12 s]
+Newton failed beyond h = +4.750: end of the branch in this direction
+h =  -0.250: F = -dE/dh = +9.46383e-01, F_line = +9.77225e-01, F_z - M = +9.77227e-01, E = 3.07219e-01, lambda_max = -1.9025e+00 (m = 0), lambda(m=0,1,2) = -1.903e+00 -2.071e+00 -2.781e+00  [10 s]
+h =  -0.500: F = -dE/dh = +1.84236e+00, F_line = +1.90434e+00, F_z - M = +1.90436e+00, E = 6.57362e-01, lambda_max = -1.8528e+00 (m = 0), lambda(m=0,1,2) = -1.853e+00 -2.018e+00 -2.720e+00  [9 s]
+h =  -0.750: F = -dE/dh = +2.64369e+00, F_line = +2.73738e+00, F_z - M = +2.73743e+00, E = 1.22049e+00, lambda_max = -1.7740e+00 (m = 0), lambda(m=0,1,2) = -1.774e+00 -1.935e+00 -2.623e+00  [11 s]
+h =  -1.000: F = -dE/dh = +3.31714e+00, F_line = +3.44332e+00, F_z - M = +3.44344e+00, E = 1.96853e+00, lambda_max = -1.6716e+00 (m = 0), lambda(m=0,1,2) = -1.672e+00 -1.826e+00 -2.496e+00  [10 s]
+h =  -1.250: F = -dE/dh = +3.84313e+00, F_line = +4.00275e+00, F_z - M = +4.00297e+00, E = 2.86676e+00, lambda_max = -1.5521e+00 (m = 0), lambda(m=0,1,2) = -1.552e+00 -1.699e+00 -2.347e+00  [10 s]
+h =  -1.500: F = -dE/dh = +4.21588e+00, F_line = +4.41000e+00, F_z - M = +4.41038e+00, E = 3.87731e+00, lambda_max = -1.4222e+00 (m = 0), lambda(m=0,1,2) = -1.422e+00 -1.561e+00 -2.185e+00  [10 s]
+h =  -1.750: F = -dE/dh = +4.44161e+00, F_line = +4.67140e+00, F_z - M = +4.67197e+00, E = 4.96244e+00, lambda_max = -1.2880e+00 (m = 0), lambda(m=0,1,2) = -1.288e+00 -1.418e+00 -2.016e+00  [9 s]
+h =  -2.000: F = -dE/dh = +4.53543e+00, F_line = +4.80215e+00, F_z - M = +4.80296e+00, E = 6.08713e+00, lambda_max = -1.1549e+00 (m = 0), lambda(m=0,1,2) = -1.155e+00 -1.276e+00 -1.847e+00  [9 s]
+h =  -2.250: F = -dE/dh = +4.51788e+00, F_line = +4.82288e+00, F_z - M = +4.82398e+00, E = 7.22088e+00, lambda_max = -1.0270e+00 (m = 0), lambda(m=0,1,2) = -1.027e+00 -1.138e+00 -1.682e+00  [10 s]
+h =  -2.500: F = -dE/dh = +4.41174e+00, F_line = +4.75646e+00, F_z - M = +4.75790e+00, E = 8.33870e+00, lambda_max = -9.0706e-01 (m = 0), lambda(m=0,1,2) = -9.071e-01 -1.009e+00 -1.527e+00  [10 s]
+h =  -2.750: F = -dE/dh = +4.23946e+00, F_line = +4.62552e+00, F_z - M = +4.62734e+00, E = 9.42125e+00, lambda_max = -7.9697e-01 (m = 0), lambda(m=0,1,2) = -7.970e-01 -8.904e-01 -1.383e+00  [10 s]
+h =  -3.000: F = -dE/dh = +4.02153e+00, F_line = +4.45079e+00, F_z - M = +4.45304e+00, E = 1.04546e+01, lambda_max = -6.9753e-01 (m = 0), lambda(m=0,1,2) = -6.975e-01 -7.825e-01 -1.251e+00  [10 s]
+h =  -3.250: F = -dE/dh = +3.77549e+00, F_line = +4.25033e+00, F_z - M = +4.25307e+00, E = 1.14297e+01, lambda_max = -6.0890e-01 (m = 0), lambda(m=0,1,2) = -6.089e-01 -6.858e-01 -1.131e+00  [10 s]
+h =  -3.500: F = -dE/dh = +3.51558e+00, F_line = +4.03968e+00, F_z - M = +4.04297e+00, E = 1.23412e+01, lambda_max = -5.3072e-01 (m = 0), lambda(m=0,1,2) = -5.307e-01 -6.001e-01 -1.025e+00  [10 s]
+h =  -3.750: F = -dE/dh = +3.25283e+00, F_line = +3.83283e+00, F_z - M = +3.83678e+00, E = 1.31873e+01, lambda_max = -4.6235e-01 (m = 0), lambda(m=0,1,2) = -4.624e-01 -5.247e-01 -9.299e-01  [9 s]
+h =  -4.000: F = -dE/dh = +2.99538e+00, F_line = +3.64456e+00, F_z - M = +3.64936e+00, E = 1.39681e+01, lambda_max = -4.0296e-01 (m = 0), lambda(m=0,1,2) = -4.030e-01 -4.587e-01 -8.464e-01  [9 s]
+h =  -4.250: F = -dE/dh = +2.74899e+00, F_line = +3.49375e+00, F_z - M = +3.49979e+00, E = 1.46859e+01, lambda_max = -3.5166e-01 (m = 0), lambda(m=0,1,2) = -3.517e-01 -4.014e-01 -7.732e-01  [13 s]
+h =  -4.500: F = -dE/dh = +2.51765e+00, F_line = +3.40691e+00, F_z - M = +3.41498e+00, E = 1.53439e+01, lambda_max = -3.0764e-01 (m = 0), lambda(m=0,1,2) = -3.076e-01 -3.517e-01 -7.092e-01  [13 s]
+h =  -4.750: F = -dE/dh = +2.30473e+00, F_line = +3.42254e+00, F_z - M = +3.43441e+00, E = 1.59462e+01, lambda_max = -2.7033e-01 (m = 0), lambda(m=0,1,2) = -2.703e-01 -3.088e-01 -6.539e-01  [13 s]
+Newton failed beyond h = -4.750: end of the branch in this direction
+... done.

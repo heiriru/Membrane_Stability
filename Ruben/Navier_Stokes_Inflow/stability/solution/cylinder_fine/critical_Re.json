@@ -1,0 +1,22 @@
+{
+  "problem": "cylinder",
+  "mesh": "/home/fenics/shared/generate_mesh/2d/cylinder/solution_unbounded_fine",
+  "dofs": 107480,
+  "cells": 23750,
+  "Re_c": 46.32391582808379,
+  "omega_c": 0.7457633823670374,
+  "St_c": 0.11869192868064522,
+  "sigma_at_Re_c": -5.203303547418603e-06,
+  "secant_iterations": [
+    {
+      "Re": 46.37822824164975,
+      "sigma": 0.00022638627709316295,
+      "omega": 0.7458450244160553
+    },
+    {
+      "Re": 46.32391582808379,
+      "sigma": -5.203303547418603e-06,
+      "omega": 0.7457633823670374
+    }
+  ]
+}

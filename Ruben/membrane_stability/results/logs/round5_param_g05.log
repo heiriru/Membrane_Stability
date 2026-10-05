@@ -1,0 +1,27 @@
+Did not find sub_meshes
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/param_g05/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+start from the Monge state at t = 154952 (h = +4.6250), v0 = 0.97 v0_c
+initial solve done; vertical force at the Monge h: [0.0, 0.0, 0.0]  [1 s]
+resuming at t = 164185 (step 16), h = +10.2201
+step 17: t = 164514, dt = 329, h = +10.6070, z in [-17.129, +10.610], min n_z = -0.1004 (slope inf), drift 2.333, stretch [0.407, 7.73], F spread 2.71e-03  [245 s]
+step 18: t = 164815, dt = 301, h = +10.9521, z in [-17.544, +10.964], min n_z = -0.1490 (slope inf), drift 2.914, stretch [0.248, 8.34], F spread 3.57e-03  [524 s]
+  no convergence: dt -> 81.1
+  no convergence: dt -> 24.3
+  no convergence: dt -> 7.3
+  no convergence: dt -> 2.19
+  no convergence: dt -> 0.657
+  no convergence: dt -> 0.197
+  no convergence: dt -> 0.0591
+  no convergence: dt -> 0.0177
+  no convergence: dt -> 0.00532
+  no convergence: dt -> 0.0016
+  no convergence: dt -> 0.000479
+ended (newton_failed) at t = 164815 after 18 steps

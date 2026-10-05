@@ -1,0 +1,21 @@
+{
+ "v0_c": 0.16167503863839414,
+ "bracket": [
+  0.1615625,
+  0.16171875
+ ],
+ "SL_c": 16.167503863839414,
+ "Re_c": 0.0,
+ "rho": 0.0,
+ "eta": 1.0,
+ "kappa": 1.0,
+ "sigma_r": 0.0025,
+ "zeta": 1.0,
+ "L": 100.0,
+ "r": 1.0,
+ "dofs": 172056,
+ "mesh": "/tmp/claude-0/meshes/pre_C",
+ "h_min": 0.058680930119803305,
+ "criterion": "leading",
+ "newton_failed_at": null
+}

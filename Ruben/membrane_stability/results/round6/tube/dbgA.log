@@ -1,0 +1,9 @@
+static residual per field: v 0.437, w 39.3, sigma 0.0292, X 0, E 169, mu 158
+start from the transfer data /tmp/claude-0/runs/tube/meshid/transfer.npz at t = 166939 (h = +10.6420); NaN: 0, field max: v 0.381, w 0.00858, sigma 0.0898, X 100, E 23.3, mu 4.49
+  Newton iteration 0: r (abs) = 9.954e+02 (tol = 1.000e-09) r (rel) = 1.000e+00 (tol = 1.000e-09)
+  Newton iteration 1: r (abs) = 2.326e+06 (tol = 1.000e-09) r (rel) = 2.337e+03 (tol = 1.000e-09)
+  Newton iteration 2: r (abs) = 2.219e+07 (tol = 1.000e-09) r (rel) = 2.229e+04 (tol = 1.000e-09)
+  Newton iteration 3: r (abs) = 3.745e+12 (tol = 1.000e-09) r (rel) = 3.762e+09 (tol = 1.000e-09)
+  Newton iteration 4: r (abs) = 3.150e+13 (tol = 1.000e-09) r (rel) = 3.165e+10 (tol = 1.000e-09)
+  Newton iteration 5: r (abs) = 3.240e+21 (tol = 1.000e-09) r (rel) = 3.255e+18 (tol = 1.000e-09)
+  Newton iteration 6: r (abs) = 1.136e+27 (tol = 1.000e-09) r (rel) = 1.141e+24 (tol = 1.000e-09)

@@ -1,0 +1,76 @@
+Did not find sub_meshes
+[36mLoaded square_b problem (stability, flow)[0m
+Generating test function for a single mesh ... 
+... done.
+Module /home/fenics/shared/modules/mesh/check_tags/square.py called /home/fenics/shared/modules/mesh/read/square.py
+Writing parameters to /tmp/claude-0/runs/post_amp_t0/test_integral_errors.csv...
+... done.
+Maximum relative error of mesh integrals = [31m1.74e-02[39m
+Module /home/fenics/shared/modules/mesh/read/square.py called /home/fenics/shared/modules/mesh/check_tags/square.py
+Number of vertices = 2807
+Check l <-> r symmetry: <x - center_x> = [34m-3.15e-02[39m
+[amplitude] t = +0.0000, v0/v0_c = 0.9994: A = +6.00000e-01, max|z| = 5.9997e-01, leading = +1.1881e-07 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9989: A = +8.00000e-01, max|z| = 7.9995e-01, leading = +2.1104e-07 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9982: A = +1.00000e+00, max|z| = 9.9992e-01, leading = +3.2953e-07 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9974: A = +1.20000e+00, max|z| = 1.1999e+00, leading = +4.7417e-07 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9965: A = +1.40000e+00, max|z| = 1.3998e+00, leading = +6.4483e-07 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9954: A = +1.60000e+00, max|z| = 1.5998e+00, leading = +8.4137e-07 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9942: A = +1.80000e+00, max|z| = 1.7997e+00, leading = +1.0636e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9929: A = +2.00000e+00, max|z| = 1.9996e+00, leading = +1.3115e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9914: A = +2.20000e+00, max|z| = 2.1995e+00, leading = +1.5846e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9897: A = +2.40000e+00, max|z| = 2.3993e+00, leading = +1.8829e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9880: A = +2.60000e+00, max|z| = 2.5992e+00, leading = +2.2060e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9861: A = +2.80000e+00, max|z| = 2.7990e+00, leading = +2.5537e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9841: A = +3.00000e+00, max|z| = 2.9988e+00, leading = +2.9257e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9819: A = +3.20000e+00, max|z| = 3.1985e+00, leading = +3.3217e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9796: A = +3.40000e+00, max|z| = 3.3982e+00, leading = +3.7414e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9772: A = +3.60000e+00, max|z| = 3.5979e+00, leading = +4.1843e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9747: A = +3.80000e+00, max|z| = 3.7975e+00, leading = +4.6502e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9720: A = +4.00000e+00, max|z| = 3.9971e+00, leading = +5.1385e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9692: A = +4.20000e+00, max|z| = 4.1966e+00, leading = +5.6490e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9663: A = +4.40000e+00, max|z| = 4.3961e+00, leading = +6.1810e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9632: A = +4.60000e+00, max|z| = 4.5955e+00, leading = +6.7342e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9601: A = +4.80000e+00, max|z| = 4.7949e+00, leading = +7.3080e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9568: A = +5.00000e+00, max|z| = 4.9942e+00, leading = +7.9020e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9535: A = +5.20000e+00, max|z| = 5.1935e+00, leading = +8.5156e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9500: A = +5.40000e+00, max|z| = 5.3927e+00, leading = +9.1482e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9464: A = +5.60000e+00, max|z| = 5.5918e+00, leading = +9.7993e-06 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9427: A = +5.80000e+00, max|z| = 5.7908e+00, leading = +1.0468e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9389: A = +6.00000e+00, max|z| = 5.9898e+00, leading = +1.1154e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9350: A = +6.20000e+00, max|z| = 6.1887e+00, leading = +1.1857e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9310: A = +6.40000e+00, max|z| = 6.3875e+00, leading = +1.2576e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9269: A = +6.60000e+00, max|z| = 6.5862e+00, leading = +1.3310e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9227: A = +6.80000e+00, max|z| = 6.7848e+00, leading = +1.4059e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9184: A = +7.00000e+00, max|z| = 6.9833e+00, leading = +1.4821e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9141: A = +7.20000e+00, max|z| = 7.1817e+00, leading = +1.5597e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9096: A = +7.40000e+00, max|z| = 7.3800e+00, leading = +1.6385e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9051: A = +7.60000e+00, max|z| = 7.5782e+00, leading = +1.7185e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.9005: A = +7.80000e+00, max|z| = 7.7763e+00, leading = +1.7995e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.8958: A = +8.00000e+00, max|z| = 7.9742e+00, leading = +1.8816e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.8837: A = +8.50000e+00, max|z| = 8.4685e+00, leading = +2.0907e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.8712: A = +9.00000e+00, max|z| = 8.9620e+00, leading = +2.3044e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.8584: A = +9.50000e+00, max|z| = 9.4546e+00, leading = +2.5215e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.8452: A = +1.00000e+01, max|z| = 9.9461e+00, leading = +2.7406e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.8316: A = +1.05000e+01, max|z| = 1.0437e+01, leading = +2.9606e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.8178: A = +1.10000e+01, max|z| = 1.0926e+01, leading = +3.1801e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.8038: A = +1.15000e+01, max|z| = 1.1414e+01, leading = +3.3979e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.7896: A = +1.20000e+01, max|z| = 1.1901e+01, leading = +3.6129e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.7752: A = +1.25000e+01, max|z| = 1.2386e+01, leading = +3.8240e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.7606: A = +1.30000e+01, max|z| = 1.2871e+01, leading = +4.0301e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.7460: A = +1.35000e+01, max|z| = 1.3353e+01, leading = +4.2303e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.7313: A = +1.40000e+01, max|z| = 1.3834e+01, leading = +4.4237e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.7165: A = +1.45000e+01, max|z| = 1.4314e+01, leading = +4.6098e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.7017: A = +1.50000e+01, max|z| = 1.4792e+01, leading = +4.7879e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.6869: A = +1.55000e+01, max|z| = 1.5269e+01, leading = +4.9576e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.6721: A = +1.60000e+01, max|z| = 1.5744e+01, leading = +5.1189e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.6574: A = +1.65000e+01, max|z| = 1.6236e+01, leading = +5.2719e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.6427: A = +1.70000e+01, max|z| = 1.6734e+01, leading = +5.4175e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.6280: A = +1.75000e+01, max|z| = 1.7231e+01, leading = +5.5570e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.6135: A = +1.80000e+01, max|z| = 1.7727e+01, leading = +5.6928e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.5990: A = +1.85000e+01, max|z| = 1.8223e+01, leading = +5.8282e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.5845: A = +1.90000e+01, max|z| = 1.8718e+01, leading = +5.9679e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.5700: A = +1.95000e+01, max|z| = 1.9213e+01, leading = +6.1189e-05 +0.00e+00 i
+[amplitude] t = +0.0000, v0/v0_c = 0.5556: A = +2.00000e+01, max|z| = 1.9708e+01, leading = +6.2931e-05 +0.00e+00 i
+[amplitude] t = 0.0: no convergence at A = 21.0
+amplitude continuation t = 0.0 done [747 s]
+... done.
