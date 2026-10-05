@@ -11,7 +11,7 @@ outputs; the generic eigensolver and vertical-force forms; ring, flow, plate,
 nonlinear coefficient, parametric-fold, protein-transport, codimension-two,
 and two-dimensional slope-equation implementations. The cylinder benchmark
 README and visual outputs were also inspected. Relative research paths below
-start at `Ruben/membrane_stability/` unless stated otherwise.
+start at `research/membrane_stability/` unless stated otherwise.
 
 The report does not claim to rerun expensive numerical experiments. Independent
 verification refers to experiments already archived in the repository.

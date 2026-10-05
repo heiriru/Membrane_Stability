@@ -47,7 +47,7 @@ def build_poisson(D_mat, G_mat, phi_bcs=None):
     from dolfin import TrialFunction, TestFunction, assemble, inner, grad, dx
     from dolfin import as_backend_type
     from petsc4py import PETSc
-    import Ruben.Navier_Stokes_Inflow.function_spaces_steady as fsp
+    import research.Navier_Stokes_Inflow.function_spaces_steady as fsp
 
     # 1) Collapse the pressure subspace into a full FunctionSpace
     Q_p_full = fsp.Q_p.collapse()

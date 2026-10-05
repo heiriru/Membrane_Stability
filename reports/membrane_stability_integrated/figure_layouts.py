@@ -4,7 +4,7 @@
 Run from a repository checkout with numpy and matplotlib installed. Only the
 report's figures/layout directory is written; original research PNGs stay intact.
 Rendering, triangulations, fields, colour maps, limits, and annotations follow
-Ruben/membrane_stability/plot_flow_results.py. Original colour-bar and axis ticks
+research/membrane_stability/plot_flow_results.py. Original colour-bar and axis ticks
 are retained; only panel positions, font size, spacing, and title wrapping vary.
 """
 from pathlib import Path
@@ -17,7 +17,7 @@ import matplotlib.tri as mtri
 
 REPORT = Path(__file__).resolve().parent
 REPO = REPORT.parents[1]
-RESULTS = REPO / 'Ruben/membrane_stability/results'
+RESULTS = REPO / 'research/membrane_stability/results'
 OUTPUT = REPORT / 'figures/layout'
 OUTPUT.mkdir(parents=True, exist_ok=True)
 plt.rcParams.update({'font.size': 9, 'axes.grid': True, 'grid.alpha': .3,

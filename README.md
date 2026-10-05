@@ -6,14 +6,14 @@ Research code, archived numerical results, explanatory notes, and LaTeX reports 
 
 - [Integrated research report (PDF)](output/pdf/membrane_stability_integrated_report.pdf)
 - [Integrated report source and build instructions](reports/membrane_stability_integrated/README.md)
-- [Interpretation of the six research rounds](Ruben/membrane_stability/INTERPRETATION.md)
-- [Paper plan and remaining checks](Ruben/membrane_stability/PAPER_PLAN.md)
-- [Stability tool overview](Ruben/membrane_stability/README.md)
-- [Cylinder-flow verification](Ruben/Navier_Stokes_Inflow/stability/README.md)
+- [Interpretation of the six research rounds](research/membrane_stability/INTERPRETATION.md)
+- [Paper plan and remaining checks](research/membrane_stability/PAPER_PLAN.md)
+- [Stability tool overview](research/membrane_stability/README.md)
+- [Cylinder-flow verification](research/Navier_Stokes_Inflow/stability/README.md)
 
 ## Repository contents
 
-`Ruben/` contains the stability analysis, simulation and plotting code, archived results, and research notes. The other scientific directories retain the original IRENE-related finite-element work, examples, meshes, notebooks, and cluster scripts.
+`research/` contains the stability analysis, simulation and plotting code, archived results, and research notes. The other scientific directories retain the original IRENE-related finite-element work, examples, meshes, notebooks, and cluster scripts.
 
 `reports/` contains the current integrated report and earlier report sources, including figure manifests and review/provenance notes. `output/` contains the compiled PDFs, source packages, and previous report versions.
 

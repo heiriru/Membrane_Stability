@@ -435,7 +435,7 @@ The coarse/fine comparison therefore tests the entire normal-mode construction o
 
 \subsection{Cylinder benchmark: governing equations and numerical setup}
 \label{sec:cylinder-confirmation}
-Cylinder calculations use the implementation in \source{Ruben/Navier_Stokes_Inflow/stability/}: the stationary residual in \source{variational_problem_bc_cylinder_steady.py}, spectral continuation in \source{stability_analysis.py}, and the independent time integrator \source{solve_dynamics.py}. It tests whether the residual-based method predicts the observed fate of a perturbed stationary flow. The reported spectra and time integrations use the same boundary-value problem.
+Cylinder calculations use the implementation in \source{research/Navier_Stokes_Inflow/stability/}: the stationary residual in \source{variational_problem_bc_cylinder_steady.py}, spectral continuation in \source{stability_analysis.py}, and the independent time integrator \source{solve_dynamics.py}. It tests whether the residual-based method predicts the observed fate of a perturbed stationary flow. The reported spectra and time integrations use the same boundary-value problem.
 
 Lengths are measured in cylinder diameters $D$, velocities in the upstream speed $U_\infty$, and time in $D/U_\infty$. The cylinder has nondimensional radius $1/2$ and is centred at the origin of $[-20,40]\times[-20,20]$. The equations are
 \begin{equation}
@@ -1805,7 +1805,7 @@ Numerical results are drawn from the repository snapshot in Ref.~\cite{repo}. Th
 Complex-mode vectors in the analyzed implementation are transferred using contiguous real and imaginary arrays; results obtained with the earlier inconsistent transfer were excluded.
 
 \begingroup\small\begin{longtable}{>{\raggedright\arraybackslash}p{36mm}>{\raggedright\arraybackslash}p{72mm}>{\raggedright\arraybackslash}p{49mm}}
-\toprule Result & Principal implementation under \source{Ruben/membrane_stability/} & Archived evidence\\\midrule\endhead
+\toprule Result & Principal implementation under \source{research/membrane_stability/} & Archived evidence\\\midrule\endhead
 Generic spectrum & \source{irene_addon/modules/stability/linear_stability.py} & Cylinder \source{stability/README.md}, spectra and DNS figures\\
 Ring force/stability & \source{irene_addon/stability/no_flow/ring_problem.py}, \source{force_displacement_stability.py} & \source{results/summary.json}, \source{results/checks/}\\
 Force consistency & \source{check_force_energy.py}, \source{check_force_exact.py}, \source{modules/stability/vertical_force.py} within add-on & Exact-force logs; cutoff checks\\

@@ -1,6 +1,6 @@
 [
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/base_flow_and_eigenmode.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/base_flow_and_eigenmode.png",
     "added": "2026-09-29",
     "asset": "figures/wake_base_flow_and_eigenmode.png",
     "width": 1837,
@@ -9,7 +9,7 @@
     "integrated_placement": "Figure 9"
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/base_flow_validation.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/base_flow_validation.png",
     "added": "2026-09-29",
     "asset": "figures/wake_base_flow_validation.png",
     "width": 1582,
@@ -18,7 +18,7 @@
     "integrated_placement": "Figure 8"
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/convergence_and_residuals.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/convergence_and_residuals.png",
     "added": "2026-09-29",
     "asset": "figures/wake_convergence_and_residuals.png",
     "width": 1901,
@@ -27,7 +27,7 @@
     "integrated_placement": "Figure 14"
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/dns_lift.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/dns_lift.png",
     "added": "2026-09-29",
     "asset": "figures/wake_dns_lift.png",
     "width": 1422,
@@ -36,7 +36,7 @@
     "integrated_placement": "Figure 17"
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/dns_vorticity.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/dns_vorticity.png",
     "added": "2026-09-29",
     "asset": "figures/wake_dns_vorticity.png",
     "width": 949,
@@ -49,7 +49,7 @@
     }
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/dns_vs_eigenvalues.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/dns_vs_eigenvalues.png",
     "added": "2026-09-29",
     "asset": "figures/wake_dns_vs_eigenvalues.png",
     "width": 1999,
@@ -58,7 +58,7 @@
     "integrated_placement": "Figure 15"
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/eigenvalue_trajectories.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/eigenvalue_trajectories.png",
     "added": "2026-09-29",
     "asset": "figures/wake_eigenvalue_trajectories.png",
     "width": 1058,
@@ -71,7 +71,7 @@
     }
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/eigenvalues_vs_dns.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/eigenvalues_vs_dns.png",
     "added": "2026-09-29",
     "asset": "figures/wake_eigenvalues_vs_dns.png",
     "width": 1582,
@@ -80,7 +80,7 @@
     "integrated_placement": "Figure 16"
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/growth_rate_vs_Re.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/growth_rate_vs_Re.png",
     "added": "2026-09-29",
     "asset": "figures/wake_growth_rate_vs_Re.png",
     "width": 1582,
@@ -89,7 +89,7 @@
     "integrated_placement": "Figure 13"
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/mesh_coarse.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/mesh_coarse.png",
     "added": "2026-09-29",
     "asset": "figures/wake_mesh_coarse.png",
     "width": 1635,
@@ -98,7 +98,7 @@
     "integrated_placement": "Figure 5"
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/mesh_fine.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/mesh_fine.png",
     "added": "2026-09-29",
     "asset": "figures/wake_mesh_fine.png",
     "width": 1635,
@@ -107,7 +107,7 @@
     "integrated_placement": "Figure 7"
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/mesh_medium.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/mesh_medium.png",
     "added": "2026-09-29",
     "asset": "figures/wake_mesh_medium.png",
     "width": 1635,
@@ -116,7 +116,7 @@
     "integrated_placement": "Figure 6"
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/mode_branches_vs_Re.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/mode_branches_vs_Re.png",
     "added": "2026-09-29",
     "asset": "figures/wake_mode_branches_vs_Re.png",
     "width": 1582,
@@ -125,7 +125,7 @@
     "integrated_placement": "Figure 12"
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/spectra.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/spectra.png",
     "added": "2026-09-29",
     "asset": "figures/wake_spectra.png",
     "width": 1022,
@@ -138,7 +138,7 @@
     }
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/figures/summary.png",
+    "source": "research/Navier_Stokes_Inflow/stability/figures/summary.png",
     "added": "2026-09-29",
     "asset": "figures/wake_summary.png",
     "width": 1901,
@@ -147,7 +147,7 @@
     "integrated_placement": "Figure 19"
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/solution/checks/check_eigensolver.png",
+    "source": "research/Navier_Stokes_Inflow/stability/solution/checks/check_eigensolver.png",
     "added": "2026-09-29",
     "asset": "figures/wake_check_eigensolver.png",
     "width": 1500,
@@ -156,7 +156,7 @@
     "integrated_placement": "Figure 1"
   },
   {
-    "source": "Ruben/Navier_Stokes_Inflow/stability/solution/checks/check_projector_equivalence.png",
+    "source": "research/Navier_Stokes_Inflow/stability/solution/checks/check_projector_equivalence.png",
     "added": "2026-09-29",
     "asset": "figures/wake_check_projector_equivalence.png",
     "width": 975,
@@ -169,7 +169,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/check_force_methods.png",
+    "source": "research/membrane_stability/figures/check_force_methods.png",
     "added": "2026-09-29",
     "asset": "figures/membrane_check_force_methods.png",
     "width": 1102,
@@ -182,7 +182,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/contact_angle_R10.png",
+    "source": "research/membrane_stability/figures/contact_angle_R10.png",
     "added": "2026-09-29",
     "asset": "figures/membrane_contact_angle_R10.png",
     "width": 1582,
@@ -191,7 +191,7 @@
     "integrated_placement": "Figure 23"
   },
   {
-    "source": "Ruben/membrane_stability/figures/eigenvalues_vs_h.png",
+    "source": "research/membrane_stability/figures/eigenvalues_vs_h.png",
     "added": "2026-09-29",
     "asset": "figures/membrane_eigenvalues_vs_h.png",
     "width": 3499,
@@ -204,7 +204,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/flow2_bifurcation.png",
+    "source": "research/membrane_stability/figures/flow2_bifurcation.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_flow2_bifurcation.png",
     "width": 1749,
@@ -213,7 +213,7 @@
     "integrated_placement": "Figure 46"
   },
   {
-    "source": "Ruben/membrane_stability/figures/flow2_domain.png",
+    "source": "research/membrane_stability/figures/flow2_domain.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_flow2_domain.png",
     "width": 1700,
@@ -222,7 +222,7 @@
     "integrated_placement": "Figure 43"
   },
   {
-    "source": "Ruben/membrane_stability/figures/flow2_friction.png",
+    "source": "research/membrane_stability/figures/flow2_friction.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_flow2_friction.png",
     "width": 841,
@@ -235,7 +235,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/flow2_plate_model.png",
+    "source": "research/membrane_stability/figures/flow2_plate_model.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_flow2_plate_model.png",
     "width": 1894,
@@ -244,7 +244,7 @@
     "integrated_placement": "Figure 41"
   },
   {
-    "source": "Ruben/membrane_stability/figures/flow2_sensitivity.png",
+    "source": "research/membrane_stability/figures/flow2_sensitivity.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_flow2_sensitivity.png",
     "width": 2058,
@@ -253,7 +253,7 @@
     "integrated_placement": "Figure 44"
   },
   {
-    "source": "Ruben/membrane_stability/figures/flow2_threshold_vs_tension.png",
+    "source": "research/membrane_stability/figures/flow2_threshold_vs_tension.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_flow2_threshold_vs_tension.png",
     "width": 871,
@@ -266,7 +266,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/flow_irene_example_collision.png",
+    "source": "research/membrane_stability/figures/flow_irene_example_collision.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_flow_irene_example_collision.png",
     "width": 1739,
@@ -275,7 +275,7 @@
     "integrated_placement": "Figure 38"
   },
   {
-    "source": "Ruben/membrane_stability/figures/flow_irene_example_convergence.png",
+    "source": "research/membrane_stability/figures/flow_irene_example_convergence.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_flow_irene_example_convergence.png",
     "width": 1749,
@@ -284,7 +284,7 @@
     "integrated_placement": "Figure 39"
   },
   {
-    "source": "Ruben/membrane_stability/figures/flow_pre_SLc_vs_tension.png",
+    "source": "research/membrane_stability/figures/flow_pre_SLc_vs_tension.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_flow_pre_SLc_vs_tension.png",
     "width": 941,
@@ -297,7 +297,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/flow_pre_eigenvalue_vs_SL.png",
+    "source": "research/membrane_stability/figures/flow_pre_eigenvalue_vs_SL.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_flow_pre_eigenvalue_vs_SL.png",
     "width": 1743,
@@ -306,7 +306,7 @@
     "integrated_placement": "Figure 32"
   },
   {
-    "source": "Ruben/membrane_stability/figures/flow_pre_imperfect_shapes.png",
+    "source": "research/membrane_stability/figures/flow_pre_imperfect_shapes.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_flow_pre_imperfect_shapes.png",
     "width": 2736,
@@ -324,11 +324,11 @@
       1875,
       2552
     ],
-    "layout_data_source": "Ruben/membrane_stability/results/flow_pre_t-0.3_meshA/leading_modes.npz",
+    "layout_data_source": "research/membrane_stability/results/flow_pre_t-0.3_meshA/leading_modes.npz",
     "layout_data_sha256": "dbb272388608d907d995f6808ba87d640efc76fc5fda100eb7989196a394dc3f"
   },
   {
-    "source": "Ruben/membrane_stability/figures/flow_pre_mechanism.png",
+    "source": "research/membrane_stability/figures/flow_pre_mechanism.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_flow_pre_mechanism.png",
     "width": 2721,
@@ -346,11 +346,11 @@
       1982,
       1844
     ],
-    "layout_data_source": "Ruben/membrane_stability/results/flow_pre_t0_meshA/mechanism_at_threshold.npz",
+    "layout_data_source": "research/membrane_stability/results/flow_pre_t0_meshA/mechanism_at_threshold.npz",
     "layout_data_sha256": "b5258b9f8875d8a42f67b08f010f3323b380e79ffa22967f890e1da1e4b36079"
   },
   {
-    "source": "Ruben/membrane_stability/figures/flow_pre_tension_centreline.png",
+    "source": "research/membrane_stability/figures/flow_pre_tension_centreline.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_flow_pre_tension_centreline.png",
     "width": 1023,
@@ -363,7 +363,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/flow_time_check.png",
+    "source": "research/membrane_stability/figures/flow_time_check.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_flow_time_check.png",
     "width": 1069,
@@ -376,7 +376,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/force_displacement.png",
+    "source": "research/membrane_stability/figures/force_displacement.png",
     "added": "2026-09-29",
     "asset": "figures/membrane_force_displacement.png",
     "width": 3502,
@@ -389,7 +389,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/profiles_ring_R10_tan0.5.png",
+    "source": "research/membrane_stability/figures/profiles_ring_R10_tan0.5.png",
     "added": "2026-09-29",
     "asset": "figures/membrane_profiles_ring_R10_tan0.5.png",
     "width": 1022,
@@ -402,7 +402,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/profiles_ring_R10_tan0.png",
+    "source": "research/membrane_stability/figures/profiles_ring_R10_tan0.png",
     "added": "2026-09-29",
     "asset": "figures/membrane_profiles_ring_R10_tan0.png",
     "width": 1022,
@@ -415,7 +415,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/profiles_ring_R10_tan1.png",
+    "source": "research/membrane_stability/figures/profiles_ring_R10_tan1.png",
     "added": "2026-09-29",
     "asset": "figures/membrane_profiles_ring_R10_tan1.png",
     "width": 1022,
@@ -428,7 +428,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/profiles_ring_R30_tan0.5.png",
+    "source": "research/membrane_stability/figures/profiles_ring_R30_tan0.5.png",
     "added": "2026-09-29",
     "asset": "figures/membrane_profiles_ring_R30_tan0.5.png",
     "width": 1022,
@@ -441,7 +441,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/profiles_ring_R5_tan0.5.png",
+    "source": "research/membrane_stability/figures/profiles_ring_R5_tan0.5.png",
     "added": "2026-09-29",
     "asset": "figures/membrane_profiles_ring_R5_tan0.5.png",
     "width": 1022,
@@ -454,7 +454,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/r3_flutter_map.png",
+    "source": "research/membrane_stability/figures/r3_flutter_map.png",
     "added": "2026-10-01",
     "asset": "figures/membrane_r3_flutter_map.png",
     "width": 2380,
@@ -463,7 +463,7 @@
     "integrated_placement": "Figure 53"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r3_forcefree.png",
+    "source": "research/membrane_stability/figures/r3_forcefree.png",
     "added": "2026-10-01",
     "asset": "figures/membrane_r3_forcefree.png",
     "width": 1826,
@@ -472,7 +472,7 @@
     "integrated_placement": "Figure 48"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r3_landau.png",
+    "source": "research/membrane_stability/figures/r3_landau.png",
     "added": "2026-10-01",
     "asset": "figures/membrane_r3_landau.png",
     "width": 1746,
@@ -481,7 +481,7 @@
     "integrated_placement": "Figure 47"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r3_lattice.png",
+    "source": "research/membrane_stability/figures/r3_lattice.png",
     "added": "2026-10-01",
     "asset": "figures/membrane_r3_lattice.png",
     "width": 2222,
@@ -490,7 +490,7 @@
     "integrated_placement": "Figure 61"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r3_mobile.png",
+    "source": "research/membrane_stability/figures/r3_mobile.png",
     "added": "2026-10-01",
     "asset": "figures/membrane_r3_mobile.png",
     "width": 1744,
@@ -499,7 +499,7 @@
     "integrated_placement": "Figure 55"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r3_multi.png",
+    "source": "research/membrane_stability/figures/r3_multi.png",
     "added": "2026-10-01",
     "asset": "figures/membrane_r3_multi.png",
     "width": 2161,
@@ -508,7 +508,7 @@
     "integrated_placement": "Figure 45"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r3_snap.png",
+    "source": "research/membrane_stability/figures/r3_snap.png",
     "added": "2026-10-01",
     "asset": "figures/membrane_r3_snap.png",
     "width": 1608,
@@ -517,7 +517,7 @@
     "integrated_placement": "Figure 49"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r3_tube.png",
+    "source": "research/membrane_stability/figures/r3_tube.png",
     "added": "2026-10-01",
     "asset": "figures/membrane_r3_tube.png",
     "width": 2148,
@@ -530,7 +530,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/r3_wrinkles.png",
+    "source": "research/membrane_stability/figures/r3_wrinkles.png",
     "added": "2026-10-01",
     "asset": "figures/membrane_r3_wrinkles.png",
     "width": 2228,
@@ -539,7 +539,7 @@
     "integrated_placement": "Figure 42"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r4_lattice_nonlinear.png",
+    "source": "research/membrane_stability/figures/r4_lattice_nonlinear.png",
     "added": "2026-10-01",
     "asset": "figures/membrane_r4_lattice_nonlinear.png",
     "width": 2383,
@@ -548,7 +548,7 @@
     "integrated_placement": "Figure 62"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r4_post_snap_forcefree.png",
+    "source": "research/membrane_stability/figures/r4_post_snap_forcefree.png",
     "added": "2026-10-01",
     "asset": "figures/membrane_r4_post_snap_forcefree.png",
     "width": 1729,
@@ -557,7 +557,7 @@
     "integrated_placement": "Figure 50"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r4_proteins.png",
+    "source": "research/membrane_stability/figures/r4_proteins.png",
     "added": "2026-10-01",
     "asset": "figures/membrane_r4_proteins.png",
     "width": 2143,
@@ -566,7 +566,7 @@
     "integrated_placement": "Figure 57"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r5_flutter.png",
+    "source": "research/membrane_stability/figures/r5_flutter.png",
     "added": "2026-10-02",
     "asset": "figures/membrane_r5_flutter.png",
     "width": 2104,
@@ -575,7 +575,7 @@
     "integrated_placement": "Figure 54"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r5_fold_parametric.png",
+    "source": "research/membrane_stability/figures/r5_fold_parametric.png",
     "added": "2026-10-02",
     "asset": "figures/membrane_r5_fold_parametric.png",
     "width": 2088,
@@ -584,7 +584,7 @@
     "integrated_placement": "Figure 51"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r5_peclet.png",
+    "source": "research/membrane_stability/figures/r5_peclet.png",
     "added": "2026-10-02",
     "asset": "figures/membrane_r5_peclet.png",
     "width": 1639,
@@ -593,7 +593,7 @@
     "integrated_placement": "Figure 58"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r5_proteins_dyn.png",
+    "source": "research/membrane_stability/figures/r5_proteins_dyn.png",
     "added": "2026-10-02",
     "asset": "figures/membrane_r5_proteins_dyn.png",
     "width": 2075,
@@ -602,7 +602,7 @@
     "integrated_placement": "Figure 56"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r5_slope_equation.png",
+    "source": "research/membrane_stability/figures/r5_slope_equation.png",
     "added": "2026-10-02",
     "asset": "figures/membrane_r5_slope_equation.png",
     "width": 2088,
@@ -611,7 +611,7 @@
     "integrated_placement": "Figure 64"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r5_tricritical.png",
+    "source": "research/membrane_stability/figures/r5_tricritical.png",
     "added": "2026-10-02",
     "asset": "figures/membrane_r5_tricritical.png",
     "width": 1638,
@@ -620,7 +620,7 @@
     "integrated_placement": "Figure 63"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r6_codim2.png",
+    "source": "research/membrane_stability/figures/r6_codim2.png",
     "added": "2026-10-03",
     "asset": "figures/membrane_r6_codim2.png",
     "width": 1863,
@@ -629,7 +629,7 @@
     "integrated_placement": "Figure 59"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r6_slope2d.png",
+    "source": "research/membrane_stability/figures/r6_slope2d.png",
     "added": "2026-10-03",
     "asset": "figures/membrane_r6_slope2d.png",
     "width": 1680,
@@ -638,7 +638,7 @@
     "integrated_placement": "Figure 65"
   },
   {
-    "source": "Ruben/membrane_stability/figures/r6_wake.png",
+    "source": "research/membrane_stability/figures/r6_wake.png",
     "added": "2026-10-03",
     "asset": "figures/membrane_r6_wake.png",
     "width": 1147,
@@ -651,7 +651,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/ring_force_physical_units.png",
+    "source": "research/membrane_stability/figures/ring_force_physical_units.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_ring_force_physical_units.png",
     "width": 863,
@@ -664,7 +664,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/figures/ring_stability_diagram.png",
+    "source": "research/membrane_stability/figures/ring_stability_diagram.png",
     "added": "2026-09-30",
     "asset": "figures/membrane_ring_stability_diagram.png",
     "width": 2289,
@@ -677,7 +677,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/results/checks/flat_ring_R5/check_flat_membrane.png",
+    "source": "research/membrane_stability/results/checks/flat_ring_R5/check_flat_membrane.png",
     "added": "2026-09-29",
     "asset": "figures/membrane_flat_ring_R5_coarse.png",
     "width": 975,
@@ -690,7 +690,7 @@
     }
   },
   {
-    "source": "Ruben/membrane_stability/results/checks/flat_ring_R5_fine/check_flat_membrane.png",
+    "source": "research/membrane_stability/results/checks/flat_ring_R5_fine/check_flat_membrane.png",
     "added": "2026-09-29",
     "asset": "figures/membrane_flat_ring_R5_fine.png",
     "width": 975,

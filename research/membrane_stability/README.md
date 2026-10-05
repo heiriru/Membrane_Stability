@@ -70,7 +70,7 @@ is automatically homogeneous).
 
 Inside the FEniCS container, with IRENE cloned and mounted at `/home/fenics/shared` (or `IRENE_ROOT=/path/to/irene`):
 
-    ADDON=/path/to/Ruben/membrane_stability/irene_addon
+    ADDON=/path/to/research/membrane_stability/irene_addon
     python3 $ADDON/generate_mesh/2d/ring_graded/generate_mesh.py meshes/ring_R10 --R 10 --h_min 0.05 --h_max 0.5
     cd $ADDON/stability/no_flow
     python3 check_flat_membrane.py ring meshes/ring_R10 results/checks/flat_R10

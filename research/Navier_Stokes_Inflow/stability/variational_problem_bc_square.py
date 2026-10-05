@@ -2,7 +2,7 @@ from fenics import *
 import importlib
 import ufl_legacy as ufl
 
-import Ruben.Navier_Stokes_Inflow.stability.function_spaces_steady as fsp
+import research.Navier_Stokes_Inflow.stability.function_spaces_steady as fsp
 import geometry as geo
 import switch_problem as swi
 
@@ -15,11 +15,11 @@ T = 0.1
 num_steps = int(10)
 
 dt = T / num_steps  # time step size
+# CHANGE PARAMETERS HERE
+
 rho = 1.0
 mu = 0.001
 
-
-# CHANGE PARAMETERS HERE
 
 
 # trial analytical expression for a vector
@@ -43,15 +43,16 @@ class SurfaceTensionExpression(UserExpression):
         return (1,)
 
 
-v__profile_l = Expression((f'4.0*1.5*x[1]*({rmsh.h} - x[1])/ pow({rmsh.h}, 2)', '0'), degree=2, h=rmsh.h)
+v__profile_l = Expression((f'4.0*1.5*x[1]*({rmsh.h} - x[1]) / pow({rmsh.h}, 2)', '0'), degree=2, h=rmsh.h)
 
 bc_v__inflow = DirichletBC(fsp.Q_v, v__profile_l, rmsh.boundary_l)
 bc_v__walls = DirichletBC(fsp.Q_v, Constant((0, 0)), rmsh.boundary_tb)
+bc_v__cylinder = DirichletBC(fsp.Q_v, Constant((0, 0)), rmsh.boundary_circle)
 
 bc_phi_outflow = DirichletBC(fsp.Q, Constant(0), rmsh.boundary_r)
 
 # boundary conditions for the surface_tension p
-bc_v_ = [bc_v__walls, bc_v__inflow]
+bc_v_ = [bc_v__walls, bc_v__inflow, bc_v__cylinder]
 bc_phi = [bc_phi_outflow]
 
 # Define variational problem for step 1
